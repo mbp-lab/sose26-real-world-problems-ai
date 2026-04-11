@@ -1,0 +1,28 @@
+version: 1
+
+project:
+  title: "Real-World Problems with AI"
+  author: "Prof. Dr. Hanna Drimalla, Dr. Olya Hakobyan"
+
+  toc:
+    - file: content/index.md
+    - file: content/chapter1/intro.md
+    - file: content/chapter1/notes.md
+    - file: content/chapter1/tutor-guide.md
+      hidden: true
+    - file: content/chapter1/notebooks/0-dimensions.ipynb
+      hidden: true
+    - file: content/chapter2/intro.md
+    - file: content/chapter3/intro.md
+    - file: content/chapter4/intro.md
+    - file: content/chapter5/intro.md
+
+site:
+  template: book-theme
+  options:
+    logo: assets/800px-HCAI_Logo.jpg
+    style: assets/notebook-cells.css
+
+parse:
+  myst_enable_extensions:
+    - colon_fence

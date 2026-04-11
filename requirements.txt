@@ -1,0 +1,15 @@
+jupyter-book>=0.15
+jupyterlab>=4
+ipykernel>=6
+numpy
+scipy
+pandas
+matplotlib
+spyder>=6
+torch
+torchvision
+scikit-learn
+umap-learn
+sentence-transformers
+Pillow
+transformers>=4.36

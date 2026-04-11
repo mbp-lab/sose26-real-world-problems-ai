@@ -1,0 +1,11 @@
+# MyST build outputs
+_build
+/student-materials
+/playground
+.venv/
+venv/
+
+.venv/
+venv/
+__pycache__/
+*.pyc

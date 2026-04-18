@@ -1,16 +1,19 @@
 version: 1
 
 project:
-  title: "Real-World Problems with AI"
+  title: "Real-World Problems of AI"
   author: "Prof. Dr. Hanna Drimalla, Dr. Olya Hakobyan"
 
   toc:
     - file: content/index.md
     - file: content/chapter1/intro.md
     - file: content/chapter1/notes.md
+      hidden: true
     - file: content/chapter1/tutor-guide.md
       hidden: true
-    - file: content/chapter1/notebooks/0-dimensions.ipynb
+    - file: content/chapter1/0-dimensions.md
+      hidden: true
+    - file: content/chapter1/notebooks/0-dimensions.ipynb 
       hidden: true
     - file: content/chapter2/intro.md
     - file: content/chapter3/intro.md

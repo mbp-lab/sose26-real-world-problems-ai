@@ -1,9 +1,14 @@
 # MyST build outputs
 _build
 /student-materials
+/chatGPT-student
 /playground
 .venv/
 venv/
+/content/chapter1/patient_variables_regression.ipynb
+/content/chapter1/synthetic_clinical_regression_stations.ipynb
+/solutions
+
 
 .venv/
 venv/

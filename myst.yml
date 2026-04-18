@@ -9,6 +9,8 @@ project:
     - file: content/chapter1/intro.md
     - file: content/chapter1/notes.md
       hidden: true
+    - file: content/chapter1/augment.md
+      hidden: true
     - file: content/chapter1/tutor-guide.md
       hidden: true
     - file: content/chapter1/0-dimensions.md

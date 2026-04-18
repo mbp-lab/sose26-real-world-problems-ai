@@ -39,7 +39,7 @@ In this chapter, we begin by an interactive classroom discussion where you will 
 
 ![Image](images/curse-of-dimensionality)
 
-Before starting with the figures in the seminar paper, let's do a quick detour to dimensions. 
+Let's do a quick detour to dimensions. 
 
 [Go to the notebook](notebooks/0-dimensions.ipynb) ⏰ Deadline: Wednesday, April 29, 20:00
 

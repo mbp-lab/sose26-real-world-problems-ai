@@ -56,7 +56,7 @@ Class notes (will be available after deadline)
 
 In this section, you will explore a practical example to understand Fig. 2 from the paper "Machine learning in rare disease" that is also covered in the seminar. 
 
-[Go to the notebook](dimensionality-reduction)
+Notebook to be unlocked on April 30! ⏰ Deadline: Wednesday, May 6, 20:00
 
 Class notes (will be available after deadline)
 
@@ -66,7 +66,6 @@ Class notes (will be available after deadline)
 <details>
 <summary><strong> 🧶 What else is out there? </strong></summary>
 
-[Go to the notebook](transfer-learning)
 </details>
 
 <br> 

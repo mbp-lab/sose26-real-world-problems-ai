@@ -31,6 +31,12 @@ In this chapter, we begin by an interactive classroom discussion where you will 
 
 [🐘 Elephant data (for the bonus task in Part 1 - Less is more?)](data/elephant_points.csv) 
 
+[Training data for the Notebook Part 2 - Representation learning](data/newsgroups_5class_train.csv) 
+
+[Validation data for the Notebook Part 2 - Representation learning](data/newsgroups_5class_validation.csv) 
+
+
+
 </details>
 
 

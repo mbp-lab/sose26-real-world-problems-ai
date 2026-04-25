@@ -1,0 +1,4130 @@
+id,split,label,label_name,text
+0,train,0,comp.graphics,"
+My package is based on several articles about non-standard radiosity and
+some unpublished methods.
+
+The main articles are:
+
+-  Cohen, Chen, Wallace, Greenberg : 
+    A Progressive Refinement Approach to fast Radiosity Image Generation
+     Computer Graphics (SIGGRAPH), V. 22(No. 4), pp 75-84, August 1988
+
+-  Silion, Puech
+    A General Two-Pass Method Integrating Specular and Diffuse Reflection
+    Computer Graphics (SIGGRAPH), V23(No. 3), pp335-344, July 1989 
+
+
+I do not use hemi-cubes. I have no special hardware (SUN SPARCstation).
+
+
+Use anonymous as username and your e-mail address as password.
+
+
+
+Stephan.
+
+
+----------------------------------------------------------------------------
+
+ Stephan Amann     SIG Computer Graphics, University of Berne, Switzerland
+           amann@iam.unibe.ch
+	   Tel +41 31 65 46 79	   Fax +41 31 65 39 65
+
+ Projects: Radiosity, Raytracing, Computer Graphics
+"
+1,train,4,sci.space,"
+
+
+Bill says ...
+
+
+I presume the one you refer to is ""Space Sailing"" by Jerome L. Wright.  He 
+worked on solar sails while at JPL and as CEO of General Astronautics.  I'll
+furnish ordering info upon request.
+
+The Friedman book is called ""Starsailing: Solar Sails and Interstellar Travel.""
+It was available from the Planetary Society a few years ago, I don't know if
+it still is."
+3,train,2,rec.autos,"Hello Netters,
+
+I would like to find out information about a device that is used on vans and
+trucks. This device is a step that hooks onto the tire and folds up for
+storage. I've seen this device on TNN's Shady Tree Mechanic. I would like to
+know if it is a good product and I would also like the price and address
+of where I can purchase this product.
+
+Thanks,"
+4,train,2,rec.autos,"
+My wife rarely carries a purse, so all of her crap ends up in my pockets!
+
+"
+5,train,0,comp.graphics,"
+A book that I can somewhat recommend is :
+                     
+                     Pratical Image Processing in C
+                     by Craig A. Lindley
+                     published by Wiley"
+6,train,2,rec.autos,"I was wondering if anyone out in net-land have any opinions on MGs
+in general.  I know they are not the most reliable cars around but
+summer is approaching and they are convertibles `8^).  I'm interested
+in a 75 MG but any opinions on MGs would be appreciated.  Thanks."
+8,train,1,misc.forsale,"HiFonics ""Ceres"" 3-Band Parametric Equalizer
+
+Specs:	3-Bands: 1. 40-640Hz; 2. 100Hz-3KHz; 3. 500Hz-16KHz
+	Boost/Cut: +/-20db
+	THD: Less than 0.02%
+	Size(WxHxD): 190mmx53mmx120mm
+
+This EQ has three variable bands as indicated above with
+variable Q. It also has a subwoofer output with variable
+cutoff frequency. I originally paid $129 for the unit and
+used it for 3 months before selling the car. It is in
+excellent condition with all the wiring and hardware intact 
+and manual in original box. Asking price: $75"
+10,train,3,sci.med,"
+
+
+
+If these folks are who I think they are, Lyme-knowledgeable may
+mean a physician to whom everything that walks in the door is
+lyme disease, and you will be treated for lyme, whether or not
+you have it.  Hope you have good insurance.
+
+
+
+-- 
+----------------------------------------------------------------------------
+Gordon Banks  N3JXP      | ""Skepticism is the chastity of the intellect, and
+geb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon."" "
+11,train,0,comp.graphics,"Hi! Everyone,
+
+Because no one has touched the problem I posted last week, I guess
+my question was not so clear. Now I'd like to describe it in detail:
+
+The offset of an ellipse is the locus of the center of a circle which
+rolls on the ellipse. In other words, the distance between the ellipse
+and its offset is same everywhere.
+
+This problem comes from the geometric measurement when a probe is used.
+The tip of the probe is a ball and the computer just outputs the
+positions of the ball's center. Is the offset of an ellipse still
+an ellipse? The answer is no! Ironically, DMIS - an American Indutrial
+Standard says it is ellipse. So almost all the software which was
+implemented on the base of DMIS was wrong. The software was also sold
+internationaly. Imagine, how many people have or will suffer from this bug!!!
+How many qualified parts with ellipse were/will be discarded? And most
+importantly, how many defective parts with ellipse are/will be used?
+
+I was employed as a consultant by a company in Los Angeles last year
+to specially solve this problem. I spent two months on analysis of this
+problem and six months on programming. Now my solution (nonlinear)
+is not ideal because I can only reconstruct an ellipse from its entire
+or half offset. It is very difficult to find the original ellipse from
+a quarter or a segment of its offset because the method I used is not
+analytical. I am now wondering if I didn't touch the base and make things
+complicated. Please give me a hint.
+
+I know you may argue this is not a CG problem. You are right, it is not.
+However, so many people involved in the problem ""sphere from 4 poits"".
+Why not an ellipse? And why not its offset?
+
+Please post here and let the others share our interests 
+(I got several emails from our netters, they said they need the
+summary of the answers)."
+13,train,4,sci.space,"The SDIO has ""contracted"" with the NRL (Naval Research Laboratory) to fly the Clementine Mission.  BTW we call it DSPSE (Deep Space Project Science Experiment).
+
+The NRL is building the spacecraft, designing the detailed mission and doing the
+integration and operations (with help from, JPL & Goddard & prob. some folks I
+have left out...don't be mad).
+
+I am on the TAMP (Trajectory Analysis & Mission Planning) team and am responsable
+for the IV&V of the traj that Goddard/CSC are designing.
+
+As for why SDIO is doing it, some of the reasons are:
+
+   1)  the safety constraints are too tight to try to run the LIDAR in LEO
+
+   2)  in LEO we don't get any new radiation data on the sensors, we will get
+       that data on our 9 passages through the Van Allen (sp?) Belts
+
+   3)  since we are going out there...why not piggy-back some general science
+
+   4)  the intercept problem is a lot easied over LONG distances and LONG times
+
+I am sure there are some things I have forgotten, and some I haven't been told
+but, those are the reasons we all talk about.
+
+-- 
+"
+14,train,3,sci.med,"-*----
+I agree with everything that Lee Lady wrote in her previous post in
+this thread.  In case this puzzles people, I would like to expand
+on two of her comments.
+
+
+One of the most important (and difficult) aspects of reasoning
+about empirical investigation lies in understanding the context,
+scope, and importance of the various arguments and pieces of
+evidence that are marshalled for a claim.  Some errors break the
+back of a piece of research, some leave a hole that needs to be
+filled in, and some are trivial in their importance.  It is a
+grave mistake to confuse these.
+
+Past snippets from this thread:
+
+
+
+Back to Lee Lady:
+
+
+These posters are making the mistake that I have previously
+criticized of adhering to a methodological recipe.  A ""carefully
+designed and controlled study"" is neither always possible nor
+always important.  (On the other hand, if someone is proposing a
+remedy that supposedly alleviates a chronic medical problem, we
+have enough knowledge of the errors that have plagued *this* kind
+of claim to ask for a ""carefully designed and controlled study""
+to alleviate our skepticism.)
+
+Rules such as ""support the hypothesis by a carefully designed and
+controlled study"" are too narrow to apply to *all* investigation.
+I think that the requirements for particular reasoning to be
+convincing depends greatly on the kinds of mistakes that have
+occurred in past reasoning about the same kinds of things.  (To
+reuse the previous example, we know that conclusions from
+uncontrolled observations of the treatment of chronic medical
+problems are notoriously problematic.)  "
+15,train,2,rec.autos,"
+
+These arethe numbers I have been stating in the past 5-10 messages. It
+really angers me that you insisted you were right, and that you had
+no clue what your own car weighed. Why didn't you check when I first
+told you that your figures were implausible?
+
+
+
+I'd like to hear a better explanatin of how you come to that 
+conclusion from the above data.
+
+No, sorry your wrong again. *You* quoted the del Sol as doing 0-60 in
+8.1 according to C+D. Interestingly, the Stealth ES, which is
+*faster* than your RT does the samerun in 8.5 seconds according to
+C+D. Kind of embarassing isn't it? Why didn't you check the figures
+
+before posting? It only makes you look stupid when you are caught out
+twice with *your own* figures.
+
+
+You really should have checked.
+
+      *2*
+If you insist, I gave you every chance to retract, but:
+
+  Dodge Stealth ES Auto does an 8.5/16.4 - Wonder why you couldn't find it?
+
+Do you realize that a 9k Sentra (C+D) will run a 16.7, that a Sentra SE-R or Saturn
+will run in the 15's? Don't you think it is kind of strange that your
+222hp sports car is so easily beaten. 
+
+A Mustang 5.0, which weights about the same (according to *your* numbers),
+has less power and is much quicker? Care to explain. Don't be abusive,
+just try and come up with a rational explanation of where those 222hp
+went to, its a mystery to me.
+
+"
+16,train,1,misc.forsale,"Posting for a friend: please call Steve, 415 252-1618, if interested.
+
+SEGA Genesis games for sale.
+
+In original boxes with original manuals.
+
+Approximately 1 month old.
+
+-- John Madden Football '93, Electronic Arts, $40.00 obo
+
+-- Ecco The Dolphin, SEGA,, $40.00 obo 
+
+Again, I'm posting for a friend. If interested, call:"
+17,train,0,comp.graphics,"RADIOSITY SOURCES WANTED !!!
+============================
+
+When I read the comp.graphics group, I never found something about 
+radiosity. Is there anybody interested in out there? I would be glad 
+to hear from somebody.
+I am looking for source-code for the radiosity-method. I have already
+read common literature, e. g.Foley ... . I think little examples could 
+help me to understand how radiosity works. Common languages ( C, C++, 
+Pascal) prefered.
+I hope you will help me!"
+18,train,1,misc.forsale,"Okay, okay, Norman himself isn't actually for sale.  BUT:
+
+I have two Saturday Even Post's, both of which have Norman Rockwell
+illustrations on the front cover.
+
+October 29, 1960  --  with candidate Kennedy on campaign
+   -- has, obviously, a Norman Rockwell of Kennedy on the cover
+
+November 5, 1960  --  with candidate Nixon on campaign
+   -- And here we have Nixon.  He's not a crook...
+
+These are both in very good condition.
+Let me know if you're interested, and to what tune.  ($$)
+"
+19,train,1,misc.forsale,"For Sale ...:
+ 
+        Hewlett Packard DeskJet 500 inkjet printer.
+ 
+        o Perfect condition both internally and externally
+        o Comes with two FULL ink cartridges
+        o Less than six months old
+        o Comes with all original packaging, manuals, cables
+          and software
+ 
+        This is truly an excellent printer and is the low-cost
+        alternative to a laser printer.  It prints with the
+        quality of a laser printer, but for a fraction of both
+        the inital cost and he long term cost (that is,
+        replacement of ink cartridges as opposed to replacement
+        of toner).  The printer prints at a maximum of 300*300
+        (D)ots (P)er (I)nch (D.P.I.) on many different types
+        and sizes of paper, including envelopes and
+        transperencies.  Printer prints in both landscape and
+        portrait modes.  Printer can accept up to two
+        cartridges giving it things like more memory or
+        additional fonts.  Printer works excellently with
+        Windows and DOS and brings TrueType to its full
+        potential.
+ 
+        I originally purchased the printer for $375.00.  Make me
+        an offer, but I would prefer to stay in the $300.00
+        range.  I will pay the shipping to anywhere in the 
+        continental U.S.A.
+ 
+        If you are interested, please either leave me email or
+        call Kirk Peterson at (303) 494-7951 anytime.
+ 
+        Thanks!
+ 
+"
+20,train,1,misc.forsale,"someone gave me this brand new card.  I am thinking to sell it cuz
+I don't need it.  but the problem is that i don't even know what this
+is.
+this was made by Forte Communications Co. it has 2 board combined
+together (looks wierd  to me) and has 2 9 pin ports (one male and one
+female), and also has a round port (like BNC, not sure).
+this was made in 1986, and has a ""fortegraph emulator & diagnostic"" disk
+with it.
+
+has anyone here ever seen this or known what this is.
+
+appreciate your help in advance."
+21,train,3,sci.med,"Recurrent Volvulus
+    -------------------
+    
+ This is regarding recurrent volvulus which our little boy
+ has been suffering from ever since he was an infant. He had
+ a surgery when he was one year old. Another surgery had
+ to be performed one year after, when he was two years old.
+ He turned three this February and he is still getting
+ afflicted by this illness, like having to get hospitalised
+ for vomitting and accompanying stomach pain.He managed
+ not having a third surgery so far.
+ 
+ *  	One thing me and my wife noticed is that his affliction
+ 	peaks around the time he was born, on nearabouts, like in
+ 	March every year.  Any significance to this?
+ 
+ *	Why does this recur? Me and my family go through severe pain
+ 	when our little boy have to undergo surgery. Why does surgery
+ 	not rectify the situation? 
+ 
+ *	Also, which hospital in US or Canada specialize in this malady?
+ 
+ *	What will be a good book explaining this disease in detail?
+ 
+ *	Will keeping a particular diet keep down the probability of 
+ 	recurrence?
+ 
+ *	As time goes on, will the probability of recurrence go down
+ 	considering he is getting stronger and healthier and probably
+ 	less prone to attacks? Or is this assumption wrong?
+ 
+ *	Any help throwing light on these queries will be highly appreciated.
+ 	Thanks very much!"
+23,train,4,sci.space,"
+Great speculation - I remember being proud on behalf of all the free
+world (you think that way when you are seven years old) that we had
+got there first. Now I'm almost sorry that it worked out that way.
+
+I guess the soviets would have taken the victory seriously too, and
+would almost certainly not have fallen victim to the complacency that
+overtook the US program. Perhaps stretching to match US efforts would
+have destabilized them sooner than it did in fact - and in the tradition
+of Marvel Comics 'What If', this destabilization in the Brezhnev era might
+have triggered the third world war. Hmm, maybe it was a giant leap after all.
+"
+24,train,4,sci.space," 
+ 
+  Of course; sorry for the misunderstanding.  I was referring to the fact
+that far more aeronautical development took place in the '30's.  For much
+of the '20's, the super-abundance of Jennies and OX-5 engines held down the
+industry.  By 1926, many of the obsolete WWI aircraft had been retired
+and Whirlwind had their power/weight ratio and reliability up to the point
+where long-distance flights became practical.  It's important to note that
+the Atlantic was flown not once but THREE times in 1927:  Lindbergh,
+Chamberlin and Levine, and Byrd's _America_.  ""When it's time to railroad,
+you railroad.""
+
+
+  Not off the top of my head; I'll have to dig out my reference books again.
+However, I will say that the most common arrangement in Prince Henry the
+Navigator's Portugal was for the prince to put up part of the money and
+merchants to put up the rest.  They profits from the voyage would then be
+shared.
+
+
+  The problem is that the amount of prize money required to inspire a
+Moon Base is much larger than any but a handful of individuals or corporations
+can even consider putting up.  The Kremer Prizes (human powered aircraft),
+Orteig's prize, Lord Northcliffe's prize for crossing the Atlantic (won in
+1919 by Alcock and Brown) were MUCH smaller.  The technologies required were
+within the reach of individual inventors, and the prize amounts were well
+within the reach of a large number of wealthy individuals.  I think that only
+a gov't could afford to set up a $1B+ prize for any purpose whatsoever.
+  Note that Burt Rutan suggested that NASP could be built most cheaply by
+taking out an ad in AvWeek stating that the first company to build a plane
+that could take off and fly the profile would be handed $3B, no questions
+asked.
+"
+25,train,4,sci.space,"Another fish to check out is Richard Rast -- he works
+for Lockheed Missiles, but is on-site at NASA Johnson.
+
+Nick Johnson at Kaman Sciences in Colo. Spgs and his
+friend, Darren McKnight at Kaman in Alexandria, VA.
+
+Good luck.
+
+R. Landis"
+26,train,0,comp.graphics,"I am scanning in a color image and it looks fine on the screen.  When I 
+converted it into PCX,BMP,GIF files so as to get it into MS Windows the colors
+got much lighter.  For example the yellows became white.  Any ideas?"
+27,train,4,sci.space,"I thought that under emergency conditions,  the STS  can
+put down at any good size Airport.  IF it could take a C-5 or a
+747, then it can take an orbiter.   You just need a VOR/TAC
+
+I don't know if they need ILS.
+
+pat"
+29,train,4,sci.space,"In the April edition of ""One Small Step for a Space Activist"",
+Allen Sherzer & Tim Kyger write:
+  ""Another problem is what are called 'wraps' (or sometimes
+   the 'center tax'). When work for a large program like
+   Freedom or Shuttle is performed at a NASA center, the
+   center skims off a portion which goes into what amounts
+   to a slush fund. This money is used to fund work the
+   center manager wants to fund. This sum is estimated to
+   be over a third of the funds allocated. Think about
+   that: Of the $30 billion cost of Freedom, fully $10
+   billion won't be spent on anything having anything
+   to do with Space Stations! Now, maybe that $10 billion
+   was wisely spent (and maybe it wasn't), but the work done
+   with it should stand on its own merits, not distorting
+   the cost of other projects. Congress has no idea of the
+   existense of these wraps; Congress has never heard the
+   term 'center tax'. They look at the Station they are
+   getting and the price they are paying and note that
+   it doesn't add up. They wonder this blissfully unaware
+   that a third of the money is going for something else.""
+
+My dear friends, your mixing fact and fiction here. A couple
+of weeks ago, when I first read this in your posting, I
+talked with one of the cost experts here in Space Station
+at Headquarters [if you wondering why I didn't post a
+response immediately, I do have a real job I'm supposed
+to be doing here at Headquarters, & digging up old 20 kHz
+data & looking into Sherzer/Kyger claims rates pretty low
+on the totem pole of priority. Also, I spent last weekend
+in Kansas City, at the National Science Teachers 
+Association conference, extolling the virtues of SSF
+to 15,000 science teachers.]
+
+First off, yes, the concept of 'center tax', or 'wrap' does
+exist. If I recall the numbers correctly, the total 'tax'
+for the SSF program for this fiscal year is around $40 Million.
+This was computed by adding up the WP-1, WP-2, and WP-4
+center 'taxes'. With the SSF budget for this fiscal year at
+$2.2 Billion, my calculater says the tax percentage is
+04/2.2 = 1.8%
+
+Over the life of the SSF program, using your figure of $30
+billion for the cost of SSF, a tax at a 1.8% rate comes to
+$540 million. This is alot less than $10 billion, but I
+will concede it's still an appreciable amount of pocket
+change.
+
+I should note that your estimate of the tax rate at 1/3 could
+be close to the actual rate. The tax is only charged on funds
+that are spent at the center (kind of like McDonalds at some
+states, where you do have to pay sales tax if you eat
+the food at the restaurant, but you don't if you get it
+take-out). For example, at WP-4, the vast bulk of the funds
+we receive go to the Rocketdyne Contract, and are *NOT*
+subject to the center tax (I don't have the numbers in
+front of me, but I'd guess at least 95% of the WP-4 funds
+go to Rocketdyne). So, you could be right about a tax
+rate of 1/3, but it's only applied to funds spent at the
+center, and not to the prime contracts.
+
+This leads to the obvious question ""What is the government
+doing with SSF funds that don't go to the prime contractors?
+(i.e. ok, WP-4 gets a slice of the $30 billion pie. A
+big portion of this slice goes to Rocketdyne. What happens
+to the balance of the funds, which aren't eaten
+up by the center tax?)""
+
+At WP-4, we call these funds we spend in-house supporting
+development funds (as they are supporting the development
+work done by Rocketdyne). We have used these funds to
+setup our own testbed, to checkout the electrical
+power system architecture. Our testbed has a real life
+solar array field (left over from solar cell research
+research a few years back), with lead-acid car batteries
+(to simulate the Nickel-Hydrogen batteries on SSF), DC
+switchgear, DC-DC converter units, and simulated
+loads. Data from the testbed was used in a recent
+change evaluation involving concerns about the stability
+of the power system.
+
+We have also used the supporting development money to
+purchase Nickel Hydrogen batteries, which are on life
+testing at both Lewis and the Crane Naval facility in
+Indiana. As a side point, 6 of the battery cells on
+test recently hit the four year life test milestone.
+38 cells have completed 18,552 to 23,405 cycles (the
+on-orbit batteries go through 5,840 cycles per year).
+
+As a final example, my 'home' division at Lewis used
+the supporting development funds to purchase personal
+computers and work stations, for performing system
+analyses (like modeling of the performance of the
+electrical power system, availability calculations
+using a Monte-Carlo simulation, setting up a 
+database with information on weight of the power
+system elements).
+
+Finally, the money raised by the 'tax' does not all
+go into a 'slush fund.' At Lewis, the director
+does control a small discretionary fund. Each year,
+any individual at Lewis can submit a proposal to
+the director to get money from this fund to look
+at pretty much anything within the Lewis Charter.
+
+Most of the tax, however, goes to fund the 'general'
+services at the Center, like the library, the 
+central computer services division, the Contractor 
+who removes the snow, etc. Thus, it is rather
+difficult to determine what percentage of the
+SSF budget doesn't go for SSF activities. To get
+an accurate figure, you would have to take
+the annual expenditure for the library (for example),
+and then divide by the amount of the library funds
+used to support SSF (which would be hard to
+compute by itself - how would you figure out
+what percentage of the bill for Aviation Week for
+1 year is 'billable' to SSF, would you base it on
+the person-hours SSF employees spend reading AV-week
+versus the rest of the center personnel). You would
+then have to compare this estimate of the SSF
+portion of the library expense with the portion of
+the tax that goes to support the library. Who knows,
+maybe SSF overpays on the tax to run the library, but
+we underpay for snow removal? Talk about
+a burecratic nightmare!"
+30,train,3,sci.med,"Here is the tollfree hotline for the Epilepsy Foundation
+of America - 1-800-EFA-1000.  They will be able to answer
+your questions and send you information and references on
+seizure types, medication, etc.  They can also give you references
+for a pediatric neorologist in your area.  Also ask for the 
+number of your local Foundation who can put you in touch with
+a Parent Support Group and social workers.
+Good Luck.
+"
+31,train,2,rec.autos,"I am interested in finding out how the 4Runner and Pathfinder have
+been updated in the past few years.  Like new engine, suspension and
+the like.  I noticed that the 1993 and 1992 4Runners are identical,
+for example, and was looking into buying a used one.
+
+Any info would be appreciated, esp. models/years to check out or
+avoid."
+32,train,3,sci.med,"
+
+Larry:
+
+The subject content IS serious; as is the question.
+
+On one hand you state that ""things have changed dramatically"" but, at the
+same time nothing you ""can think of has changed"".  Your girlfriend seems
+to want to see a counselor, but you don't.  
+
+I'd recommend that you examine your hesitation to see a counselor.  It's
+a very good environment to examine issues.  
+
+The fact of the matter is:  your girlfriend has a different perception than
+you.  The TWO of you need to address the issue in order to resolve it.
+
+Please consider going to a counselor with your girlfriend.  What could it
+possibly hurt?"
+33,train,2,rec.autos,"I just read articals on this in Road and Track and Car and Driver
+	(Is that one mag or two? =B^), and I was wondering if people out
+	there have any opinions that differed from what these mags have to
+	say...
+
+
+	I'm looking at the following three SUV's; anyone who's driven all
+	three have any strong opinions?
+
+
+	Ford Explorer
+	Toyota 4Runner
+	Nissan Pathfinder
+
+
+	Currently I'm leaning toward the Toyota, 'cause I've had big success
+	with Toyota trucks in the past, and 'cause I think it's the best
+	looking of the three. But I thought I'd see if anyone has any strong 
+	opinions....
+
+
+
+			Thanks!
+
+
+	-Karl
+"
+34,train,4,sci.space,"
+[ a nearly perfect parody  -- needed more random CAPS]
+
+
+Thanks for the chuckle.  (I loved the bit about relevance to people starving
+in Somalia!)
+
+To those who've taken this seriously, READ THE NAME! (aloud)
+"
+38,train,1,misc.forsale,"*******************************************************
+                   1969 karmann ghia
+*******************************************************
+
+This car is in excellent running condition:
+               *********
+  *49,000 mi on new engine
+  *new tires (Aug 92)
+  *new clutch (91)
+  *new carb (91)
+  *original radio (am/fm)
+  *upholstery in great shape
+  *burgundy exterior/ black interior
+
+This car has been well-maintained with regular tune-ups.
+Unfortunately, the car's previous owner had a minor
+front-end collision.  The right front nose is dented
+and patched up with bondo.  I have the hard-to-find part
+needed to repair this damage.  Besides that damage, the car
+is in excellent condition. $1600/bo"
+39,train,2,rec.autos,"
+While previous Volvos have been essentially very fast tractors, the 3,4 and 8 series
+are far from 'agricultural' in design or execution (how many FWD tractors have you 
+seen?).
+
+
+You state this like it is a bad thing.  :^)  (remember, car companies use
+ad agencies - they don't do their own ads!)
+
+
+Is this true?  I know that they had done joint ventures with Renault, but I haven't
+heard about their subsumption into Renault - does this mean that the French Government
+now owns Volvo?  - anyway, Renault makes some very nice cars, they just don't sell
+'em in N. America!
+
+
+Here! Here!
+"
+40,train,2,rec.autos,"
+The VW ""Thing"" Kubelwagen lookalike is still manufactured in Mexico and 
+possibly South America.  Good luck importing one--  They probably don't meet 
+US safety and pollution requirements.  There are mechanics and junkyards 
+which specialize in VW; they might be helpful for finding a ""Thing"" unless 
+the WWII re-enacters have grabbed them all.
+
+The WWII Kubelwagen was the German equivalent of the Jeep, but was not 4-
+wheel drive.  One is on display at the Patton Museum at Fort Knox, Kentucky, 
+also the rare ""Schwimwagen"" (sp?) amphibious version, in full-scale dioramas.
+Highly recommended!
+
+--"
+41,train,0,comp.graphics,"Hello,
+
+Hello,
+
+     I was wondering if anyone knew of a PC or MAC
+implementation of the marching cubes algorithm that will output
+the individual faces.  If there is no such application, might there
+be some C source code that I could modify to implement the
+algorithm and get to the individual faces.
+
+Thanks in advance
+Sincerly
+
+Tracy"
+42,train,2,rec.autos,"^^^^^^^^^^^^^^^^^^^^^^^^^
+
+There is a picture in the May 1993 edition of European Car (although,
+it may not be on the shelf yet).
+
+
+	- prototype has front wheel drive (first front drive
+	  for Mercedes since the beginning of WWII)
+
+	- wheelbase 3.15m
+	- 7 seater
+	- they claim that the price will be about the same as a
+	  Renault Espace or Chrysler Voyager (DM 50,000)
+
+Looking at the picture (slightly disguised) it looks like the Ford
+Aerostar, to me.
+
+
+                                                  .  
+                                                 /                
+Larry                            __/    _______/_                 
+keys@csmes.ncsl.nist.gov       /                  \               
+                          _____     __     _____    \------- ===
+            ----------- / ____/   /  /   /__  __/              \
+         /     ___    /  / ___   /  /      / /    ____          |
+        |    /      \/ /__ /  | /  /__  __/ /__ /       \      / 
+        /___         \_______/ /_____/ /______/            ====OO
+            \       /                           \       /         
+                -            1990 2.0 16v           -
+
+
+       ---------------- FAHRVERGNUGEN FOREVER! --------------------            
+            The fact that I need to explain it to you indicates
+            that you probably wouldn't understand anyway!"
+44,train,0,comp.graphics,"
+
+	The newspaper itself is almost certainly copyrighted in its
+entirety.  Newspapers generally employ legal staffs which make sure
+they get permission to use a copyrighted image or text.  Did you
+do the same?
+-- 
+-John"
+45,train,1,misc.forsale,"Two LH Research SM11-1 power supplies (SM10 series).
+
+1000W, 5V, 200A (currently wired for 115VAC)
+
+Control lines: +/- sense, on/off, pwr.fail, high/low margin, and
+current monitor.
+
+(The list price from LH Research is $824.00 each for qty. 1-9)
+
+Asking $500.00 for the pair."
+46,train,4,sci.space,"From: <tom>
+Subject: computer cult
+
+From scott Fri Apr 23 16:31:21 1993
+Received: by igc.apc.org (4.1/Revision: 1.77 )
+	id AA16121; Fri, 23 Apr 93 16:31:09 PDT
+Date: Fri, 23 Apr 93 16:31:09 PDT
+Message-Id: <9304232331.AA16121@igc.apc.org>
+From: Scott Weikart <scott>
+Sender: scott
+To: cdplist
+Subject: Next stand-off?
+Status: R
+
+Redwood City, CA (API) -- A tense stand-off entered its third week
+today as authorities reported no progress in negotiations with
+charismatic cult leader Steve Jobs.
+
+Negotiators are uncertain of the situation inside the compound, but
+some reports suggest that half of the hundreds of followers inside
+have been terminated.  Others claim to be staying of their own free
+will, but Jobs' persuasive manner makes this hard to confirm.
+
+In conversations with authorities, Jobs has given conflicting
+information on how heavily prepared the group is for war with the
+industry.  At times, he has claimed to ""have hardware which will blow
+anything else away"", while more recently he claims they have stopped
+manufacturing their own.
+
+Agents from the ATF (Apple-Taligent Forces) believe that the group is
+equipped with serious hardware, including 486-caliber pieces and
+possibly Canon equipment.
+
+The siege has attracted a variety of spectators, from the curious to
+other cultists.  Some have offered to intercede in negotiations,
+including a young man who will identify himself only as ""Bill"" and
+claims to be the ""MS-iah"".
+
+Former members of the cult, some only recently deprogrammed, speak
+hesitantly of their former lives, including being forced to work
+20-hour days, and subsisting on Jolt and Twinkies.  There were
+frequent lectures in which they were indoctrinated into a theory of
+""interpersonal computing"" which rejects traditional roles.
+
+Late-night vigils on Chesapeake Drive are taking their toll on
+federal marshals.  Loud rock and roll, mostly Talking Heads, blares
+throughout the night.  Some fear that Jobs will fulfill his own
+apocalyptic prophecies, a worry reinforced when the loudspeakers
+carry Jobs' own speeches -- typically beginning with a chilling ""I
+want to welcome you to the 'Next World' ""."
+47,train,1,misc.forsale,"1987 ARIENS RIDING LAWN MOWER
+
+	This mower is in perfect condition and
+	contains the following features:
+
+	- Electric Start
+	- 26 inch cut
+	- Double Rear Baggers
+	- New Battery
+	- New Engine (one year old)
+	- Inflatable Tires (gives nice ride)
+	- Cushioned Seat (gives nice ride)
+	- Tuned up and blade sharpened in the
+	  past month
+
+	I am moving into a house that has a
+	small area of grass to cut and does not
+	require such large mower. The engine was
+	replaced, not rebuilt, last year due to
+	some faulty work done by a lawn mower
+	repair shop."
+48,train,3,sci.med,"Archive-name: typing-injury-faq/software
+Version: 1.8, 7th December 1992
+
+This FAQ is actually maintained by Richard Donkin <richardd@hoskyns.co.uk>.
+I post it, along with the other FAQ stuff.  If you have questions, you want
+to send mail to Richard, not me.  -- Dan
+ 
+ 
+		    Software Tools to help with RSI
+		    -------------------------------
+ 
+This file describes tools, primarily software, to help prevent or manage RSI.
+This version now includes information on such diverse tools as calendar
+programs and digital watches...
+ 
+Please let me know if you know any other tools, or if you have information
+or opinions on these ones, and I will update this FAQ.
+
+I am especially interested in getting reviews of these products from people
+who have evaluated them or are using them.  
+ 
+Richard Donkin                           
+Internet mail: richardd@hoskyns.co.uk              
+Tel: +44 71 814 5708 (direct)
+Fax: +44 71 251 2853
+
+Changes in this version:
+
+     Added information on StressFree, another typing management tool 
+     for Windows.
+
+
+TYPING MANAGEMENT TOOLS: these aim to help you manage your keyboard use,
+by warning you to take a break every so often.  The better ones also include
+advice on exercises, posture and workstation setup.  Some use sound hardware to
+ 
+warn of a break, others use beeps or screen messages.
+
+Often, RSI appears only after many years of typing, and the pain has
+a delayed action in the short term too: frequently you can be typing
+all day with little problem and the pain gets worse in the evening.
+These tools act as an early warning system: by listening to their
+warnings and taking breaks with exercises, you don't have to wait for your 
+body to give you a more serious and painful warning - that is, getting RSI.
+
+ 
+    Tool: At Your Service (commercial software)
+    Available from:
+	Bright Star
+	Tel: +1 (206) 451 3697
+    Platforms: Mac (System 6.0.4), Windows
+    Description:
+	Provides calendar, keyboard watch, email watch, and system info. 
+	Warns when to take a break (configurable).  Has a few recommendations
+	on posture, and exercises.  Sound-oriented, will probably work best 
+	with sound card (PC) or with microphone (Mac).  Should be possible
+	to record your own messages to warn of break.
+ 
+    Tool: AudioPort (sound card and software)
+    Available from:
+	Media Vision
+	Tel: +1 (510) 226 2563
+    Platforms: PC
+    Description:
+	A sound card to plug into your PC parallel port.
+	Includes 'At Your Service'.
+ 
+    Tool: Computer Health Break (commercial software)
+    Available from:
+	Escape Ergonomics, Inc
+	1111 W. El Camino Real
+	Suite 109
+	Mailstop 403
+	Sunnyvale, CA
+	Tel: +1 (408) 730 8410
+    Platforms: DOS
+    Description:
+	Aimed at preventing RSI, this program warns you to take
+	breaks after a configurable interval, based on clock time, or
+	after a set number of keystrokes -- whichever is earlier.
+	It gives you 3 exercises to do each time, randomly selected from
+	a set of 70.  Exercises are apparently tuned to the type of work
+	you do - data entry, word processing, information processing.
+	Exercises are illustrated and include quite a lot of text on
+	how to do the exercise and on what exactly the exercise does.
+
+	CHB includes hypertext information on RSI that you can use 
+	to learn more about RSI and how to prevent it.  Other information
+	on non-RSI topics can be plugged into this hypertext viewer.
+	A full glossary of medical terms and jargon is included.
+
+	CHB can be run in a DOS box under Windows, but does not then
+	warn you when to take a break; it does not therefore appear
+	useful when used with Windows.
+
+	Cost: $79.95; quantity discounts, site licenses.
+
+    Comments:
+	The keystroke-counting approach looks good: it seems better
+	to measure the activity that is causing you problems than to
+	measure clock time or even typing time.  The marketing stuff
+	is very good and includes some summaries of research papers,
+	as well as lots of arguments you can use to get your company 
+	to pay up for RSI management tools.  
+
+    Tool: EyerCise (commercial software)
+    Available from:
+	RAN Enterprises
+	One Woodland Park Dr.
+	Haverhill, MA  01830, US
+	Tel: 800-451-4487 (US only)
+    Platforms: Windows (3.0/3.1), OS/2 PM (1.3/2.0) [Not DOS]
+    Description:
+	Aimed at preventing RSI and eye strain, this program warns you to take
+	breaks after a configurable interval (or at fixed times). Optionally
+	displays descriptions and pictures of exercises - pictures are
+	animated and program beeps you to help you do exercises at the
+	correct rate.  Includes 19 stretches and 4 visual training 
+	exercises, can configure which are included and how many repetitions
+	you do - breaks last from 3 to 7 minutes.  Also includes online help 
+	on workplace ergonomics.  
+
+	Quote from their literature:
+
+	""EyerCise is a Windows program that breaks up your day with periodic
+	sets of stretches and visual training exercises.  The stretches work
+	all parts of your body, relieving tension and helping to prevent
+	Repetitive Strain Injury.  The visual training exercises will improve
+	your peripheral vision and help to relieve eye strain.  Together these
+	help you to become more relaxed and productive.""
+ 
+	""The package includes the book _Computers & Visual Stress_ by Edward C.
+	Godnig, O.D. and John S. Hacunda, which describes the ergonomic setup
+	for a computer workstation and provides procedures and exercises to
+	promote healthy and efficient computer use. 
+	
+	Cost: $69.95 including shipping and handling, quantity discounts
+	for resellers.  Free demo ($5 outside US).
+ 
+    Comments:
+	I have a copy of this, and it works as advertised: I would say
+	it is better for RSI prevention than RSI management, because it
+	does not allow breaks at periods less than 30 minutes.  Also, it
+	interrupts you based on clock time rather than typing time, which
+	is not so helpful unless you use the keyboard all day.  Worked OK on
+	Windows 3.0 though it did occasionally crash with a UAE - not sure
+	why. Also refused to work with the space bar on one PC, and has
+	one window without window controls.  Very usable though, and does not
+	require any sound hardware.
+
+    Tool: Lifeguard (commercial software)
+    Available from:
+	Visionary Software
+	P.O. Box 69447
+	Portland, OR  97201, US
+	Tel: +1 (503) 246-6200
+    Platforms: Mac, DOS (Windows version underway)
+    Description:
+	Aimed at preventing RSI.  Warns you to take a break
+	with dialog box and sound.  Includes a list of exercises
+	to do during breaks, and information on configuring your
+	workstation in an ergonomic manner.  Price: $59;
+	quantity discounts and site licenses.  The DOS product is
+	bought in from another company, apparently; not sure how
+	equivalent this is to the Mac version.
+	
+	The Mac version got a good review in Desktop Publisher 
+	Magazine (Feb 1991).  Good marketing stuff with useful 
+	2-page summaries of RSI problems and solutions, with 
+	references.
+ 
+    Tool: StressFree (commercial software, free usable demo)
+    Available from:
+	LifeTime Software
+	P.O. Box 87522
+	Houston
+	Texas 77287-7522, US
+	Tel: 800-947-2178 (US only)
+	Fax: +1 (713) 474-2067
+	Mail: 70412.727@compuserve.com
+
+	Demo (working program but reduced functions) available from:
+	    Compuserve: Windows Advanced Forum, New Uploads section, or 
+			Health and Fitness Forum, Issues At Work section. 
+	    Anon FTP:   ftp.cica.indiana.edu (and mirroring sites)
+
+    Platforms: Windows (3.0/3.1) (Mac and DOS versions underway)
+    Description:
+	Aimed at preventing RSI, this program warns you to take
+	breaks after a configurable interval (or at fixed times). 
+	Displays descriptions and pictures of exercises - pictures are
+	animated and program paces you to help you do exercises at the
+	correct rate.  Quite a few exercises, can configure which ones
+	are included to some extent.  Online help.
+
+	Version 2.0 is out soon, Mac and DOS versions will be based
+	on this.
+
+	Cost: $29.95 if support via CompuServe or Internet, otherwise $39.95.  
+              Site license for 3 or more copies is $20.00 each.
+	      (NOTE: prices may have gone up for V2.0).
+ 
+    Comments:
+	I have had a play with this, and it works OK.  Its user interface
+	design is much better in 2.0, though still a bit unusual.
+	expensive tool around and it does the job.  It is also the only
+	tool with a redistributable demo, so if you do get the demo, post it
+	on your local bulletin boards, FTP servers and Bitnet servers!
+	Does not include general info on RSI and ergonomics, but it does 
+	have the ability to step backward in the exercise sequence,
+	which is good for repeating the most helpful exercises.
+
+    Tool: Typewatch (freeware), version 3.8 (October 1992)
+    Available from:
+	Email to richardd@hoskyns.co.uk
+	Anonymous ftp: soda.berkeley.edu:pub/typing-injury/typewatch.shar
+    Platforms: UNIX (tested on SCO, SunOS, Mach; character and X Window mode)
+    Description:
+	This is a shell script that runs in the background and warns you
+	to stop typing, based on how long you have been continuously
+	typing.  It does not provide exercises, but it does check
+	that you really do take a break, and tells you when you
+	can start typing again.  
+
+	Typewatch now tells you how many minutes you have been typing
+	today, each time it warns you, which is useful so you
+	know how much you *really* type.  It also logs information
+	to a file that you can analyse or simply print out.  
+
+	The warning message appears on your screen (in character mode),
+	in a pop-up window (for X Windows), or as a Zephyr message
+	(for those with Athena stuff).   Tim Freeman <tsf@cs.cmu.edu> 
+	has put in a lot of bug fixes, extra features and support for 
+	X, Zephyr and Mach.
+
+	Not formally supported, but email richardd@hoskyns.co.uk
+	(for SCO, SunOS, character mode) or tsf@cs.cmu.edu (for Mach,
+	X Window mode, Zephyr) if you have problems or want to give 
+	feedback.
+
+    Tool: Various calendar / batch queue programs
+    Available from:
+	Various sources
+    Platforms: Various
+    Description:
+	Any calendar/reminder program that warns you of an upcoming
+	appointment can be turned into an ad hoc RSI management tool.
+	Or, any batch queue submission program that lets you submit
+	a program to run at a specific time to display a message to
+	the screen.
+
+	Using Windows as an example: create a Calendar file, and
+	include this filename in your WIN.INI's 'load=' line so
+	you get it on every startup of Windows.  Suppose you
+	want to have breaks every 30 minutes, starting from 9 am.
+	Press F7 (Special Time...) to enter an appointment, enter
+	9:30, hit Enter, and type some text in saying what the break
+	is for.  Then press F5 to set an alarm on this entry, and repeat 
+	for the next appointment.
+
+	By using Windows Recorder, you can record the keystrokes
+	that set up breaks throughout a day in a .REC file.  Put this
+	file on your 'run=' line, as above, and you will then, with
+	a single keypress, be able to set up your daily appointments
+	with RSI exercises.
+
+	The above method should be adaptable to most calendar programs. 
+	An example using batch jobs would be to submit a simple job
+	that runs at 9:30 am and warns you to take a break; this will
+	depend a lot on your operating system.
+
+	While these approaches are not ideal, they are a good way of forcing 
+	yourself to take a break if you can't get hold of a suitable RSI 
+	management tool.  If you are techie enough you might want to
+	write a version of Typewatch (see above) for your operating
+	system, using batch jobs or whatever fits best.
+
+    Tool: Digital watches with count-down timers
+    Available from:
+	Various sources, e.g. Casio BP-100.
+    Description:
+	Many digital watches have timers that count down from a settable
+	number of minutes; they usually reset easily to that number, either
+	manually or automatically.  
+
+	While these are a very basic tool, they are very useful if you
+	are writing, reading, driving, or doing anything away from
+	a computer which can still cause or aggravate RSI.  The great
+	advantage is that they remind you to break from whatever you
+	are doing.
+	
+    Comments:
+	My own experience was that cutting down a lot on my typing led to
+	my writing a lot more, and still reading as much as ever, which
+	actually aggravated the RSI in my right arm though the left
+	arm improved.  Getting a count-down timer watch has been
+	very useful on some occasions where I write a lot in a day.
+
+	I have tried an old fashioned hour-glass type egg timer, but
+	these are not much good because they do not give an audible
+	warning of the end of the time period!
+
+
+KEYBOARD REMAPPING TOOLS: these enable you to change your keyboard mapping
+so you can type one-handedly or with a different two-handed layout.  
+One-handed typing tools may help, but be VERY careful about how 
+you use them -- if you keep the same overall typing workload you
+are simply doubling your hand use for the hand that you use for typing,
+and may therefore make matters worse.
+
+    Tool: hsh (public domain)
+    Available from:
+	Anonymous ftp: soda.berkeley.edu:pub/typing-injury/hsh.shar
+    Platforms: UNIX (don't know which ones)
+    Description:
+	Allows one-handed typing and other general keyboard remappings.
+	Only works through tty's (so, you can use it with a terminal or
+	an xterm, but not most X programs).
+
+    Tool: Dvorak keyboard tools (various)
+    Available from:
+	Anonymous ftp: soda.berkeley.edu:pub/typing-injury/xdvorak.c
+	Also built into Windows 3.x. 
+    Description:
+	The Dvorak keyboard apparently uses a more rational layout
+	that involves more balanced hand use.   It *may* help prevent
+	RSI a bit, but you can also use it if you have RSI, since 
+	it will slow down your typing a *lot* :-)  
+"
+50,train,2,rec.autos,"
+	My GS came with XGT V4s and they are NOT all weather tires.  I took
+out my right front bumper sliding on packed snow (not ice), before I learned
+this fact.  I immediately bought XGT H4s which are definately all-weather.
+A Carrera 4 I walk by everyday has XGT V4s on it even.  The Michelin dealer
+where I bought my new tires said the V4s were made out of a different 
+rubber that gets really hard and slick when the weather gets near feezing.  
+Said he'd only try to sell me those tires during the winter if we were in
+Texas and not Colorado.
+
+Thanks,
+Eric
+
+
+"
+51,train,2,rec.autos,"
+On the cars mentioned - 3 series from the late 80's the ""electronic""
+odometer is really a mechanical drum type odometer, that is driven
+by pulses from a speed sensor on the rear axle.  These pulses are 
+converted into mechanical pulses that turn the odometer - and speedometer.
+No way changing or erasing an eprom is going to change the mileage
+reading.  It also means the odometer is just as easy (or hard) to
+change as any other mechanical odometer.
+
+On the other hand it is a bit easier to disconnect the speed sensor
+and run the car with no speedometer or odometer reading...a simple
+switch will do the job.  It also will disable the speed limiter,
+which will enable the car to reach it's full speed.  ;-)
+
+"
+52,train,4,sci.space,"
+...
+
+How can you tell they're identical?
+
+You got one of them ""Star Drek: The Next Syndication"" neutrino
+scanners?"
+53,train,0,comp.graphics,": >over where it places its temp files: it just places them in its
+: >""current directory"".
+
+: I have to beg to differ on this point, as the batch file I use
+: to launch cview cd's to the dir where cview resides and then
+: invokes it.  every time I crash cview, the 0-byte temp file
+: is found in the root dir of the drive cview is on.
+
+This is what I posted that cview uses the root directory of the drive
+cview is on.  However, since It has so much trouble reading large files
+from floppy, I suspect that it uses the root directory of the drive the
+image files are on."
+54,train,0,comp.graphics,"Guess the subject says it all.
+  I would like references to any introductory material on Image
+  Databases.
+  Please send any pointers to mini@point.cs.uwm.edu
+
+  Thanx in advance!
+   
+
+
+"
+55,train,2,rec.autos,"
+Sorry, by ""they"" I meant autobahns, not US freeways.
+
+
+Well, I've driven in every state but Alaska, and drive about 60k per year.
+I take long cross country trips any chance I get - its fun for me and I
+can get reimbursment.
+My job allows me to drive rather than fly. Not to labor the point, but
+I've driven just about every freewayin the US, Germany, UK and France plus
+some in Mexico, which was surpisingly good.
+
+
+Yes, but as a %age of the total freeway in the US? 
+All you have to do in this case is mark the hazard, advising people to
+slow to 85 or so. 
+
+
+Texas freeways are varied, sometimes a good surface. Mostly flat. But,
+I5 in CA is comparable and hilly.
+
+Given the absence of other traffic and car built for 130 (e.g. 535) 
+most US freeways are just fine. The problem is other road users and
+cops.
+"
+56,train,4,sci.space,"
+nsmca> So some of my ideas are a bit odd, off the wall and such, but
+nsmca> so was Wilbur and Orville Wright, and quite a few others..
+
+This is a common misconception.  There was nothing ""off the wall""
+about the Wright Brothers.  They were in correspondance with a number
+of other experimenters (Octave Chanute, Lillienthal, etc), they flew
+models, they had a wind tunnel.  In short, they were quite mainstream
+and were not regarded as odd or eccentric by the community.
+
+I suggest you read The Bishop's Boys or the biography by Harry Gates?
+Combs?  (I can never remember which it is--the guy that had the FBOs
+and owned Learjet for a while).  These are both in print and easily
+obtainable.  The Bishop's Boys is in trade paperback, even.
+
+Even better would be the multi-volume set of the Wrights' writings,
+but this is out of print, rare, and hideously expensive.
+
+
+"
+57,train,1,misc.forsale,"One way ticket (return leg of roundtrip ticket) for female traveler
+
+
+
+San Francisco ==> St. Louis ==> Philadelphia
+
+
+May 21, 1993 (Friday)  leaves SFO     10:25 am
+                       arrives Phila.  8:43 pm
+
+
+
+.............$150   or best offer
+
+
+"
+58,train,3,sci.med,"
+
+
+Both of these symptoms are related - tachycardia. Getting a flushed
+face is due to the heart pumping the blood faster than a regular
+pulse.  I suspect this is related to an increase in sodium levels in
+the blood, since note *sodium chloride* monosodium glutamate. Both are
+sodium compounds. Our bodies require sodium, but like everything else,
+one can get too much of a good thing.
+
+
+Again, this could be related to increased blood flow from increased
+heart rate, from the sodium in the MSG. Distended crainial arteries,
+essentially. One of many causes of headaches. There is no discrepency
+her, necessarily.
+
+
+
+Well stomache ache and vomiting tend to be related. Again, not
+necessarily a discrepency. More likely a related reaction. Vomiting
+occurs as a response to get rid of a noxious compound an organism has
+eaten. If a person can't digest the stuff (entirely possible - the
+list of stuff people are allergic to is quite long), and lacks an
+enzyme to break it down, gastrointestinal distress (stomach or belly
+ache) would be expected.
+
+
+
+
+These are respiratory reactions, and are now considered to be similar
+to vomitting. They are a way for the body to dispose of noxious
+compounds. They are adaptiove responses. Of course, it is possible
+some other food or environmental compound could be responsible for the
+symptoms. But it's important to remember that a lot opf these effets
+can be additive, synergystic, subtractive, etc, etc. It would be
+necessary to know exactly what was in a dish, and what else the person
+was exposed to. Respiratory does sound suspicious BUT  resopiration
+and heart rate are connected.  Things in the body are far from
+simple...very inetractive place, the vertebrate body.
+ 
+
+People respond in a myriad of ways to the same compound. It depends
+upon what it is about the compound that ""pisses off"" their body.
+Pollen, for example, of some plants aggrivates breathing in many
+people, because, when inhaled, it sets of the immune system, and an
+histamine attack is launched. The immune system goes overboard,
+causing the allergic person a lot of misery. And someone with an
+allergy to some pollens will have trouble with some herb teas that
+contain pollens (Chamomile, linden, etc). Drinking the substance can
+perturb that person's system as much as inhaling it. 
+
+
+See above. And don't think that heart rate changes, and circulatory
+problems are not serious. They can be deadly.
+
+and brain damage. 
+
+The area of the brain effected is the neuroendocrine system
+controlling the release of gonadotropin, the supra-hormone controlling
+the cyclical release of testosterone and estradiol, as well as somatostatin,
+and other steroids. Testing for effective dose would be, uh, a wee bit unethical.
+
+
+poisoning. 
+
+Absolutely. But it could also be some synergystic mess from eating ,
+say, undetected shrimp or mushrooms (to which many are allergic), plus
+too much alcohol, and inhaling too much diesel fumes biking home,
+plus, let's say, having contracted flu from one's sig. other 3 days
+before from drinking out of the same glass. Could be all sorts of
+things.
+
+But it might be the MSG. 
+
+
+If noone else got sick, its likely not food poisoning. Probably
+stomach flu or an undetected thing the guy's allergic to.
+
+
+Anyway, the human body's not a machine; people vary widely in their
+responses, and a lot of reactions are due to combinations of things."
+59,train,3,sci.med,"Having been gone for 10 days, I'm way behind on my News reading, so many
+pardons if I am repeating something that has been said already.
+
+I read a good book while I was away, THE ANTIBIOTIC PARADOX: HOW MIRACLE DRUGS
+ARE DESTROYING THE MIRACLE, Stuart B. Levy, M.D., 1992, Plenum Press,
+ISBN:0-306-44331-7.
+
+It is about drug resistant microorganisms & the history of antibiotics.  It
+is interesting & written at a level which I think many sci.med readers would
+appreciate -- which is:  it assumes an intelligent reader who is capable of
+understanding scientific concepts, but who may not yet have been exposed to
+this particular information. I.e., it assumes you are smart enough to
+understand it, but it does not assume that you already have a degree in
+microbiology or medicine. Table of contents:
+
+Chapter 1
+	From Tragedy the Antibiotic Age is Born
+Chapter 2
+	The Disease and the Cure:  The Microscopic World of Bacteria and
+	Antibiotics
+Chapter 3
+	Reliance on Medicine and Self-Medication: The Seeds of Antibiotic
+	Misuse
+Chapter 4
+	Antibiotic Resistance:  Microbial Adaptation and Evolution
+Chapter 5
+	The Antibiotic Myth
+Chapter 6
+	Antibiotics, Animals and the Resistance Gene Pool
+Chapter 7
+	Further Ecological Considerations:  Antibiotic Use in Agriculture,
+	Aquaculture, Pets, and Minor Animal Species
+Chapter 8
+	Future Prospects:  New Advances Against Potential Disaster
+Chapter 9
+	The Individual and Antibiotic Resistance
+Chapter 10
+	Antibiotic Resistance: A Societal Issue at Local, National, and
+	International Levels.
+
+Includes bibliography and index.
+
+I personally found that it made very good Airplane-Reading.
+-rg
+"
+61,train,4,sci.space,"
+How 'bout some more info on that alleged supernova in M-81?
+I might just break out the scope for this one.
+____________________________________________________
+""No sir, I don't like it! ""-- Mr. Horse
+Dan Kelo     dkelo@pepvax.pepperdine.edu
+____________________________________________________
+"
+62,train,0,comp.graphics,"
+Why didn't you create 8 grey-level images, and display them for
+1,2,4,8,16,32,64,128... time slices?
+
+This requires the same total exposure time, and the same precision in
+timing, but drastically reduces the image-preparation time, no?
+
+
+
+
+
+"
+64,train,0,comp.graphics,------------------------------------
+65,train,3,sci.med,"-*----
+I think that part of the problem is that I have proposed a
+definition of science that I intended to be interpreted broadly
+and that Lee Lady has interpreted fairly narrowly.  My definition
+is this: Science is the investigation of the empirical that avoids
+mistakes in reasoning and methodology discovered from previous
+
+
+Unless one classifies ""thinking and informal exploration"" as a
+mistake, they fall under my definition.  I hope no one would
+consider speculation, thinking, and informal exploration as
+unscientific.  
+
+
+Here is where I think we are talking at cross-purposes.  It is not
+clear to me that the kind of definition I have proposed should be
+taken as describing what ""science is mainly about.""  Consider,
+for example, a definition of invertebrates as all animals lacking
+a backbone.  This fairly tells what is an invertebrate and
+what is not an invertebrate, but it hardly tells you what
+invertebrates are all about.  One can read this definition and
+still not know that 95% of all animal species are invertebrates,
+that invertebrates possess a remarkably broad range of form, that
+some invertebrate groups -- such as insects and nematodes -- are
+ubiquitous in all ecosystems, etc.  In short, knowing the
+definition of invertebrates does *not* tell one what they are
+""mainly about.""
+
+The misunderstanding here is my fault.  I did not give sufficient
+context for people to understand my proposed definition.
+
+
+I agree on both counts.  As an example of the second, it would only
+take a few cases of curing rabies to convince most veterinarians
+that a treatment was effective, despite a lack of controls.  
+
+As to the first, I do not think it is useful to talk about
+""absolute scientific truth.""  I think it is more useful to talk
+about the kinds of evidence that various claims have and the
+kinds of evidence IN PARTICULAR FIELDS that in the past have
+proven faulty or reliable.  The latter is obviously a matter of
+degree, and in each field, practitioners try to discover the
+relevance of different kinds of evidence.  
+
+One of the primary mistakes that marks the advocacy of an idea as
+psuedo-science is that the advocacy lacks any sense of proportion
+regarding the kinds of evidence related to the proposed claim,
+the kinds of evidence that are actually relevant to it, and the
+historical reasons in the field that certain kinds of evidence
+are given more weight than others.  It is perfectly alright to
+speculate.  I have read quite a few refereed papers that
+speculated left and right.  But the authors were careful to
+identify the notions as speculative, to list what little evidence
+was presently available for them, and to describe how research
+could proceed to either put the notion on more firm footing or to
+uncover its problems.  Often what distinguishes whether a paper
+of this sort passes muster is the thoughtfulness with which the
+author sets the context and paves the way for future work.  (It
+is in this area that many proponents of speculative ideas fail.)
+
+
+I think a lot of scientists steer away from things that --
+deserving or not -- garner a patina of kookiness.  When
+proponents of some practice see no value in more careful
+investigation of that practice, that sets alarms ringing in many
+researchers' minds.  
+
+This is unfortunate, because there is undoubtedly some
+intersection between things that are worth investigating and
+things that are advocated by those who seem careless or
+unreasonable in their advocacy.  On the other hand, I can
+understand why many scientists would just as soon select other
+directions for research.  As Gordon Banks has pointed out, no one
+wants to become this generation's Rhine.
+
+
+I think this is absurd.  
+
+
+I wonder why the results were not published.  In my field,
+dissertation results are typically summarized in papers that are
+submitted to journals.  Often the papers are accepted for
+publication before the dissertation is finished.  (This certainly
+eases one's defense.)
+
+Finally, I hope Lee Lady will forgive me from commenting either
+on NLP or the discussion of it in sci.psychology.  I know little
+about either and so have nothing to offer."
+66,train,1,misc.forsale,"I have one of those HEAVY antique upright pianos I would like to
+contribute to any charity with muscle enough to get it out of my house.
+
+If I get no response from a charity I will sell to for $100, you haul.
+
+It is in good shape, needs tuning.  I'm in south Durham county."
+67,train,4,sci.space,"[...]
+
+How ironic."
+68,train,3,sci.med,"Thanks to Tarl Neustaedter of MA for kindly letting me know that my
+reference in prior post to Orwell and ""1984"" should probably have been to
+Huxley and ""Brave New World."" 
+
+Sorry, Al."
+69,train,1,misc.forsale,"""Bare"" = case, a power supply, and a motherboard (with RAM and a coprocessor).
+Everything else is yours to add as you like.
+
+The motherboard:
+    - US-made Micronics 8-slot motherboard with Intel 386dx/25mhz CPU
+    - 64kb SRAM cache
+    - 4mb 80us RAM using 4x1mb simms (worth $120 alone)
+    - Cyrix 83D87 math coprocessor (worth $90 alone)
+    - Norton SI 6.0 rating of 26.1
+    - Latest version Phoenix BIOS
+
+The case/power supply:
+     - Standard desktop case. 230watt power supply with the usual connectors.
+     - Room for five floppy/hard drives (three visible, two internal).
+
+*New* Micronics CPUs often command a several-hundred dollar premium
+over clone motherboards because they are US-made, use high-quality
+components, and are known to be both very reliable and compatible. They
+have been OEMed in systems sold by both Gateway and Zeos at various
+points in the past. (Check out the ads in the back pages of Byte or PC
+Magazine if you want to see this price differential for yourself.)
+
+Price: $450 complete, $100 less if you don't want/need the case and
+power supply. The board is fully guaranteed. Email for further details
+or for any questions.
+
+Thanks!"
+70,train,1,misc.forsale,"I would like to sell my Logitech Hand-held 256 Gray Scale Scanner. I
+originally bought it as a toy and have no practical use for it. Hardly
+ever used it.
+
+Package includes:
+-board
+-Scan-Mate software
+-Ansel Image Editing software
+-All original manuals, box, etc.
+
+Originally bought for $350 in Jan '92.
+Selling for $150."
+71,train,4,sci.space,"I would like to find out about space engineering employment and educational
+opportunities in the Tucson, Arizona area.  E-mail responses appreciated.
+My mail feed is intermittent, so please try one or all of these addresses."
+72,train,1,misc.forsale,"I have a set of four 235-60-R14 Big O tires that I had on my 1988 Thunder 
+Bird. We bought them and then traided the car in. They would not give me 
+anything for them so I had them taken off. We drove about 2,000 miles on 
+them. They are 40,000 mile tires. They are sporty looking low-profile, and 
+take corners realy well. If you are interested please contact me at (208)384-
+9236 OR DUSMADSO@IDBSU.IDBSU.EDU I am in IDAHO. USA
+"
+73,train,1,misc.forsale,"I have a lot of CDs for sale.  Prices are $7 per CD and $3 per CD Single.
+CDs are noted by (CD) and CD Singles by (CDS).  Please include $1 extra
+per CD for s/h costs.  IF you want to buy a lot of them, then we'll work 
+out a deal with the shipping costs!
+
+Type      Group                         Title
+---------------------------------------------
+
+CDS       Boys to Men                   Motown Philly
+CDS       C & C Music Factory           Keep it Comin'
+CDS       Moby                          Go (Remixes)
+CDS       Quadrophonia                  Schizophrenia
+CDS       Swing Out Sister              Not Gonna Change
+CDS       Recoil                        Faith Healer
+CDS       Seal                          The Beginning
+CDS       Transvision Vamp              Tranvision Vamp
+CDS       C & C Music Factory           Gonna Make U Sweat
+CDS       Nitzer Ebb                    Godhead
+CDS       Roxette                       How Do You Do!
+CDS       B-52's                        Good Stuff
+CDS       Duran Duran                   Violence of Summer
+CDS       Nitzer Ebb                    AS IS
+CDS       Vanessa Williams              Running Back to You
+CD        Seal                          SEAL
+CD        LFO                           Frequencies
+CD        Morissey                      Kill Uncle
+CD        Underworld                    Change the Weather
+CD        Jody Watley                   You Wanna Dance With Me?
+CD        Dead or Alive                 Fan the Flame
+CD        Transvision Vamp              Velveteen
+CD        Adam Ant                      Manners & Physique
+CD        Fine Young Cannibals          The Raw & the Remix
+CD        Black Box                     Dreamland
+CD        Civilles & Cole               Greatest Remixes Vol. 1
+CD        Black Box                     Mixed Up!
+CD        Scorpions                     The Best of Rockers &
+                                        Ballads
+CD        A & M Underground Dance       Jam Harder"
+74,train,2,rec.autos,"Hi, maybe someone can help me here...
+I am looking to buy this 1990 Nissan Maxima GXE for CDN$14000 right now.
+The car has 96000 km (or about 60000 miles) on it.
+A typical mileage for 1990 cars seem to be about 70000 km (or about 43K mi).
+The seller just informed me that when he brought the car in for certification
+he was told that the front break pads and the exhausts had to be replaced
+to meet the legal standards.  (He said he will replace the components before
+selling the car to me.)
+
+Being copmletely ignorant to the technical stuff on cars, I don't know
+what this could mean...
+Is 96K km about the time typical for replacing the above mentioned items?
+Or is this an indication that the car was abused?
+Would other things break down or have to be replaced soon?
+The seller told me that he used the car on the highway a lot, but,
+I don't know how to verify this...  I've seen the paint chipped away
+in tiny dots in the front edge of the hood, though.
+
+Although the Maxima is an excellent car and the car is very clean and
+well kept, it's currently out of warranty
+(a similarly priced '90 Accord with 70K km will have 2 years or 30K km
+worth of warranty left) and I don't want to worry about paying for
+any repair bills...
+But, I also need a car for 5 people...  
+
+When will the new Maxima come out, by the way?
+
+I would very much appreciate your input in this.
+Please reply by e-mail (preferred) or post in this newsgroup.
+Thanks!
+
+Ryan
+
+"
+76,train,0,comp.graphics,"
+Okay, I've received a whole lot of requests for the movie, so for
+simplicity's sake I can't mail out any more than I've already received (as
+of 16:30 EDT, Tuesday).  Maybe it'll pop up on a site sooner or later."
+79,train,1,misc.forsale,"(1)           Uniden 40 Channel CB Transceiver,  Model Pro 710e.  
+    
+   This is a home base unit, with connectors for external speaker and 
+   PA speaker. 3.5""x3"" internal speaker, chanel 9/10 button, NB/ANL/PA  
+   selector buttons, Volume, Squelch, RF Gain, Tone and Mic Gain controls,
+   Comes with Mic.  Side mount for mic.  measures 14""x8""x3"". Plugs into  
+   110v.  Black
+   
+   Like new. (actually brand new)      Asking $105, shipping included
+    
+ 
+(2)         Midland International Model 77-101C, 40 chanel, car unit
+ 
+    This one is well used. black w/silver front. comes with mic, power 
+    cord for 12v cigarette lighter socket,  gutter mount antena is also
+    included (easy to install and remove).    
+                                           Asking $45, shipping included
+                                            
+ 
+    Or both for $130, including shipping.  The Uniden alone is about 
+    $150 in Kmart.  These two will work nicely together, have one in 
+    the garage and one in your truck. 
+ "
+80,train,3,sci.med,"I got asked in Sci. Med. Nutrition about vitamin C and oxalate production(
+toxic, kidney stone formation?).  I decided to post my answer here as well 
+because of the recent question about kidney stones.  Not long after I got 
+into Sci. Med. I got flamed by a medical fellow for stating that magnesium 
+would prevent kidney stone formation.  I'm going to state it again here.
+But the best way to prevent kidney stones from forming is to take B6 
+supplements.  Read on to find out why(I have my asbestos suit on now guys).
+
+Vitamin C will form oxalic acid.  But large doses are needed (above 6 grams 
+per day).
+
+	1. Review Article ""Nutritional factors in calcium containing kidney 
+	   stones with particular emphasis on Vitamin C"" Int. Clin. Nutr. Rev.
+	   5(3):110-129(1985).
+
+But glycine also forms oxalic acid(D-amino acid oxidases).  For both 
+glycine and vitamin C, one of the best ways to drastically reduce this 
+production is not to cut back on dietary intake of vitamin C or glycine, 
+but to increase your intake of vitamin B6.
+
+	2. ""Control of hyperoxaluria with large doses of pyridoxine in 
+	    patients with kidney stones"" Int. Urol. Nephrol. 20(4):353-59(1988)
+	    200 to 500 mg of B6 each day significasntly decreased the urinary 
+	    excretion of oxalate over the 18 month treatment program.
+
+	3. The action of pyridoxine in primary hyperoxaluria"" Clin. Sci. 38
+	   :277-86(1970).  Patients receiving at least 150mg B6 each day 
+	   showed a significant reduction in urinary oxalate levels.
+
+For gylcine, this effect is due to increased transaminase activity(B6 is 
+required for transaminase activity) which makes less glycine available for 
+oxidative deamination(D-amino acid oxidases).  For vitamin C, the effect is 
+quite different.  There are different pathways for vitamin C catabolism.  
+The pathway that leads to oxalic acid formation will usually have 17 to 40% 
+of the ingested dose going into oxalic acid.  But this is highly variable 
+and the vitamin C review article pointed out that unless the dose gets upto 
+6 grams per day, not too much vitamin C gets catabolized to form oxalic 
+acid.  At very high doses of vitamin C(above 10 grams per day), more of the 
+extra vitamin C (more than 40% conversion) can end up as oxalic acid.  In a 
+very early study on vitamin C and oxalic production(Proc. Soc. Exp. Biol. 
+Med. 85:190-92(1954), intakes of 2 grams per day up to 9 grams per day 
+increased the average oxalic acid excretion from 38mg per day up to 178mg 
+per day.  Until 8 grams per day was reached, the average excreted was 
+increased by only 3 to 12mg per day(2 gram dose, 4 gram dose, 8 gram dose 
+and 9gram dose). 8 grams jumped it to 45mg over the average excretion 
+before supplementation and 9 grams jumped it to 150 mg over the average 
+before supplementation.
+
+B6 is required by more enzymes than any other vitamin in the body.  There 
+are probably some enzymes that require vitamin B6 that we don't know about 
+yet.  Vitamin C catabolism is still not completely understood but the 
+speculation is that this other pathway that does not form oxalic acid must 
+have an enzyme in it that requires B6.  Differences in B6 levels could then 
+explain the very variable production of oxalic acid from a vitamin C 
+challenge(this is not the preferred route of catabolism).  Increasing your 
+intake of B6 would then result in less oxalic acid being formmed if you 
+take vitamin C supplements.  Since the typical American diet is deficient 
+in B6, some researchers believe that the main cause of calcium-oxalate 
+kidney stones is B6 deficiency(especially since so little oxalic acid gets 
+absorbed from the gut).  Diets providing 0 to 130mg of oxalic acid per day 
+showed absolutely no change in urinary excretion of oxalate(Urol Int.35:309
+-15,1980).  If 400mg was present each day, there was a significant increase 
+in urinary oxalate excretion.
+
+	Here are the high oxalate foods:
+
+	1. Beans, coca, instant coffee, parsley, rhubarb, spinach and tea.
+	   Contain at least 25mg/100grams
+
+	2. Beet tops, carrots, celery, chocolate, cumber, grapefruit, kale, 
+	   peanuts, pepper, sweet potatoe.
+	   Contain 10 to 25 mg/100grams.
+
+If the threshold is 130mg per day, you can see that you really have a lot 
+of latitude in food selection.  A recent N.Eng.J. Med. article also points 
+out that one good way to prevent kidney stone formation is to increase your 
+intake of calcium which will prevent most of the dietary oxalate from being 
+absorbed at all.  If you also increase your intake of B6, you shouldn't 
+have to worry about kidney stones at all. The RDA for B6 is 2mg per day for 
+males and 1.6mg per day for females(directly related to protein intake).
+B6 can be toxic(nerve damage) if it is consumed in doses of 500mg or more 
+per day for an extended peroid(weeks to months).  
+
+The USDA food survey done in 1986 had an average intake of 1.87 mg per day 
+for males and 1.16mg per day for females living in the U.S.  Coupled with 
+this low intake was a high protein diet(which greatly increases the B6 
+requirement), as well as the presence of some of the 40 different drugs that 
+either block B6 absorption, are metabolic antagonists of B6, or promote B6 
+excretion in the urine.  Common ones are: birth control pills, alcohol,
+isoniazid, penicillamine, and corticosteroids.  I tell my students to 
+supplement all their patients that are going to get any of the drugs that 
+increase the B6 requirement.  The dose recommended for patients taking 
+birth control pills is 10-15mg per day and this should work for most of the 
+other drugs that increase the B6 requirement(this would be on top of your 
+dietary intake of B6).  Any patient that has a history of kidney stone 
+formation should be given B6 supplements.
+
+One other good way to prevent kidney stone formation is to make sure your 
+Ca/Mg dietary ratio is 2/1.  Magnesium-oxalate is much more soluble than is 
+calcium-oxalate.
+
+	4. ""The magnesium:calcium ratio in the concentrated urines of 
+patients with calcium oxalate calculi""Invest. Urol 10:147(1972)
+
+	5. ""Effect of magnesium citrate and magnesium oxide on the 
+crystallization of calcium in urine: changes producted by food-magnesium 
+interaction""J. Urol. 143(2):248-51(1990).
+
+	6.Review Article, ""Magnesium in the physiopathology and treatment 
+of renal calcium stones"" J. Presse Med. 161(1):25-27(1987).
+
+There are actually about three times as many articles published in the 
+medical literature on the role of magnesium in preventing kidney stone 
+formation than there are for B6.  I thought that I was being pretty safe in 
+stating that magnesium would prevent kidney stone formation in an earlier 
+post in this news group but good old John A. in Mass. jumped all over me. I 
+guess that he doesn't read the medical literature.  Oh well, since kidney 
+stones can be a real pain and a lot of people suffer from them, I thought 
+I'd tell you how you can avoid the pain and stay out of the doctor's office.
+
+Martin Banschbach, Ph.D.
+Professor of Biochemistry and Chairman
+Department of Biochemistry and Microbiology
+OSU College of Osteopathic Medicine
+1111 W. 17th Street
+Tulsa, Ok. 74107"
+81,train,1,misc.forsale,"These programs all include complete printed manuals and
+registration cards. I need to get rid of some excess.
+They're the latest versions. I've priced these programs
+at less than half the list price and significantly less
+than the cheapest mail-order price around.
+ 
+* MICROSOFT ENTERTAINMENT PACK VOLUME ONE, includes eight
+different Windows-based games, including Tetris, Taipei,
+Minesweeper, TicTactics, Golf, Cruel, Pegged, and IdleWild,
+list $49, sale $20.
+ 
+* JUST JOKING FOR WINDOWS 1.0, database of jokes from
+WordStar, can quickly find jokes for many different
+occasions, useful for business writers, speechwriters,
+presenters, and others, more than 2,800 jokes under 250
+topics, can search by keyword and author, list $49, sale 
+$25.
+ 
+* HUMOR PROCESSOR 2.02, DOS-based database of jokes,
+requires only 384 KB of RAM, along with thousands of
+categorized jokes you can quickly find also includes an
+online tutorial for writing your own jokes with proven
+comedy forumulas, list $99, sale $45.
+ 
+* HISTORY OF THE WORLD 1.0, multimedia CD-ROM covering cave
+society to the present, includes recordings of 25 famous
+speeches from Churchhill, Gandi, and others, list $795, sale
+$160.
+ 
+If you're interested in any of these programs, please phone me at
+215-885-7446 (Philadelphia) and I'll save the package for you."
+83,train,3,sci.med,"
+
+Shouldn't have.  But he may need to see the shrink about why he
+wanted to kill himself.  Depressed people can be succesfully treated
+usually.
+
+
+
+
+
+-- 
+----------------------------------------------------------------------------
+Gordon Banks  N3JXP      | ""Skepticism is the chastity of the intellect, and
+geb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon."" "
+85,train,0,comp.graphics,"Hi Netters,
+
+I'm building a CAD package and need a 3D graphics library that can handle
+some rudimentry tasks, such as hidden line removal, shading, animation, etc.
+
+Can you please offer some recommendations?
+
+I'll also need contact info (name, address, email...) if you can find it.
+
+Thanks
+
+(Please Post Your Responses, in case others have same need)"
+86,train,4,sci.space,"
+Nope, I haven't seen the film, but Taylor's biography (""The Curve of 
+Binding Energy"") contains a short section on Orion and this test flight.
+Apparently it was quite impressi, and got von Braun very excited.
+
+In Real Life:Mike Williams     | Perpetual Grad Student
+e-mail      :mrw9e@virginia.edu|   - It's not just a job, it's an indenture"
+87,train,1,misc.forsale,"Sorry to waste the bandwidth. Does anyone know a software mail order company 
+called ""Software Unlimited""? I ordered a software from them and they charged my
+credit card but never did send the package to me.
+
+I call them many times but nobody answer the phone. I also check Computer
+Shoppers and found they don't advertise anymore. If you know if they are still
+in business or you know how to contact them, please tell me.
+
+Thank you very much."
+88,train,0,comp.graphics,"Does anyone know of a good way (standard PC application/PD utility) to
+convert tif/img/tga files into LaserJet III format.  We would also like to
+do the same, converting to HPGL (HP plotter) files.
+
+Please email any response.
+
+Is this the correct group?
+
+Thanks in advance.  Michael."
+89,train,1,misc.forsale,"I have the following for sale:
+
+TI 855 Printer in excellect working condition
+ $100 + postage
+
+Game = The Lost Files of Sherlock Holmes 
+  Original box and contents used 1 time and
+  unregistered  $30 + postage
+
+If iterested EMAIL me at:
+
+EMAIL = caldwell@epcot.spdc.ti.com"
+90,train,2,rec.autos,": 
+: > 
+: > HELP!!!
+: > my wife has informed me that she wants a convertible for her next car.
+: 
+:
+: FYI, just last week the PBS show Motor Week gave the results of what they 
+: thought were the best cars for '93.  In the convertible category, the 
+: Honda Civic del Sol achieved this honor.  
+:  
+: The one down-side I see with the car is its interior, it looks 
+: inexpensive and dull.
+: 
+I own a del Sol and I must vouch for the interior.  I really looks snazzy when
+the top is off.  I looks a lot better in person than on the television.  (I saw
+that Motorweek as well.  Needless to say I was smiling a bit by the time it
+was over ...)  :*)
+
+Watch out for that darned ""convertible tan"" tho..."
+91,train,1,misc.forsale,"I have a pair of car speakers for sale. They are BRAND NEW, still in box and 
+plastic wrap. I got them at Highland's going-out-of-business sale just yesterday
+However they won't fit my car's rear deck because it's not the right size.
+So, I am trying to sale them here.
+
+INFINITY RS-6903 
+6x9 Three-Way
+Freq. Resp. 40-22k Hz
+Power Capacity: 90 Watts per channel
+Sensitivity: 93 dB SPL/1W/1m
+Impedance 4 ohms
+Mouting Depth 3""
+
+List Price $200
+Stereo Store $140-165 + tax
+Mail Order Catalog Price $149 + S/H
+My Price $120 obo + Shipping
+
+Please e-mail me at fang@en.ecn.purdue.edu
+or call me at (317)743-1394 "
+92,train,3,sci.med,"
+Endometriosis is where cells that would normally be lining the uteris exist
+outside the uteris.  Sometimes this causes problems, often it doesn't.
+There is generally no need to remove pockets of endometriosis unless they are
+causing other problems.  One lady I know had Endometriosis in an ovary.  
+This caused her a _great_ deal of pain.  Another lady I know has an     
+endometrial cyst in her abdominal wall; she is not having it removed.
+
+The American Fertility Society has information on this and they probably 
+maintain a list of physicians in all parts of the continent that deal with
+endometriosis.  You can reach them at:
+
+The American Fertility Society
+2140 11th Ave South
+Suite 200
+Birmingham, Alabama 35205-2800
+(205)933-8494"
+94,train,0,comp.graphics,"I saw this subject and all I could think of was a parade at Wrigley Field
+in Chicago.
+
+Or maybe it's just me. 
+
+:)
+
+
+-- 
+Marc Cooper - Graphics Programmer - Sverdrup Tech.| ""As a child, I WAS an 
+fsmarc@lerc.nasa.gov                              |       imaginary playmate.""
+NASA Lewis Research Center  MS 5-11               |                        
+21000 Brookpark Dr.                               | Tom Robbins
+Cleveland, OH  44135               (216) 433-8898 | Even Cowgirls Get the Blues"
+96,train,4,sci.space,"SOmebody mentioned  a re-boost of HST during this mission,  meaning
+that Weight is a very tight  margin on this  mission.
+
+How will said re-boost be done?
+
+Grapple, HST,  stow it in Cargo bay,  do OMS burn to high altitude,  
+
+unstow  HST,   repair  gyros,  costar install,  fix solar arrays,
+
+then return to earth?
+
+My guess is  why  bother with  usingthe shuttle to reboost?
+
+why not  grapple,  do all said fixes,   bolt a small  liquid  fueled
+thruster module  to  HST,   then let it make the re-boost.  it has to be
+cheaper on mass then usingthe shuttle as a tug.   that way, now that
+they are going to need at least 5  spacewalks,  then they can carry
+an EDO pallet,  and  sit on station and even  maybe do the  solar array
+tilt  motor  fix."
+97,train,2,rec.autos,"
+the transmission in my car contradicts both your assertions..  i get much
+stronger acceleration if i let the convertor lockup.. which i can induce
+by briefly lifting off,  then quickly (but not too quickly to trigger
+a kickdown) applying throttle.  above 3000 rpms, the convertor will never
+unlock;  it would kickdown first.
+
+who says there's no skill involved in driving an automatic?  i think
+of it as the throttle and shifter combined into a single pedal.  with
+my car i can pretty much influence its shifting patterns with my
+right foot, while having both hands to steer.
+"
+98,train,4,sci.space,"
+No, instead you have stupid things like 3600 and 86400 and 31556925.9747 and
+299792.458 and 9.80665 and ...
+
+How many cc's in a ml anyway?  The metric system has its problems, just not
+as many of them.
+"
+100,train,0,comp.graphics,"==============================================================================
+Bear with me i'm new at this game, but could anyone explain exactly what DMORF
+does, does it simply fade one bitmap into another or does it re shape one bitma
+p into another. Please excuse my ignorance, i' not even sure if i've posted thi
+s message correctly.
+"
+101,train,3,sci.med,"JL> From: jlecher@pbs.org
+JL> > I would not classify a mild headache that was continuous for weeks
+JL> > as migraine, even if the other typical features were there (e.g.,
+JL> > unilateral, nausea and vomiting, photophobia).  Migraines are, by
+JL> > common agreement, episodic rather than constant.
+JL> >
+JL> Well, I'm glad that you aren't my doctor, then, or I'd still be suffering.
+JL> Remember, I was tested for any other cause, and there was nothing. I'm
+JL> otherwise very healthy.
+JL> The nagging pain has all of the qualifications: it's on one side, and
+JL> frequently included my entire right side: right arm, right leg, right eye,
+JL> even the right side of my tongue hurt or tingled. Noise hurt, light hurt,
+JL> thinking hurt. When it got bad, I would lose my ability to read.
+
+The differential diagnosis between migraine and non-migranous pain
+is not *always* important, because some therapies are effective in
+both (e.g., tricyclic antidepressants such as amitriptyline,
+non-steroidal anti-inflammatory drugs such as ibuprofen).  Other
+therapies may be more specific: beta-blockers such as propranolol
+work better in migraine than tension-type headache.
+
+The most important thing, from your perspective, is that you got
+relief.  Also, please understand that a diagnosis other than
+migraine does not necessarily mean ""psychogenic""; I suspect that
+organic factors play as large a role in tension-type headache as in
+migraine."
+102,train,3,sci.med,"My husband woke up three days ago with a small sore spot
+(a spot about the size of a nickel) on one of his testicles. Bottom side,
+no knots or lumps, just a little sore spot.  He says it reminds him of 
+how a bruise feels.  He has no recollection of hitting it or anything like
+that that would cause a bruise. (He asssures me he'd remember something
+like that :-) 
+
+Any clues as to what it might be?  He's somewhat of a hypochondriac (sp?)
+so he's sure he's gonna die. . .
+
+Thanks!!
+"
+103,train,2,rec.autos,"
+even a minivan based on viper running gear?"
+104,train,2,rec.autos,"
+Warren Brown, the Washington Post's auto writer was the first journalist
+to get his hands on the New Yorker.  If you'd like his impressions of it
+his review appeared in Friday's paper, in the ""Weekend"" section.
+He is not your traditional auto writer...
+Enjoy.
+
+"
+105,train,3,sci.med,"
+Ever heard of something called the placebo effect? I think Dyer is
+reacting because it looks to be yet another case of the same old
+quackery over and over again.
+
+It true that current medical knowledge is limited, but do you realize
+just HOW MANY quacks exist eager to suck your $$$$. It's playing the
+lottery at best.
+
+If the results you got were so clear and obvious, would you mind
+trying a little experiment to see if it is true? It would be quite
+simple. Have sugar pills and have real pills.  Take one set for one
+week and the other set for another week without knowing which ones are
+the real pills. Then at the end of the 2 weeks compare the results.
+Let's say you're wife would know which are the real ones. If what you
+are experiencing is true there should be a marked difference between
+each week. 
+ 
+john
+"
+107,train,2,rec.autos,"
+
+nice theory.  too bad the MR2's never came with a four cylinder over 2.0
+liters.  More like 1.6.  Or did they? were the nonturbo MR2II's  2.2 or
+some such?
+
+I also understand that anyone using balancing shafts on four cylinders, must
+pay SAAB a royalty for using their patented design..like Porsche's 3.0 I4..."
+108,train,2,rec.autos,"
+
+A list of options that would be useful. They can be existing
+options on a car, or things you'd like to have...
+
+1) Tripmeter, great little gadget. Lets you keep rough track of>
+   mileage, makes a good second guesser for your gas gauge...
+
+2) Full size spare
+
+3) Built in mountings and power systems for radar detectors.
+
+4) a fitting that allows you to generate household current with
+the engine running, and plug ins in the trunk, engine compartment
+and cabin.
+
+Feel free to add on...
+
+5) Power windows"
+109,train,3,sci.med,"
+
+
+No, this is wrong.  The purpose is to preserve the substances in
+the tubes longer by creating relativistic speeds and thus
+time dilatation.  Of course, by slowing the subjective time of
+the test tubes they get less bored, which is probably what you
+were thinking of."
+110,train,2,rec.autos,"
+
+
+I have been for a fairly hard run in an MX5, what they lack in power they
+surely make up for in handling.  Great for back streets with heaps of corners.
+They are a fairly light car with a low center of gravity and a quite free
+revving DOHC engine, a fun car.  Have you driven a TURBO converted
+MX5?  Now they are starting to perform!  I've often thought a Mazda rotary
+would go well in the XM5 too....anyone done it?
+
+Regards Scott.
+_______________________________________________________________________________
+Scott Fisher [scott@psy.uwa.oz.au]  PH: Aus [61] Perth (09) Local (380 3272).                
+                                                             _--_|\       N
+Department of Psychology                                    /      \    W + E
+University of Western Australia.      Perth [32S, 116E]-->  *_.--._/      S
+Nedlands, 6009.  PERTH, W.A.                                      v       
+
+Joy is a Jaguar XJ6 with a flat battery, a blown oil seal and an unsympathetic 
+wife, 9km outside of a small remote town, 3:15am on a cold wet winters morning."
+111,train,4,sci.space,"Reading from a Amoco Performance Products data sheet, their
+ERL-1906 resin with T40 carbon fiber reinforcement has a compressive
+strength of 280,000 psi.  It has a density of 0.058 lb/cu in,
+therefore the theoretical height for a constant section column
+that can just support itself is 4.8 million inches, or 400,000 ft,
+or 75 Statute miles.
+
+Now, a real structure will have horizontal bracing (either a truss
+type, or guy wires, or both) and will be used below the crush strength.
+Let us assume that we will operate at 40% of the theoretical 
+strength.  This gives a working height of 30 miles for a constant
+section column.  
+
+A constant section column is not the limit on how high you can
+build something if you allow a tapering of the cross section
+as you go up.  For example, let us say you have a 280,000 pound
+load to support at the top of the tower (for simplicity in
+calculation).  This requires 2.5 square inches of column cross
+sectional area to support the weight.  The mile of structure
+below the payload will itself weigh 9,200 lb, so at 1 mile 
+below the payload, the total load is now 289,200 lb, a 3.3% increase.
+
+The next mile of structure must be 3.3% thicker in cross section
+to support the top mile of tower plus the payload.  Each mile
+of structure must increase in area by the same ratio all the way
+to the bottom.  We can see from this that there is no theoretical
+limit on area, although there will be practical limits based
+on how much composites we can afford to by at $40/lb, and how
+much load you need to support on the ground (for which you need
+a foundation that the bedrock can support.
+
+Let us arbitrarily choose $1 billion as the limit in costruction
+cost.  With this we can afford perhaps 10,000,000 lb of composites,
+assuming our finished structure costs $100/lb.  The $40/lb figure
+is just for materials cost.  Then we have a tower/payload mass
+ratio of 35.7:1.  At a 3.3% mass ratio per mile, the tower
+height becomes 111 miles.  This is clearly above the significant
+atmosphere.  A rocket launched from the top of the tower will still
+have to provide orbital velocity, but atmospheric drag and g-losses
+will be almost eliminated.  G-losses are the component of
+rocket thrust in the vertical direction to counter gravity,
+but which do not contribute to horizontal orbital velocity.  Thus
+they represent wasted thrust.  Together with drag, rockets starting
+from the ground have a 15% velocity penalty to contend with.
+
+This analysis is simplified, in that it does not consider wind
+loads.  These will require more structural support over the first
+15 miles of height.  Above that, the air pressure drops to a low
+enough value for it not to be a big factor.
+
+Dani Eder
+"
+112,train,2,rec.autos,"
+There is something going on here.  It seems that once a month, the VW
+group must have get a specific detailed question about Hondas.  I
+would like to ask that next month we get one about Hyundai instead of
+Honda.  Thank you."
+113,train,0,comp.graphics,"
+The 68070 is a variation of the 68010 that was done a few years ago by
+the European partners of Motorola. It has some integrated I/O controllers
+and half a MMU, but otherwise it's a 68010. Think of it the same as
+the 8086 and 80186 were.
+
+		Burkhard Neidecker-Lutz"
+114,train,2,rec.autos,ites:
+117,train,4,sci.space,"
+The Orion concept as actually proposed (as opposed to the way it has been
+somewhat misrepresented in some fiction) included wrapping a thick layer
+of reaction mass -- probably plastic of some sort -- around each bomb.
+The bomb vaporizes the reaction mass, and it's that which transfers
+momentum to the pusher plate."
+119,train,0,comp.graphics,"  Does anyone know how to convert a targa or similar 24 bit picture into a list
+ of R G B values and then convert back to targa after doing operations on the p
+ixels R G B codes.
+ex.  Targa ---->000100255pixel 1
+001200201pixel 2etc....
+If no one can help me with this could someone explain how the 24 bit data is st
+ored in the targa file and also how its stored in the 8 bit targas.   Thanks
+"
+120,train,4,sci.space,"Posted to the Internet by wmiler@nyx.cs.du.edu
+ 
+000062David42      041493003715
+ 
+             The Lunar Tele-operation Model One (LTM1)
+             =========================================
+                        By David H. Mitchell
+                          March 23, 1993
+ 
+INTRODUCTION:
+ 
+In order to increase public interest in space-based and lunar operations, a
+real miniature lunar-like environment is being constructed on which to test
+tele-operated models. These models are remotely-controlled by individuals
+located world-wide using their personal computers, for EduTainment
+purposes.
+Not only does this provide a test-bed for simple tele-operation and
+tele-presence activities but it also provides for the sharing of
+information
+on methods of operating in space, including, but not limited to, layout of
+a
+lunar colony, tele-operating machines for work and play, disseminating
+educational information, providing contests and awards for creativity and
+achievement and provides a new way for students worldwide to participate in
+Twenty-First century remote learning methods.
+ 
+Because of the nature of the LTM1 project, people of all ages, interests
+and
+skills can contribute scenery and murals, models and structures,
+interfacing
+and electronics, software and graphics. In operation LTM1 is an evolving
+playground and laboratory that can be used by children, students and
+professionals worldwide. Using a personal computer at home or a terminal at
+a participating institution a user is able to tele-operate real models at
+the
+LTM1 base for experimental or recreational purposes. Because a real
+facility
+exists, ample opportunity is provided for media coverage of the
+construction
+of the lunar model, its operation and new features to be added as suggested
+by the users themselves.
+ 
+This has broad inherent interest for a wide range of groups:
+ - tele-operations and virtual reality research
+ - radio control, model railroad and ham radio operation
+ - astronomy and space planetariums and science centers
+ - art and theater
+ - bbs and online network users
+ - software and game developers
+ - manufacturers and retailers of model rockets, cars and trains
+ - children
+ - the child in all of us
+ 
+LTM1 OVERALL DESIGN:
+ 
+A room 14 feet by 8 feet contains the base lunar layout. The walls are used
+for murals of distant moon mountains, star fields and a view of the earth.
+The ""floor"" is the simulated lunar surface. A global call for contributions
+is hereby made for material for the lunar surface, and for the design and
+creation of scale models of lunar colony elements, scenery, and
+machine-lets.
+ 
+ The LTM1 initial design has 3 tele-operated machinelets:
+ 1. An SSTO scale model which will be able to lift off, hover and land;
+ 2. A bulldozerlet which will be able to move about in a quarry area; and
+ 3. A moon-train which will traverse most of the simulated lunar surface.
+ 
+ Each machinelet has a small TV camera utilizing a CCD TV chip mounted on
+ it. A personal computer digitizes the image (including reducing picture
+ content and doing data-compression to allow for minimal images to be sent
+ to the operator for control purposes) and also return control signals.
+ 
+The first machinelet to be set up will be the moon-train since model trains
+with TV cameras built in are almost off-the-shelf items and control
+electronics for starting and stopping a train are minimal. The user will
+receive an image once every 1 to 4 seconds depending on the speed of their
+data link to LTM1.
+ 
+Next, an SSTO scale model with a CCD TV chip will be suspended from a
+servo-motor operated wire frame mounted on the ceiling allowing for the
+SSTO
+to be controlled by the operator to take off, hover over the entire lunar
+landscape and land.
+ 
+Finally, some tank models will be modified to be CCD TV chip equipped
+bulldozerlets. The entire initial LTM1 will allow remote operators
+worldwide
+to receive minimal images while actually operating models for landing and
+takeoff, traveling and doing work. The entire system is based on
+commercially
+available items and parts that can be easily obtained except for the
+interface electronics which is well within the capability of many advanced
+ham radio operator and computer hardware/software developers.
+ 
+By taking a graphically oriented communications program (Dmodem) and adding
+a tele-operations screen and controls, the necessary user interface can be
+provided in under 80 man hours.
+ 
+PLAN OF ACTION:
+ 
+The Diaspar Virtual Reality Network has agreed to sponsor this project by
+providing a host computer network and Internet access to that network.
+Diaspar is providing the 14 foot by 8 foot facility for actual construction
+of the lunar model. Diaspar has, in stock, the electronic tanks that can be
+modified and one CCD TV chip. Diaspar also agrees to provide ""rail stock""
+for the lunar train model. Diaspar will make available the Dmodem graphical
+communications package and modify it for control of the machines-lets.
+An initial ""ground breaking"" with miniature shovels will be performed for
+a live photo-session and news conference on April 30, 1993. The initial
+models will be put in place. A time-lapse record will be started for
+historical purposes. It is not expected that this event will be completely
+serious or solemn. The lunar colony will be declared open for additional
+building, operations and experiments. A photographer will be present and
+the photographs taken will be converted to .gif images for distribution
+world-wide to major online networks and bbs's. A press release will be
+issued
+calling for contributions of ideas, time, talent, materials and scale
+models
+for the simulated lunar colony.
+ 
+A contest for new designs and techniques for working on the moon will then
+be
+announced. Universities will be invited to participate, the goal being to
+find instructors who wish to have class participation in various aspects of
+the lunar colony model. Field trips to LTM1 can be arranged and at that
+time
+the results of the class work will be added to the model. Contributors will
+then be able to tele-operate any contributed machine-lets once they return
+to
+their campus.
+ 
+A monthly LTM1 newsletter will be issued both electronically online and via
+conventional means to the media. Any major new tele-operated equipment
+addition will be marked with an invitation to the television news media.
+Having a large, real model space colony will be a very attractive photo
+opportunity for the television community. Especially since the ""action""
+will
+be controlled by people all over the world. Science fiction writers will be
+invited to issue ""challenges"" to engineering and human factors students at
+universities to build and operate the tele-operated equipment to perform
+lunar tasks. Using counter-weight and pulley systems, 1/6 gravity may be
+simulated to some extent to try various traction challenges.
+ 
+The long term goal is creating world-wide interest, education,
+experimentation
+and remote operation of a lunar colony. LTM1 has the potential of being a
+long
+term global EduTainment method for space activities and may be the generic
+example of how to teach and explore in many other subject areas not limited
+to space EduTainment. All of this facilitates the kind of spirit which can
+lead to a generation of people who are ready for the leap to the stars!
+ 
+CONCLUSION:
+ 
+EduTainment is the blending of education and entertainment. Anyone who has
+ever enjoyed seeing miniatures will probably see the potential impact of a
+globally available layout for recreation, education and experimentation
+purposes. By creating a tele-operated model lunar colony we not only create
+world-wide publicity, but also a method of trying new ideas that require
+real
+(not virtual) skills and open a new method for putting people's minds in
+space.
+ 
+ 
+MOONLIGHTERS:
+ 
+""Illuminating the path of knowledge about space and lunar development.""
+The following people are already engaged in various parts of this work:
+David42, Rob47, Dash, Hyson, Jzer0, Vril, Wyatt, The Dark One, Tiggertoo,
+The Mad Hatter, Sir Robin, Jogden.
+ 
+Come join the discussion any Friday night from 10:30 to midnight PST in
+ 
+Diaspar Virtual Reality Network. Ideas welcome!
+ 
+Internet telnet to: 192.215.11.1 or diaspar.com
+ 
+(voice)  714-376-1776
+(2400bd) 714-376-1200
+(9600bd) 714-376-1234"
+121,train,2,rec.autos,"
+GM, at least, is heading in that direction.  One of the post-sale
+questions they asked me was if I'd like the choice of a cigarette
+liter or an accessory plug, and another whether I'd like the choice of
+an ashtray or a cup holder.
+
+The '93 Geo Storms have the cigarette lighter vs accessory plug option
+(which did not exist in the '92 I bought) -- I'm not sure about the
+ash tray vs cup holder.  It's a step in the right direction.
+
+The ashtray does make a convenient change-holder so it's not
+completely useless."
+122,train,4,sci.space,"The only ether I see here is the stuff you must
+have been breathing before you posted...
+"
+123,train,4,sci.space,"
+ >In article <1993Apr19.020359.26996@sq.sq.com>, msb@sq.sq.com (Mark Brader) 
+
+MB>                                                             So the
+MB> 1970 figure seems unlikely to actually be anything but a perijove.
+
+JG>Sorry, _perijoves_...I'm not used to talking this language.
+
+Couldn't we just say periapsis or apoapsis?
+
+ "
+124,train,4,sci.space,"
+   My understanding is that the 'expected errors' are basically
+   known bugs in the warning system software - things are checked
+   that don't have the right values in yet because they aren't
+   set till after launch, and suchlike. Rather than fix the code
+   and possibly introduce new bugs, they just tell the crew
+   'ok, if you see a warning no. 213 before liftoff, ignore it'.
+
+Good grief. And I thought the Shuttle software was known for being
+well-engineered. If this is actually the case, every member of the
+programming team should be taken out and shot.
+
+(given that I've heard the Shuttle software rated as Level 5 in
+maturity, I strongly doubt that this is the case)."
+125,train,2,rec.autos,"
+
+	Yeah.  I don't use the clutch all the time either.  I've done it
+with Fords, BMW, Datsun, and Chevy and it works fine.  I can't think of
+any reason that it would damage the tranny.  Essentially you are just
+doing what the synchros do anyhow - match the engine speed with the
+tranny speed and slip it into gear.
+
+
+
+
+	Sounds about right.  I usually slip it out during throttle-down
+and then blip the throttle and wait until it feels like things are right
+(usually about a second) and then slip it into gear...
+
+-- 
+--------------------------------------------------------------------
+Jon ""You obviously don't know who you're dealing with"" Gross
+jong@halcyon.com"
+127,train,3,sci.med,"Following a series of miscarriages, my wife was given a transfusion of
+my white cells. (The theory as I understand it is that there is some kind
+of immune blocking that prevents the body from attacking the pregnancy as
+it normally would a ""foreign"" body. Where this blocking is deficient, the
+body evicts the ""intruder"", resulting in a miscarriage. The white cells
+apparently enhance the blocking capability.) Following the transfusion, she
+successfully carried the next pregnancy to term, and Jake is now an active
+9 month-old who cannot wait to walk.
+     We're now thinking about having another child, but no one (including
+the OBGYN who supervised the first transfusion) really seems to know
+whether or not the transfusion process needs to be repeated for successive
+pregnancies.
+     Is there anyone in net-land who has experience with this?
+Thanks...Gene (and Jane and Jake)"
+128,train,2,rec.autos,"My friend brought a subaru SVX recently.  I had drove it for couples times and I
+think its a great car, esp on snow.  However when she took it to a local Subaru
+dealer for a oil change, the bill came out to be about 80 dollars.  The dealer
+told us it is because to change the oil filter on a SVX it is necessary to
+disassemble a metal cover under the engine and that took an hour of labour.
+At first, we think we are being ripped off so she phone to a dealer in Toronto
+but found out the they are charging roughly the same price.  So is there any
+SVX owner out there that has the same problem ?  And if the oil change story is
+true, then the engineer of Subaru looks pretty stubid to me. By the way, the car
+looks great."
+129,train,1,misc.forsale,"features include:
+
+Detachable Face, 30x4 watt amplifier, Infra-red Remote, 8 times oversampling
+1 bit DAC, supertuner IV (18fm and 6am presets), best station memory
+CD Changer Controller, loud switch, clock
+
+all original packaging, asking $450.00 (or best offer)
+
+This CD reciever is a very nice radio, great condition, the remote comes in very
+handy (you wouldn't think it would), TOP of the line CD Reciever
+
+Interested!  send email to Brion Sohn at (easu351@orion.oac.uci.edu)
+             any resonable offers will be considered"
+130,train,3,sci.med,"
+It is illegal to perform acupuncture with unsterilized needles. No licensed
+practitioner would dare do this. Also there is not a single documented case
+of transmission of AIDS via acupuncture needles. I wouldn't worry about it."
+132,train,3,sci.med,"Subject: options before back surgery for protruding disc at L4-L5
+From: Alex Miller, amiller@almaden.ibm.com
+Date: 13 Apr 93 18:30:42 GMT
+rest
+
+You don't say whether or not you have any symptoms other than pain.
+If you have numbness, weakness or bladder problems, for example,
+these would suggest a need for surgery. If pain is your only symptom
+you might do well to find a reputable, multi-disciplinary pain
+clinic in your area. Chronic low back pain generally doesn't do well
+with surgery, acute on chronic pain (as only symptom) doesn't fare
+much better.
+e correlation between MRI findings and symptoms is controversial."
+134,train,4,sci.space,"Any comments on the absorbtion of the Office of Exploration into the
+Office of Space Sciences and the reassignment of Griffin to the ""Chief
+Engineer"" position?  Is this just a meaningless administrative
+shuffle, or does this bode ill for SEI?
+
+In my opinion, this seems like a Bad Thing, at least on the surface.
+Griffin seemed to be someone who was actually interested in getting
+things done, and who was willing to look an innovative approaches to
+getting things done faster, better, and cheaper.  It's unclear to me
+whether he will be able to do this at his new position.
+
+Does anyone know what his new duties will be?
+--
+_______________________________________________________________________________"
+135,train,1,misc.forsale,"For Sale:
+
+      Tektronix 4208 Color Terminal
+      Tektronix 4510A Rasterizer
+      Tektronix 4692 InkJet Printer
+
+      Tektronix 4692 Printer Extras (all Tektronix products):
+
+        Paper (> 3 boxes)
+        Transparencies (> 2 boxes)
+        Maintenance Cartridges (2 cart)
+        Magenta Ink Cartridge (1 cart)
+
+  We would like to sell as a single lot, and preference
+  will be given to offers for the entire list.  All offers
+  accepted, best offer gets the equipment.
+
+  -- Bob"
+136,train,1,misc.forsale,"I just love these posts from the ex-Soviet Union.  Among the cars, dinette
+sets, video cameras, etc. every now and then an ad pops up for bee venom,
+RED OXIDE OF MERCURY, cobalt (100 tons minimum order), etc.  Don't they
+have garage sales in Russia?   :-)
+"
+137,train,4,sci.space,"FOR IMMEDIATE RELEASE           Contact:  OASIS (310) 364-2290
+
+   15 April 1993                                Los Angeles, CA
+
+     LOCAL NATIONAL SPACE SOCIETY CHAPTERS SPONSOR TALK BY L.A.
+  ADVOCATE OF LUNAR POWER SYSTEM AS ENERGY SOURCE FOR THE WORLD
+
+   On April 21, the OASIS and Ventura County chapters of the National 
+Space Society will sponsor a talk by Lunar Power System (LPS) co-
+inventor and vice-president of the LPS Coalition, Dr. Robert D.
+Waldron.  It will be held at 7:30 p.m. at the Rockwell Science
+Center in Thousand Oaks, CA.
+
+   Dr. Waldron is currently a Technical Specialist in Space
+Materials Processing with the Space Systems Division of Rockwell
+International in Downey, California.  He is a recognized world
+authority on lunar materials refinement.  He has written or
+coauthored more than 15 articles or reports on nonterrestrial
+materials processing or utilization.  Along with Dr. David
+Criswell, Waldron invented the lunar/solar power system concept.
+
+   Momentum is building for a coalition of entrepreneurs, legal
+experts, and Soviet and U.S. scientists and engineers to build
+the Lunar Power System, a pollution-free, energy source with a
+potential to power the globe.
+
+   For the past three years members of the coalition, nearly half
+from California, have rejuvenated the commercial and scientific
+concept of a solar power system based on the Moon.
+
+   The LPS concept entails collecting solar energy on the lunar
+surface and beaming the power to Earth as microwaves transmitted
+through orbiting antennae.  A mature LPS offers an enormous
+source of clean, sustainable power to meet the Earth's ever
+increasing demand using proven, basic technology.
+
+   OASIS (Organization for the Advancement of Space
+Industrialization) is the Greater Los Angeles chapter of the
+National Space Society, which is an international non-profit
+organization that promotes development of the space frontier.
+The Ventura County chapter is based in Oxnard, CA.
+
+       WHERE:  Rockwell Science Center Auditorium, 1049 Camino
+               Dos Rios, Thousand Oaks, CA."
+138,train,0,comp.graphics,"Hi!
+
+I need a Windows 3.1 driver for the Matrox PG-1281 CV
+SVGA card. 
+At the moment Windows runs only in the 640x480 mode.
+If you have a driver for this card, please send it 
+with the OEMSETUP.INF to 
+
+bockamp@Informatik.TU-Muenchen.DE
+
+Thanks!
+"
+139,train,2,rec.autos,"
+
+just to satiate my curiosity, why would this make you the stupid one?  It seems
+to me, everybody SHOULD be aware enough of what is going on.  You do not need
+to calculate the future position.  You need to look at your mirrors a little
+more.  If you glance around, you will be able to tell how much faster than you
+the car is going.  Maybe not precisely, but well enough to know if you should
+let him around before you try to pass.  I know what you are talking about,
+about the other driver being startled, because i myself have been startled
+by drivers cruising by at around 90-100mph when i'm doin 55-65.  The problem,
+though, as i saw it, was not their fault for barreling around me, but my fault
+for not paying the attention to my task-at-hand that i should have been.
+Oddly enough, since the 2nd time(happened 2x in around 4 mo. when i'd had my
+liscence for around 6 mo), i haven't been startled..and i've been passed by
+cars doing roughly twice the speed of my car.  Another odd occurance is the
+fact that this only seems to happen on LONG trips...and if i drive along with
+them, it doesn't happen at all :-) even on the long trips! :-)  (adrenaline
+will do that to you...i've had bad cop experiences with speeding, so anything
+over the limit is adrenalizing for me...scared i'll get caught :-)  Maybe
+they should raise the limit, so we can pay better attention.....
+
+just curious, and my .otwo"
+140,train,0,comp.graphics,"Hello,
+    I've recently had Povray draw about 10 sample files. The problem is that
+I accidently erased the command in my povray.def that made the image a targas
+file. So now the files are the dump format. How do I fix these files with out
+having to re-trace them? By fix I mean, turn them into targas. Thanks in
+advance.
+                                                -Jerry"
+141,train,3,sci.med,"From article <1993Apr22.233001.13436@vax.oxford.ac.uk>, by krishnas@vax.oxford.ac.uk:
+The areas that are least likely to hurt are where you have a little 
+fat.  I inject on my legs and gut, and prefer the gut.  I can stick
+it in at a 90 degree angle, and barely feel it.  I'm not fat, just
+have a little gut.  My legs however, are muscular, and I have to pinch
+to get anything, and then I inject at about a 45 degree angle,and it
+still hurts.  The rate of absorbtion differs for subcutaneous and  
+muscular injections however--so if it's a daily thing it would be
+best not to switch places every day to keep consistencey.  Although
+some suggest switch legs or sides of the stomach for each shot, to prevent 
+irritation.  When you clean the spot off with an alcohol prep, 
+wait for it to dry somewhat, or you may get the alcohol in the
+puncture, and of course, that doesn't feel good.  A way to prevent
+irratation is to mark the spot that you injected.  A good way to
+do this is use a little round bandage and put it over the 
+spot.  This helps prevent you from injecting in the same spot,
+and spacing the sites out accuartely (about 1 1/2 "" apart.)
+
+This is from experience, so I hope it'll help you.  (I have
+diabetes and have to take an injection every morning.)
+
+			Later,
+				David"
+142,train,3,sci.med,"
+The fantasy was that he had found something of fundamental importance to
+one of the hot questions of the day ('77).  He really had very little
+reason to believe it, other than raw hope.  By fantasy, I certainly don't
+mean Velikovskian manias.
+
+
+I'm not familiar with the history of this experiment, although, arguably,
+I should be.
+
+
+I think that it is enough if his contemporaries found the result surprising.
+That's not what I'd quibble about.  What I'd like to know are Toricelli's
+reasons for doing his experiment; not the post hoc _constructed_ reasons,
+but the thoughts in his head as he considered the problem.  It may be
+impossible to know much about Toricelli's thoughts; that's too bad if
+it is so.  One of Root-Bernstein's services to science is that he has gone
+rooting about in Pasteur's and Fleming's (and other people's) notes, and has
+discovered some surprising clues about their motivations.  Pasteur never
+publicly admitted his plan to create mirror-image life, but the dreams are
+right there in his notebooks (finally public after many years), ready for
+anyone to read.  And I and my friends often have the most ridiculous
+reasons for pursuing results; one of my best came because I was mad at
+a colleague for a poorly-written claim (I disproved the claim).
+
+Of course, Toricelli's case may be an example of a rarety: where the
+fantasy not only motivates the experiment, but turns out to be right
+in the end.
+
+Mark"
+143,train,0,comp.graphics,"Just posting to John Cormack.
+I wanted to tell you that there is a ""slight"" difference between 
+Speedstar 24 and Speedstar 24X
+"
+145,train,0,comp.graphics,"Using the VMODE command, all you need to do is type VMODE VESA at the dos
+prompt. VMODE is included with the Speedstar 24.  I have used the VESA mode
+for autodesk animator pro.
+"
+147,train,0,comp.graphics,"The Harvard Computer Society is pleased to announce its third lecture of
+the spring.  Ivan Sutherland, the father of computer graphics and an
+innovator in microprocessing, will be speaking at Harvard University on
+Tuesday, April 20, 1993, at 4:00 pm in Aiken Computations building, room
+101.  The title of his talk is ""Logical Effort and the Conflict over the
+Control of Information.""
+
+Cookies and tea will be served at 3:30 pm in the Aiken Lobby.  Admissions
+is free, and all are welcome.
+
+Aiken is located north of the Science Center near the Law School.
+
+For more information, send e-mail to eekim@husc.harvard.edu.
+
+The lecture will be videotaped, and a tape will be made available.
+
+Thanks.
+"
+149,train,2,rec.autos,"In rec.autos you write:
+
+
+This McLaren auto-transmission (I still think it's only half auto,
+but You may be right) has NOTHING to do with Your GM, Chrysler, Volvo,
+or whatever auto transmission. It's a normal manual transmission
+gearbox with clutch and all, but there are servo motors, which do
+the shifting. 
+
+That means, there is no power loss in the drivetrain (if You take out 
+minimal mechanical friction), and the sami-auto transmissions 
+(Ferrari, Williams, McLaren(?),...) don't tell You, when to shift,
+either. However, these transmissions share an important disadvantage
+with Your stock auto-trannie: They are EXPENSIVE.
+
+As long as these servo-shifted gearboxes aren't available on 
+'normal' cars I'm gonna stick with my manual. I just can't see an
+advantage to make up for two grand I lose in this deal and the
+loss in mileage and power (except maybe in real heavy traffic). But
+then I drive mostly on the autobahn and country roads anyway.
+
+There's no point in making a religion out of this, I just wanted to
+point out a few technical facts and MY OWN opinion, so there's
+no need for a flame war.
+
+
+Have a safe ride"
+150,train,2,rec.autos,"
+OK...
+
+5) How about a fuel gauge that *really* told you how much fuel was
+   left.  Like, ""can I make it to where the gas is $1.14 or should
+   I get gouged right here at $1.35?""  Accurate to the tenth of a
+   gallon would be great."
+151,train,3,sci.med,"
+As I understood it, MSG *is* natural.  Isn't it found in 
+tomatoes?
+
+Anyway, lots of people are terribly allergic to lots of natural
+things; peanuts, onions, tomatoes, milk, etc.  Just because something
+is 'natural' doesn't mean it won't cause problems with some folks.
+
+As for how foods taste:  If I'm not allergic to MSG and I like
+the taste of it, why shouldn't I use it?  Saying I shouldn't use
+it is like saying I shouldn't eat spicy food because my neighbor
+has an ulcer.
+
+People have long modified the taste of food by additives, whether
+they be chiles, black pepper, salt, cream sauces, etc.  All of these
+things cloud the flavor of the food.  Why do we bother with them?
+How should food be tasted?  Isn't it better left to the diner?"
+153,train,0,comp.graphics,"
+Why so up tight?  FOr that matter, TIFF6 is out now, so why not gripe
+about its problems?  Also, if its so important to you, volunteer to
+help define or critique the spec.
+
+Finally, a little numerology:  42 is 24 backwards, and TIFF is a 24 bit
+image format...
+
+Chris"
+154,train,3,sci.med,"
+As usual, you are missing the whole point, Russell, because you are not
+willing to even consider questionning your basic article of faith, which
+is that science is merely a matter of methodology and that the highest
+purpose of science is to avoid making mistakes.  
+
+This is like saying that the most important aspect of business management
+is accurate bookkeeping.  
+
+If science were no more than methodology and not making mistakes, it
+would be a poor thing indeed.  What was the methodology of Darwin?  What
+was the methodology of Einstein?  What was, for that matter, the
+methodology of Jenner and Pasteur?  
+
+
+
+
+First of all, I think you are arguing against a straw man, because I
+don't think that anyone here is arguing that quackery, pseudo-science,
+homeopathy, chiropracty, and traditional Chinese medicine should be
+accepted as science.  I, in particular, think the basic ideas of
+homeopathy and chiropracty seem extremely flaky.  
+
+What some of us do believe, however, is that some of these things
+(including some of the flaky ideas) are deserving of serious scientific
+attention.  
+
+If in fact it were true, as you have stated above, that those who do not
+use the currently fashionable methodology can have no idea what is
+effective and what is not, then science today would not exist.  For all
+of current science is based on the past work of scientists whose
+methodology, by current standards, was seriously flawed.  
+
+It is certainly true that as methodology improves, we need to re-examine
+those results derived in the past using less perfect methodologies.  It is
+also true that the results obtained by people today who still rely on 
+those early methodologies needs to be re-examined in a more rigorous 
+fashion by those qualified to do so credibly.  
+
+But to say that nobody who fails to do elaborate double-blind studies is
+capable of knowing their ass from a hole in the ground and to say that no
+ideas that come from outside the scientific establishment could possibly
+be worthy of serious investigation ... this truly marks one's attitude as
+doctrinaire, cultist.  This attitude is not compatible with a belief in
+reason.  
+
+--
+In the arguments between behaviorists and cognitivists, psychology seems 
+less like a science than a collection of competing religious sects.   "
+156,train,1,misc.forsale,"
+Just to inform the readers of newsrc Sony has just introduced a new DATman,
+the TCD-D7 which is smaller and less expensive than the D3.  Also, the D7
+has a coaxial jack which the D3 lacks.  Oh, the D3 has always been
+available through mail-order houses for less than $700 dollars new... with
+the new model coming out, I suspect the now obsolete D3 will be selling for 
+even less. 
+  "
+157,train,0,comp.graphics,": There is a new version of the RTrace ray-tracing package (8.2.0) at
+: asterix.inescn.pt [192.35.246.17] in directory pub/RTrace.
+: Check the README file.
+
+cant seem to reach the site from over here:
+"
+158,train,0,comp.graphics,"
+#I use xwd/xpr (from the X11R5 dist.) and various programs of the
+#ppm-tools to print hardcopies of colored X windows. My problem is,
+
+I don't like xpr. It gives (at least, the X11R4 version does) louzy
+output: the hardcopy looks very grainy to me.
+Instead, I use pnmtops. This takes full advantage PostScript, and
+lets the printer do the dirty job of dithering a (graylevel)
+image to black and white dots.
+
+So: if you have a PostScript printer, try:
+	xwdtopnm <xwdfile> |	# convert to PPM
+	[ppmtopgm |]		# .. to graylevel for smaller file to print
+	pnmtops -noturn |	# .. to PostScript
+	lpr			# print
+
+pnmtops Has several neat options, but use them with care:
+If you want your image to be 4"" wide, use:
+	pnmtops -noturn -scale 100 -width 4
+-noturn Prevents the image from being rotated (if it is wider than it
+	is high)
+-width 4 Specifies the PAPER width (not the image width - see below)
+-scale 100 Is used because if the image is small, it may fit within a
+	width less than 4"", and will thus be printed smaller than 4"" wide.
+	If you first scale it up a lot, it will certainly not fit in 4"", and
+	will be scaled down by pnmtops automatically to fit the specified
+	paper width. 
+	In short: pnmtops will scale an image down to fit the paper size,
+	but it will not blow it up automatically.
+
+Hope this helps.
+Marcel."
+159,train,1,misc.forsale,"This is posted for a friend who doesn't have net access...you can send replies
+to me, but I'll be out of my office all next week, so don't expect a response
+until at least 4/27!
+
+For sale:  Contax camera system
+
+Includes:  Contax 139 quartz SLR body
+	   50mm f1.7 Zeiss (!) Planna Lens
+	   135mm f2.8 Yashica Lens
+	   Medium-sized hard case
+
+All items are in exceptional condition.  
+
+Asking price:  $175 for all items listed above.  The seller is attempting to
+sell the lot as a set, but you can negotiate that with him.
+
+--------------------------------------------------------------------------------
+Dick Joltes						joltes@husc.harvard.edu
+Hardware & Networking Manager, Computer Services 	joltes@husc.bitnet 
+Harvard University Science Center"
+160,train,2,rec.autos,"I was following an example of the LH the other day, and noticed the fit
+between the tunk lid and the rear bumper.   The gap was quite small on
+the left side, but much larger on the right.  Blech!!!"
+161,train,0,comp.graphics,": >over where it places its temp files: it just places them in its
+: >""current directory"".
+
+: I have to beg to differ on this point, as the batch file I use
+: to launch cview cd's to the dir where cview resides and then
+: invokes it.  every time I crash cview, the 0-byte temp file
+: is found in the root dir of the drive cview is on.
+
+I posted this as well before the cview ""expert"".  Apparently, he thought he
+knew better."
+162,train,0,comp.graphics,"Excuse the sheer newbieness of this post, but I am looking for a decent
+PaintProgram which will save to various file formats (.BMP  .PCX  etc etc)
+via ftp, freeware, or shareware.  I would like to check out the available
+programs for little $$ before I check out the commercial market.
+
+Thanks in advance for any help or direction you can give me."
+163,train,1,misc.forsale,"Hey!!! I've just upgraded my laptop to a Windows-capable one, so I 
+don't need my DOS word processor anymore.  It's a great word 
+processor.  Easy-to-use, undemanding on the system, and
+best of all, it has a WYSIWYG EDITING mode.  This is something
+Word Perfect doesn't have!!  And all I'm asking is $65 + shipping.
+It even comes with several hundred dollars of free utilities!!!
+
+$65 for a full-featured WYSIWYG word processor!!!  Perfect for
+a laptop, or a lower powered machine!"
+165,train,4,sci.space,"
+
+Sure.  Why keep using oil?  A hydrogen/electric economy would likely be
+cleaner and more efficient in the long run.  The laws of supply and demand
+should get the transition underway before we reach a critical stage of
+shortage."
+166,train,3,sci.med,"
+Well, certainly in Archimedes case the description ""while observing the
+phenomena in his bath"" seems more accurate than ""while meditating in
+his bath"" -- it was, after all, a rather buoyancy intense environment."
+167,train,3,sci.med,"A friend of mine has been diagnosed with Psoriatic Arthritis, as a result of
+trauma sustained in a car accident several years ago.  The psoriasis is under
+control but the arthritis part of the illness is not.
+
+Ansaid (non-steroidal anti-inflammatory) worked pretty well for three years but
+isn't helping much now.  My friend is now taking Meclomen (another NSAID) but
+this isn't helping control the pain at all.  In the past two months my friend
+has also started taking Azulfadine along with the NSAID medicines, but the
+effects of the combined drugs aren't supposed to be realized for several months.
+
+As a result of the pain, my friend is having problems sleeping.  Staying in
+one position too long is an ordeal.  Another major contributor to pain is that
+tendonitis has now developed (left thumb and hand with numbness at the base of
+the palm; bottom of feet; shoulders and outer thighs).  The tendonitis is
+quite painful yet my friend's doctor has not recommended any form of treatment
+to relieve it.
+
+The latest twist is that the doctor has dropped the anti-inflammatories and is
+now recommending Prednisone.  The hope is that the Prednisone will relieve some
+of the pain from the tendonitis.
+
+My friend is a 41 year old male who feels like he's 80 (his words, not mine).
+
+
+If anyone is aware of any new treatments for Psoriatic Arthritis, alternative
+courses of action, support groups or literature on it, I would be extremely
+grateful if you could e-mail to me.  If anyone is interested, I'll post a
+summary to this newsgroup."
+169,train,1,misc.forsale,"Storage space for sale:
+    
+    Iomega 44 MB removeable HD for sale w/ 16 cartridges.
+    
+    Total storage space comes out to be about 750 MB.  6 cartridges still in
+    original shrinkwrapping, unused.  Note:  this is NOT compatible with
+    SysQuest 45 cartridges.
+    
+    SCSI interface required... plugs right into the back of Macintoshes,
+    but I don't have a controller for the IBM.  All utilities I have for it
+    are for the Mac.  If you have a Mac, then this is for you!  I have a
+    ton of software on these disks that I don't use anymore, because I sold
+    my mac system.  Stuff included:  Most of the PD stuff from info-mac
+    site, LOTS of GIF's, and LOTS of sound effects.  (1 entire disk with
+    just sounds)
+   
+    I am asking $900 for all, plus shipping.
+
+    For more information, send me mail (cxs2341@ultb.isc.rit.edu) or call
+    (716) 427-0701... ask for Sawran
+    
+    cheers"
+171,train,3,sci.med,"
+
+MSG is mono sodium glutamate, a fairly straight forward compound. If it is
+pure, the source should not be a problem. Your comment suggests that 
+impurities may be the cause.
+My experience of MSG effects (as part of a double blind study) was that the
+pure stuff caused me some rather severe effects.
+
+
+Soya bean, fermented cheeses, mushrooms all contain MSG. 
+"
+173,train,1,misc.forsale,"Hello,
+
+  I have three software packages for sale:
+
+  1. The Norton pcANYWHERE version 4.5 for dos. This software
+     include host and remote software. It can control both
+     dos and windows 3.1 (both standard and enhanced modes)
+     activities. Registration card is enclosed.
+
+     Price: $40.00
+
+  2. The Norton AntiVirus for windows and dos version 2.1. It
+     can update virus information any time. It also support
+     networks. Registration card is enclosed.
+
+     Price: $40.00
+
+  3. DeltaGraph Professional for Windows 3.1. This is the BEST
+     graphics presentation program I have ever seen. Registration
+     card is enclosed. Reg. Price: $495.00
+
+     Price: $150.00
+
+  Thank you for your attention."
+174,train,0,comp.graphics,"
+Sorry, Bryan, this is not quite correct. Remember the VGALIB package that comes
+with Linux/SLS? It will switch to VGA 320x200x256 mode *without* Xwindows.
+So at least it is *possible* to write a GIF viewer under Linux. However I don't
+think that there exists a similar SVGA package, and viewing GIFs in 320x200 is
+not very nice.
+
+Best Regards,
+
+Arno
+
+-- 
+--------------------------------------------------------------------------------
+Arno Schaefer				ENSIMAG, 2e Annee
+Email: schaefer@silene.imag.fr
+Tel.: (33) 76 51 79 95			:-)"
+175,train,4,sci.space,"From: ""Phil G. Fraering"" <pgf@srl03.cacs.usl.edu>
+
+Right, the Profiting Caste is blessed by God, and may 
+ freely blare its presence in the evening twilight ..
+"
+176,train,0,comp.graphics,"I am interested in any information on stereoscopic imaging on a sun
+workstation.  For the most part, I need to know if there is any hardware
+available to interface the system and whether the refresh rates are
+sufficient to produce quality image representations.  Any information
+about the subject would be greatly appreciated."
+177,train,0,comp.graphics,"
+Tommy Frandsen's VGAlib (which is probably what you're talking about)
+will do the standard VGA modes, some tweaked modes and then the Tseng
+ET4000 Super VGA modes. I have an ET4000 and I'm viewing GIF's at
+640x480/256 (I have a lousy/small monitor) with dpg-view on Linux. I
+think I had to change some constants in the dpg-view sources to make it
+use the ET4k modes.
+
+VGAlib's sources seem to be designed for easy addition of new Super VGA
+support; each mode is an array of register values and there's a program
+that dumps an array declaration of this kind describing the current
+mode. Haven't tried it though...
+
+(Btw, my version of VGAlib is 1.2.)
+"
+178,train,4,sci.space,"
+Wishful thinking mostly. It's more likely that the Moon will never
+be the site of major commercial activity. As far as we know it has no
+materials we can't get cheaper right here on Earth or from asteroids
+and comets, aside from the semi-mythic He3 that *might* be useful in low
+grade fusion reactors. Exploring it would satisfy a curiosity itch, 
+and it's position in the gravity well of Earth coupled with it's heat 
+sink capacity could offer some military utility for ""high ground"" military
+weapons systems, but it holds very minute commercial value. If space 
+travel becomes cheap enough, it might become a tourist attraction as 
+Mt. Everest and the Antarctic have become, but that's a very minor 
+activity in the global scope of things.
+
+Luna has an inconvienent gravity field. It's likely too low to prevent
+calcium loss, muscle atrophy, and long term genetic drift. Yet it's
+too high to do micro-G manufacturing. Space based colonies and factories
+that can be spun to any convienent value of G look much better. Luna
+has a modest vacuum and raw solar exposure two weeks a month, but orbital
+sites can have better vacuums and continous solar exposure. Luna offers
+a source of light element rocks that can serve as raw materials, heatsink,
+and shielding. The asteroids and comets offer sources of both light and
+heavy elements, and volatile compounds, and many are in less steep gravity
+wells so that less delta-v is required to reach them.
+
+We don't use 2/3rds of the Earth now, the seafloors, and we virtually
+ignore Antarctica, a whole continent. That's because we don't have to
+deal with those conditions in order to make a buck. Luna is a much more
+expensive place to visit, or to live and work. I think we'll use the
+easier places first. That pushes Lunar development back at least a few
+centuries, if not much longer.
+
+Luna's main short term value would be as a place for a farside radio
+astronomy observatory, shielded from the noisy Earth. Or as the site
+of a laser, particle beam, or linear accelerator weapons system for
+defending Earth, or bombarding it as the case may be. The first is
+unlikely because of the high cost for such a basic science instrument.
+The second is just as unlikely because conventional nukes are good
+enough, and the military would really rather see the Earth safe for
+conventional warfare again. There's little glory in watching from a
+bunker as machines fight each other over continental ranges. Little
+ultimate profit either.
+
+Gary"
+180,train,0,comp.graphics,"
+Why would it have to be much faster (it probably is) ? Assuming an ARM
+is about as efficient as a MIPS R3000 for integer calculations, doing
+a Compact-Video-like digital video codec is an easy task. For Software
+Motion Pictures (which is a lot like Compact Video, though it predates
+it), we get 48 frames/sec. at 320x240 on a DECstation 5000/200. That
+machine has a 25 Mhz MIPS R3000. 
+
+		Burkhard Neidecker-Lutz"
+181,train,3,sci.med,"I am 35 and am recovering from a case of Chicken Pox which I contracted
+from my 5 year old daughter.  I have quite a few of these little puppies
+all over my bod.  At what point am I no longer infectious?  My physician's
+office says when they are all scabbed over.  Is this true?
+
+Is there any medications which can promote healing of the pox?  Speed up
+healing?  Please e-mail replies, and thanks in advance.
+"
+182,train,4,sci.space,"
+In the Air Force world at least, the crisis escalates when scale
+models of the plane in question (i.e. about to be sacrificed) begin to
+arrive in key Senators and Congresspersons' offices.
+
+Of course it is assumed that coffee mugs and other decorative junk has
+been tried earlier.
+
+Spiros"
+183,train,2,rec.autos,"Hi, I was looking for some helpful advice.
+I'm a university student with about $7000 to spend, and I'm looking for a 
+used car. Does anyone have any useful advice they could offer to a first-
+time buyer? I'm not looking for anything sporty, just something functional 
+and reliable (less maintenance costs). Anybody have any ideas on what models 
+might suit me?
+
+Thanks"
+184,train,3,sci.med,"
+Probably within 50 years, it will be possible to disassemble and
+re-assemble our bodies at the molecular level.  Not only will flawless
+cosmetic surgery be possible, but flawless cosmetic PSYCHOSURGERY.
+
+What will it be like to store all the prices of shelf-priced bar-coded
+goods in your head, and catch all the errors they make in the store's
+favor at SAFEWAY?  What will it be like to mentally edit and spell-
+check your responses to the questions posed by a phone caller selling
+VACATION TIME-SHARE OPTIONS?
+
+Indeed, we are today a nation at risk!  The threat is not from bad genes,
+but bad memes!  Memes are the basic units of culture, as opposed to genes
+which are the units of genetics.
+
+We stand on the brink of new meme-amplification technologies!  Harmful
+memes which formerly were restricted in their destructive power will
+run rampant over the countryside, laying waste to the real benefits that
+future technology has to offer.
+
+For example, Jeremy Rifkin has been busy trying to whip up emotions
+against the new genetically engineered tomatoes under development at
+CALGENE.  This guy is inventing harmful memes, a virtual memetic Typhoid
+Mary."
+185,train,4,sci.space,"
+
+I know someone had long talks about Solar Sails early this year and late last
+year..Also about Solar Sailing. Not sure who captured it if possible..
+
+I think it was one of the regulars who had most or all the data?
+
+I think I started the latest round or the late last year round.. But the topic
+has been around here, off and on for a year or two.."
+186,train,2,rec.autos,"                    ^^^^^^^
+Huh!  I though Beamers were IBM employees :-)"
+187,train,3,sci.med,"
+Whether a scientific idea comes while one is staring out the window, or
+dreaming, or having a fantasy,  or watching an apple fall (Newton), or
+sitting in a bath (Archimedes) ... it is ultimately the result of a lot of
+intense scientific thinking done beforehand.  Letting one's mind roam
+freely and giving rein to one's intuition can be a useful way of coming
+up with new ideas, but only when one has done a lot of rational analysis
+of the problem first.  
+
+Scientific intuition is not something one is born with.  It is something
+that one learns.  Maybe we don't understand completely how it is learned,
+but training in systematic scientific thinking is certainly one of the 
+key elements in developing it.  
+
+Informal exploration is also often an important element in finding new
+scientific ideas.  One thinks, for instance, of Darwin's naturalistic
+studies in the Galapagos islands, which led him to the ideas for the 
+theory of evolution.  
+
+This is why I am offended by a definition of science that emphasizes
+empirical verification and does not recognize thinking and informal
+exploration as important scientific work.  I agree that mere speculation
+does not deserve to be called science.  I also think that mere empirical
+studies not directed by good scientific thinking are at best a very
+poor kind of science.  
+
+
+I don't think that science should be defined in a way that some of the
+activities that lead to really important science --- namely thinking and
+informal exploration --- are not recognized as scientific work.  
+
+--
+In the arguments between behaviorists and cognitivists, psychology seems 
+less like a science than a collection of competing religious sects.   "
+188,train,3,sci.med,"
+Hi there
+I'm suffering from Sarcoidosis at present.  Although it's shown as a
+chronic & rare tissue disorder, it is thankfully NOT life threatening.
+
+The very worsed thing that can happen to a non-treated sufferer is
+glaucoma.  My specialists are bombarding me with Prednisolone E.C. (a
+cortico-steriod) and after four months at 20mg a day, it's totally done
+away with my enlarged lymph glands, so somethings happening for the
+good!
+
+Cheers Nigel"
+189,train,1,misc.forsale,"FOR SALE:
+
+	Northwest Airline Fly-Write ticket for travel within the 48 states 
+	and Canada from anywhere in the country.
+
+	2 One Way - $200 (each)
+	1 Round Trip - $350
+
+	This ticket has no restrictions, and is fully transferable.  However,
+	travel has to be completed buy June 4."
+190,train,3,sci.med,"A friend of mine is going in later this week for tests to see if has
+emphysema.  His lung capacity has decreased over time.  His father died
+of the disease.  He works in woodworking.  I believe he has a very
+occasional cigarette, perhaps one cigarette a day or even less.  He tells
+me this..I've never seen him light up.  He has some pretty healthy
+life style habits, good diet, exercise, meditation, retreats, therapy
+etc.  Anyhow..he is very concerned with this check up.  I know really
+nothing about the disease.  I believe it interferes with the lining
+of the lung being able to exchange oxygen.  "
+191,train,2,rec.autos,"--
+My boss is interested in a new 300 series Mercedes Benz wagon.
+Does anyone have any testimonial evidence and/or strong opinions
+on this car (or line)?
+
+Particularly, I would like to hear about power (manual t. only)
+reliability, feel, and any unusually good or bad features of the
+line.
+
+She currently drives a VW Passat, and is being plagued by its
+electrical problems.  The dealer claims there is nothing wrong,
+even though the doors have a habit of locking and unlocking them-
+selves while you are driving down the road.  The automatic shoulder
+restraints also like to move back and forth as you move along.
+She does not have the new, larger engine and is quite
+dissatisfied with its lack of power.
+
+The MB wagon would have to have more power and no peculiar problems
+such as the Passat's electrical system.  She is also considering
+a Saab 9000 (add some letters).  Any comparisons between the 9000
+line and the Mercedes would be helpful.
+
+Price is not an impediment.
+
+--------------------------------------------------------------------------
+Jeremy J. Corry                    | Churchill claimed the traditions  
+jcorry@erasure_sl.cc.emory.edu     | of the navy are rum, mutiny, and
+                          __       | sodomy.
+                          \/                                             
+     My opinions are my own, but I probably got them from someone else. "
+193,train,0,comp.graphics,"
+Hallo POV-Renderers !
+I've got a BocaX3 Card. Now I try to get POV displaying True Colors
+while rendering. I've tried most of the options and UNIVESA-Driver
+but what happens isn't correct.
+Can anybody help me ?
+"
+194,train,1,misc.forsale,"I have a vt200 and vt100 compatible terminal
+with 1200 external hyess modem
+amber screens 101 keyboard,cable
+make an offer
+0
+"
+195,train,1,misc.forsale,"If you'd like to find a home for that beekeeping equipment you'll never use
+again, here's a likely victim, uh, customer.
+
+To make a deal, call:
+
+		Laura Forbes (503)275-4483"
+196,train,1,misc.forsale,"Whistler Spectrum 2-SE.  X, K, Ka.  Pulse protection.  Good condition. 
+Purchased for $130, asking for $80."
+198,train,1,misc.forsale,"Unless otherwise noted, I am mainly interested in USED items.
+If you have (any of) the following for sale, please contact me:
+        EMail           mbeck@vtssi.vt.edu
+        Phone           (703)552-4381
+        USMail          Michael Beck
+                        1200 Progress Street #5500E
+                        Blacksburg, Virginia 24060
+ 
+Please give as much info as possible (brand, age, condition, etc)
+~~~~~~~~~~WANTED as of 12AM, 4/16/93~~~~~~~~~~
+ 
+COMPUTER EQUIP:
+ 
+1       CHEAP tape drive - pretty much any kind (Used)
+ 
+1       Memory for PS/2 Model 50Z (New or Used)
+ 
+1       Macintosh computer
+ 
+1       486 66mhz chip (New or Used)
+ 
+1       COLORADO tape drive, 250 megabyte, preferr. w/ 5 tapes (Used)
+ 
+1       101 key-AT keyboard
+ 
+1       High Density (1.2 mb) 5 1/4 disk drive
+ 
+1       Printer - OMS410 or HP LASER or HP DESKJET series
+ 
+1       Printer - 24 pin or DESKJET
+ 
+1       High Density (1.2 mb) 5 1/4 disk drive EXTERNAL
+ 
+1       Adaptec 1542 SCSI 16-bit HD/FD controller (Used)
+ 
+1       Piggy back memory expansion for INTEL INBOARD 386       
+ 
+1       130 MB IDE Hard Drive
+ 
+2       17"" monitor, 1280 resolution, .28 dot pitch or better, digital
+ 
+mult.   XT's, AT's and laptop systems to go to Russia
+ 
+ 
+ 
+NON-COMPUTER EQUIP:
+ 
+1       drum set       
+ 
+mult.   amps for a band
+ 
+1       TV - 27"" or bigger, stereo
+ 
+1       VCR - 4 Heads, stereo
+ 
+1       Receiver - 100 Watts or more w/ Dolby Prologic Surround Sound
+                capability
+ 
+1       Bed - Full or Queen sized - LOCAL OFFERS only, please"
+199,train,4,sci.space,"on Date: 01 Apr 93 18:03:12 GMT, Ralph Buttigieg <ralph.buttigieg@f635.n713.z3.fido.zeta.org.au>
+/Why can't the government just be a tennant? Private commercial concerns
+/could just build a space station system and charge rent to the government
+/financed researchers wanting to use it.
+
+I believe that this was the thought behind the Industrial Space Facility.  I
+don't remember all the details, but I think Space Services (?) wanted NASA to 
+sign an anchor tenancy deal in order to help secure some venture capital but 
+NASA didn't like the deal.  (I'm sure I'll hear about it if I'm wrong!)"
+200,train,4,sci.space,"
+Confident, or merely crazed?  That desert sun :-)
+
+
+
+Gee, I thought the X-15 was Cable controlled.  Didn't one of them have a
+total electrical failure in flight?  Was there machanical backup systems?
+
+
+What do you mean?  Overstress the wings,  and they fail at teh joints?
+
+You'll have to enlighten us in the hinterlands.
+"
+201,train,2,rec.autos,"But, those chips are probably inside a custom chip, (to make it smaller and
+use less power) and the preset/data pins are not going to be available.
+It would probably not be TTL but might be CMOS 
+(wider operating voltage range), not that the tecnology would make 
+much difference.
+Plus the custom chip would probably be potted (encapsulated with epoxy).
+Good luck.
+
+-- 
+--garyl-------------------------------------------------------------------------
+		""Any shark that gets to be 11 or 12 feet long with 
+	      300 big teeth can be considered dangerous"" - 'Shark Bowl '92'"
+202,train,1,misc.forsale,"I would like to sell the following sci-fi books at Best Offer.
+If you are interested, please email an offer and be sure to include
+shipping and handling. I prefer not to ship COD but if you purchase
+$25 or more, I will consider.
+
+
+
+Han Solo and the Lost Legacy
+Han Solo's Revenge
+Han Solo at Stars End
+Splinter in the Minds Eye
+The Empire Strikes Back
+Star Wars
+
+Star Trek: The Motion Picture
+Star Trek: Wrath of Kahn
+The Official Star Trek Trivia Book
+Star Trek Reader Vol I
+Star Trek Reader Vol II      These are the book form of the      
+Star Trek Reader Vol III           Original TV Series 
+Star Trek Reader Vol IV   
+
+Dune
+Dune Messiah
+Children of Dune
+God Emperor of Dune
+
+Altered States
+Alien
+Close Encounters of the Third Kind
+DragonSlayer
+
+The Mists of Avalon
+The Compleat Book of Sowrds
+The Lost Swords
+
+2001: A Space Odyssey
+2010: Odyssey II
+2061: Odyssey III
+
+Barlowes Complete Guide to ExtraTresstials
+
+Again, best offer and don't be shy.
+
+Thanks
+"
+204,train,4,sci.space,"
+
+
+------------------------------------------------------------------------------
+
+Ocean Reconnaissance Launch Surprises West
+Space News, April 5-11, 1993, p.2
+[Excerpts]
+     Russia launched its first ocean reconnaissance satellite in 26 months 
+March 30, confounding Western analysts who had proclaimed the program dead. 
+     The Itar-TASS news agency announced the launch of Cosmos 2238 from 
+Plesetsk Cosmodrome, but provided little description of the payload's mission. 
+     However, based on the satellite's trajectory, Western observers 
+identified it as a military spacecraft designed to monitor electronic 
+emissions from foreign naval ships in order to track their movement. 
+     Geoff Perry of the Kettering Group in England... [said]  Western 
+observers had concluded that no more would be launched. But days after the 
+last [such] satellite re-entered the Earth's atmosphere, Cosmos 2238 was 
+launched. 
+
+""Cosmos-2238"" Satellite Launched for Defense Ministry
+Moscow ITAR-TASS World Service in Russian  1238 GMT 30 March 1993
+Translated in FBIS-SOV-93-060, p.27
+by ITAR-TASS correspondent Veronika Romanenkova
+     Moscow, 30 March -- The Cosmos-2238 satellite was launched at 1600 Moscow 
+time today from the Baykonur by a ""Tsiklon-M"" carrier rocket. An ITAR-TASS 
+correspondent was told at the press center of Russia's space-military forces 
+that the satellite was launched in the interests of the Russian Defense 
+Ministry. "
+205,train,0,comp.graphics,"Hi!
+
+I am looking for the email address of the author to
+""A Generic Solution to Polygon Clipping"", 
+Communication of the ACM, July 1992, Vol. 35, No. 7. 
+I got information about the author as follows
+	Mr. Bala R. Vatti
+	LCEC, 65 River Road, Hudson, N.H. 03051
+	email: vatti@waynar.lcec.lockheed
+I want to get some related and detailed papers about the
+same topic from the author. But I failed to send my email 
+to the address. Any information is appreciated.
+
+Thank you very much.
+
+Best regards."
+206,train,4,sci.space,"Why do spacecraft have to be shut off after funding cuts.  For
+example, Why couldn't Magellan just be told to go into a ""safe""
+mode and stay bobbing about Venus in a low-power-use mode and if
+maybe in a few years if funding gets restored after the economy
+gets better (hopefully), it could be turned on again.  
+
+For that matter, why exactly were the Apollo lunar experiments
+""turned off"" rather than just ""safed"".  Was it political (i.e.
+as along as they could be used, someone would keep bugging
+congress for funds)?  Turning them off keeps them pesky
+scientists out of the bureaucrat's hair....  
+
+I've heard the argument that an active but ""uncontrolled""
+spacecraft causes ""radio noise.""  I find that hard to believe
+that this could be a problem in a properly designed ""safe"" mode.
+This safe mode could be a program routine which causes the
+spacecraft to go to least fuel using orientation, and once a
+(week, month, year, whatever) attempts a signal lock on Earth.
+At that time, if funding has been restored, the mission can
+continue.  If no signal is recieved, the spacecraft goes back to
+the safe mode for another time period. As we would know when the
+spacecraft is going to try to contact Earth, we could be
+prepared if necessary.  
+
+As another a spacecraft could do at the attempted contact is
+beam stored data towards Earth.  If someone can receive it,
+great, if not, so it's lost and no big deal.
+By making the time and signal location generally known, perhaps
+someone in the world might be able and willing to intercept the
+data even if they're not willing to contact the spacecraft.
+
+I see this as being particularly useful for spacecraft which
+could have an otherwise long life and are in or are going to
+places which are otherwise unaccessible (Jupiter/Saturn Orbit,
+exiting the solar system, etc).   
+
+Perhaps those designing future spacecraft (Cassini, Pluto Flyby,
+etc) should consider designing in a ""pause"" mode in case their
+spacecraft gets the ax sometime in the future after completion of
+the primary mission. Perhaps Mars Observer and Galilleo could
+have some kind of routine written in for the post mission
+""drift"" phase.
+
+So any holes in all this?
+"
+207,train,3,sci.med," How about Kirlian imaging ? I believe the FAQ for sci.skeptics (sp?)
+ has a nice write-up on this. They would certainly be most supportive
+ on helping you to build such a device and connect to a 120Kvolt
+ supply so that you can take a serious look at your ""aura""... :-)"
+208,train,4,sci.space,"Joe,
+
+	your description sounds like one of the  gravity probe  spacecraft
+ideas."
+210,train,0,comp.graphics,"Hello,
+
+    I have been searching for a quality image enhancement and
+    manipulation package for Unix/X/Motif platforms that is comparable
+    to Adobe Photo Shop for the Mac.
+
+    I have not been able to find any, and would appreciate any
+    information about such products you could provide.
+
+    I would be particularly interested in software that runs on HP or
+    Sun workstations, and does not require special add-in hardware, but
+    would also be interested in other solutions.
+
+
+Thank You.
+Wayne"
+212,train,4,sci.space,"
+The General Chairman is Paul Bialla, who is some official of General
+Dynamics.
+
+The emphasis seems to be on a scaled-down, fast plan to put *people*
+on the Moon in an impoverished spaceflight-funding climate. You'd
+think it would be a golden opportunity to do lots of precusor work for
+modest money using an agressive series of robot spacecraft, but
+there's not a hint of this in the brochure.
+
+
+You're not hanging out with the Right People, apparently."
+214,train,1,misc.forsale,"Non-smoking roommate needed
+          to sublet
+   1BR in 2BR carpeted apt.
+         in Evanston, IL
+  near the Dempster el stop
+     parking is available
+ 
+Rent is $322.50/mo. + 1/2 utils.
+ 
+  avail. May 1 - beg./end Aug.
+ (entire apt. available Sept. 1)
+ 
+Roommate is 26 years-old, vegetarian,
+  non-smoking female who works at
+         Northwestern
+ 
+    No neat freaks please!"
+215,train,3,sci.med,"
+I can't answer most of your questions, but I've seen it happen in 
+family members who are being treated with radiation and/or chemotherapy.
+Jory Graham published a cookbook many years ago (in cooperation with 
+the American Cancer Society, I think) called ""Something has to taste
+good"" (as I recall).
+
+The cookbook was just what we needed several times when favorite foods
+suddenly became ""yech""."
+216,train,4,sci.space,"INteresting question about Galileo.
+
+Galileo's HGA  is stuck.   
+
+The HGA was left closed,  because galileo  had a venus flyby.
+
+If the HGA were pointed att he sun,  near venus,  it would
+cook the foci elements.
+
+question:  WHy couldn't Galileo's  course manuevers have been
+designed such that the HGA  did not ever do a sun point.?
+
+After all,  it would normally be aimed at earth anyway?
+
+or would it be that an emergency situation i.e. spacecraft safing
+and seek might have caused an HGA sun point?"
+217,train,0,comp.graphics,"I've recently got hold of a PC with an S3 card in it, and I'd like to do some
+C programming with it, are there any libraries out there that will let me
+access the high resolution modes available via Borland Turbo C?"
+218,train,2,rec.autos,"Hm... I find this hard to believe.  V16T weights about the same as
+the Red Head, but it has hell lot more horse power.  Perhaps it's
+due to pre-production glitches?  Well, to me, it still got the most
+imposing styling among all the sports cars I have seen."
+220,train,1,misc.forsale,"Hi folks,
+	I have a 386/25 daughter board for Zeos, which I want to upgrade to
+486/25 or 33. 
+So send me mail with you offer if you are 
+		1. Selling 486/25 or 486/33 (zeos daughterboard)
+		2. Willing to buy my 386/25 (zeos daughterboard)
+Thanks..
+Murli
+"
+221,train,4,sci.space,"And one of my profs is the chief engineer for the project (Dr. Ron
+Humble, Univ. Colorado at Colorado Springs).
+
+I love the idea of an inflatable 1-mile long sign.... It will be a
+really neat thing to see it explode when a bolt  (or even better, a
+Westford Needle!) comes crashing into it at 10 clicks a sec.  
+
+<BOOM!>  Whooooooooshhhhhh......  <sputter, sputter>
+
+<okay, PRETEND it would make a sound!>
+
+I hear <insert favorite rumor here> that it will supposedly coincide
+with the Atlanta Olympics. "
+222,train,3,sci.med,"I experienced a sudden numbness in my left arm this morning.  Just after
+I completed my 4th set of deep squats.  Today was my weight training
+day and I was just beginning my routine.  All of a sudden at the end of
+the 4th set my arm felt like it had gone to sleep.  It was cold, turned pale,
+and lost 60% of its strength.  The weight I used for squats wasn't that
+heavy, I was working hard but not at 100% effort.  I waited for a few 
+minutes, trying to shake the arm back to life and then continued with
+chest exercises (flyes) with lighter dumbells than I normally use.  But
+I dropped the left dumbell during the first set, and experienced continued
+arm weakness into the second.  So I quit training and decided not to do my
+usual hour on the ski machine either.  I'll take it easy for the rest of
+the day.
+
+My arm is *still* somewhat numb and significantly weaker than normal --
+my hand still tingles a bit down to the thumb. Color has returned to normal
+and it is no longer cold. 
+
+Horrid thoughts of chunks of plaque blocking a major artery course through
+my brain.  I'm 34, vegetarian, and pretty fit from my daily exercise
+regimen.  So that can't be it.  Could a pinched nerve from the bar
+cause these symptoms (I hope)?
+
+Has this happened to anyone else?
+Nothing like this has ever happened to me before.  Does it come with age?
+
+Thanks,
+Tom"
+223,train,3,sci.med,"-*-----
+
+
+I hope Gordon Banks did not mean to imply that notions such as
+hard-to-see candida infections causing various problems should not
+be investigated.  Many researchers have made breakthroughs by 
+figuring out how to investigate things that were previously thought
+""virtually impossible to test for.""
+
+Indeed, I would be surprised if ""candida overbloom"" were such a
+phenomena.  I would think that candida would produce signature
+byproducts whose measure would then set a lower bound on the 
+extent of recent infection.  I realize this might get quite 
+tricky and difficult, probably expensive, and likely inconvenient
+or uncomfortable to the subjects, but that is not the same as 
+""virtually impossible."""
+224,train,1,misc.forsale,"I have the following 45 rpm singles for sale. Most are collectable 7-inch 
+records with picture sleeves. Price does not include postage which is $1.21 
+for the first record, $1.69 for two, etc.
+
+
+Rolling Stones|19th Nervous Brakdown (London Picture Sleeve)|$10
+Rolling Stones|Jumpin Jack Flash (London Picture Sleeve)|$10
+Rolling Stones|Mothers Little Helper (London Picture Sleeve)|$10
+Rolling Stones|Paint It, Black (London Picture Sleeve)|$10
+
+
+If you are intereste, please contact:"
+225,train,1,misc.forsale,"I am auctioning off the following comics.  These minimum bids are set
+below what I would normally sell them for.  Make an offer, and I will
+accept the highest bid after the auction has been completed.
+
+TITLE                                                   Minimum/Current 
+--------------------------------------------------------------
+Alpha Flight 51 (Jim Lee's first work at Marvel)	$ 5.00
+Aliens 1 (1st app Aliens in comics, 1st prnt, May 1988)	$20.00
+Amazing Spider-Man 136 (Intro new Green Goblin)         $20.00
+Amazing Spider-Man 238 (1st appearance Hobgoblin)	$50.00
+Archer and Armstrong 1 (Frank Miller/Smith/Layton)	$ 7.50
+Avengers 263 (1st appearance X-factor)                  $ 3.50
+Bloodshot 1 (Chromium cover, BWSmith Cover/Poster)	$ 5.00
+Daredevil 158 (Frank Miller art begins)                 $35.00
+Dark Horse Presents 1 (1st app Concrete, 1st printing)	$ 7.50 
+H.A.R.D. Corps 1 					$ 5.00
+Incredible Hulk 324 (1st app Grey Hulk since #1, 1962)	$ 7.50
+Incredible Hulk 330 (1st McFarlane issue)		$15.00
+Incredible Hulk 331 (Grey Hulk series begins)		$11.20	
+Incredible Hulk 367 (1st Dale Keown art in Hulk)        $15.00
+Incredible Hulk 377 (1st all new hulk, 1st prnt, Keown) $15.00
+Marvel Comics Presents 1 (Wolverine, Silver Surfer)     $ 7.50
+Maxx Limited Ashcan (4000 copies exist, blue cover)	$30.00
+New Mutants 86 (McFarlane cover, 1st app Cable - cameo)	$10.00
+New Mutants 100 (1st app X-Force)                       $ 5.00
+New Mutants Annual 5 (1st Liefeld art on New Mutants)	$10.00
+Omega Men 3 (1st appearance Lobo)                       $ 7.50
+Omega Men 10 (1st full Lobo story)                      $ 7.50
+Power Man & Iron Fist 78 (3rd appearance Sabretooth)    $25.00
+                      84 (4th appearance Sabretooth)    $20.00
+Simpsons Comics and Stories 1 (Polybagged special ed.)	$ 7.50
+Spectacular Spider-Man 147 (1st app New Hobgoblin)      $12.50
+Star Trek the Next Generation 1 (Feb 1988, DC mini)     $ 7.50
+Star Trek the Next Generation 1 (Oct 1989, DC comics)   $ 7.50
+Web of Spider-Man 29 (Hobgoblin, Wolverine appear)      $10.00 
+Web of Spider-Man 30 (Origin Rose, Hobgoblin appears)   $ 7.50
+Wolverine 10 (Before claws, 1st battle with Sabretooth)	$15.00
+Wolverine 41 (Sabretooth claims to be Wolverine's dad)	$ 5.00
+Wolverine 42 (Sabretooth proven not to be his dad)	$ 3.50
+Wolverine 43 (Sabretooth/Wolverine saga concludes)	$ 3.00
+Wolverine 1 (1982 mini-series, Miller art)		$20.00
+Wonder Woman 267 (Return of Animal Man)                 $12.50
+X-Force 1 (Signed by Liefeld, Bagged, X-Force card)     $20.00
+X-Force 1 (Signed by Liefeld, Bagged, Shatterstar card) $10.00
+X-Force 1 (Signed by Liefeld, Bagged, Deadpool card)    $10.00
+X-Force 1 (Signed by Liefeld, Bagged, Sunspot/Gideon)   $10.00
+
+All comics are in near mint to mint condition, are bagged in shiny 
+polypropylene bags, and backed with white acid free boards.  Shipping is
+$1.50 for one book, $3.00 for more than one book, or free if you order 
+a large enough amount of stuff.  I am willing to haggle.
+
+I have thousands and thousands of other comics, so please let me know what 
+you've been looking for, and maybe I can help.  Some titles I have posted
+here don't list every issue I have of that title, I tried to save space."
+226,train,1,misc.forsale,"I have the Star Micronics SG 24, 24 pin printer for sale.  I have used
+with the AMIGA and IBM computers and it works great.  I will throw in
+a cable and vinyl cover for $150 plus shipping.
+
+First email gets it...
+
+thanx,
+-Dennis L. Neal        dlneal@cbda9.apgea.army.mil"
+227,train,2,rec.autos,"Hi from Australia,
+
+I am a car enthusiast in Australia.
+ 
+I am particularly interested in American Muscle cars of the 
+1960s and 1970s. ALL MAKES: AMC, Ford, Chrysler/Mopar, GM.
+
+I will be in the USA for 6 weeks from May 2nd to -June 14 1993.
+
+Chicago: Sun May 2 -Thursday May 6
+Denver:  Friday May 7 - Sunday May 9
+Austin, Texas: Monday May 10- Friday May 21
+Oklahoma City: Friday May 21 - Monday May 24
+Anaheim, California: Tuesday May 25-Thursday May 27
+Las Vegas, Nevada:  Friday May 28- Sunday May 30
+Grand Canion, Monday May 31 - Tuesday June 1
+Las Angeles, San Diego and vicinity: Wednesday June 3-Sunday June 6 June
+South Lake Tahoe, Cal: Sunday June 6 - Wednesday June 9
+Reno: Thursday June 10
+San Fransisco: Thursday June 10 - Sunday June 13
+
+
+I was wondering if anyone could send me any information of 
+car shows, swap meets, drag meets, model car shows etc. during this period.
+Can anybody tell me when the Pomona Swap meet is on this year?
+
+Also, any places to visit (eg. car museums, private collections, 
+your collection? etc. Any bit of information is appreciated!
+
+I am also interested in finding some model cars (scale Models). 
+I am intersted in 1968-1974 AMC cars. Of particular interest is:
+1968-1970 AMX
+1968-1974 Javelin
+1969 SCRAMBLER
+1970 Rebel Machine
+and others
+
+If you have any kits, plastics, diecast etc and are interested in selling them,
+tell me, I will be interested.
+
+I can also send/bring you models of Australian High performance cars if 
+you are interested.
+
+
+Please reply by email to: johnt@spri.levels.unisa.edu.au
+
+
+Thanks,"
+228,train,2,rec.autos,"Does anyone know the performance ratings for a 1992 or 1993
+5.0 L HO Mustang LX like the 0-60 time 1/4 mile and top end ???
+Also can you tell me which magazine where these #'s come from so I
+can look them up if possable ????  If you could the year and month and
+eveen page # if you have it."
+229,train,2,rec.autos,"Consumer Reports once wrote about the S-10 Blazer that it ""shook and rattled
+like a tired taxi cab"".  There is one noise that is expecially irritating -
+the back window squeaks.  I believe its because the whole tailgate assembly
+and window are not solid.  Anyway, has anyone had the same problem, and have
+you found any fixes?"
+230,train,3,sci.med,"
+Probably she meant that your blood pressure went up while you were on
+the treadmill.  This is normal.  You'll have to ask her if this is
+what she meant, since no one else can answer for another person.
+
+
+
+
+-- 
+----------------------------------------------------------------------------
+Gordon Banks  N3JXP      | ""Skepticism is the chastity of the intellect, and
+geb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon."" "
+231,train,2,rec.autos,"
+
+
+
+Sure, but the surface condition of most good autobahns is far better
+than most of the roads here. A dip in the asphalt that you test your
+shocks on at 60 will kill you at 130. Don't get me wrong, I love to
+drive quickly and they say my Probe will do 130, but that's 30 more
+than I've ever tried in it cause there isn't a decent enough piece
+of road hereabouts.
+"
+232,train,0,comp.graphics,"
+: >Hi Netters,
+: >
+: >I'm building a CAD package and need a 3D graphics library that can handle
+: >some rudimentry tasks, such as hidden line removal, shading, animation, etc.
+: >
+: >Can you please offer some recommendations?
+: >
+: >I'll also need contact info (name, address, email...) if you can find it.
+: >
+: >Thanks
+: >
+: >(Please Post Your Responses, in case others have same need)
+: >
+: >Bob Carpenter
+: >
+
+The following is extracted from sumex-aim.stanford.edu.  It should also be on
+the mirrors.  I think there is source for some applications that may have some
+bearing on your project.  Poke around the source directory.  I've never used
+this package, nor do I know anyone who did, but the price is right :-)
+
+Hope this helps.
+
+					Cheinan
+
+Abstracts of files as of Thu Apr  1 03:11:39 PST 1993
+Directory: info-mac/source
+
+#### BINHEX     3d-grafsys-121.hqx   ****
+
+Date: Fri, 5 Mar 93 14:13:07 +0100
+From: Christian Steffen Ove Franz <cfranz@iiic.ethz.ch>
+To: questions@mac.archive.umich.edu
+Subject: 3d GrafSys 1.21 in incoming directory
+A 3d GrafSys short description follows:
+
+Programmers 3D GrafSys Vers 1.21 now available. 
+
+Version 1.21 is mainly a bugfix for THINK C users. THIS VERSION
+NOW RUNS WITH THINK C, I PROMISE! The Docs now contain a chapter for
+C programmers on how to use the GrafSys. If you have problems, feel free 
+to contact me.
+The other change is that I removed the FastPerfTrig calls from
+the FPU version to make it run faster.
+
+Those of you who don't know what all this is about, read on.
+
+********
+
+Programmers 3D GrafSys -- What it is:
+-------------------------------------
+
+Didn't you always have this great game in mind where you needed some way of 
+drawing three-dimensional scenes? 
+
+Didn't you always want to write this program that visualized the structure 
+of three-dimensional molecules?
+
+And didn't the task of writing your 3D conversions routines keep you from 
+actually doing it?
+
+Well if the answer to any of the above questions is 'Yes, but what has it to 
+do with this package???' , read on.
+
+GrafSys is a THINK Pascal/C library that provides you with simple routines 
+for building, saving, loading (as resources), and manipulating 
+(independent rotating around arbitrary achses, translating and scaling) 
+three dimensional objects. Objects, not just simple single-line drawings.
+
+GrafSys supports full 3D clipping, animation and some (primitive) hidden-
+line/hidden-surface drawing with simple commands from within YOUR PROGRAM.
+
+GrafSys also supports full eye control with both perspective and parallel
+projections (If you can't understand a word, don't worry, this is just showing
+off for those who know about it. The docs that come with it will try to explain
+what it all means later on). 
+
+GrafSys provides a powerful interface to supply your own drawing routines with
+data so you can use GrafSys to do the 3D transformations and your own routines
+to do the actual drawing. (Note that GrafSys also provides drawing routines so
+you don't have to worry about that if you don't want to)
+
+GrafSys 1.11 comes in two versions. One for the 881 and 020 or above 
+processors. The other version uses fixed-point arithmetic and runs on any Mac.
+Both versions are *100% source compatibel*. 
+
+GrafSys comes with an extensive manual that teaches you the fundamentals of 3D
+graphics and how to use the package.
+
+If demand is big enough I will convert the GrafSys to an object-class library. 
+However, I feelt that the way it is implemented now makes it easier to use for
+a lot more people than the select 'OOP-Guild'.
+
+GrafSys is free for any non-commercial usage. Read the documentation enclosed.
+"
+233,train,3,sci.med,"
+	Serum, actually, but plasma numbers are the same.  Whole blood
+	numbers for humans tend to be somewhat lower (roughly 5 to 10 
+	percent lower).  I find the following range for whole blood in
+	FUNDAMENTALS OF CLINICAL CHEMISTRY: N. W. Teitz, editor; W. B.
+	Saunders, 1987:
+
+	Human glucose (whole blood, fasting levels) --> 60 - 95 mg./dL.
+
+
+	Indeed, they do measure whole blood levels, although they are not
+	as accurate as a serum test done in a laboratory.  One problem is
+	that cells in the sample continue to metabolize glucose after the
+	sample is drawn, reducing the apparent level.  According to Teitz,
+	however, results compare ""reasonably well"" with laboratory results,
+	although ""values below 80 mg./dL. tend to be lower with strip tests,
+	whereas values above 240 mg./dL. can be very erratic.""
+
+
+	As stated above, whole blood levels tend to be roughly 5 to 10 
+	percent lower than serum levels.  Sample freshness will affect
+	whole blood levels, however.  I don't believe there is a well-
+	defined ""conversion factor,"" since cell metabolism will affect
+	samples to varying degrees.  The serum/plasma test is much 
+	preferred for any except general ""ball park"" testing.
+"
+234,train,0,comp.graphics,"
+Try FTP-ing at
+ pub-info.jpl.nasa.gov  (128.149.6.2) (simple dir-structure)
+
+and  ames.arc.nasa.gov
+at /pub/SPACE/GIF and /pub/SPACE/JPEG
+sorry only 8 bits gifs and jpegs :-( great piccy's though (try the *x.gif
+files they're semi-huge gif89a files)
+                           ^^-watch out gif89a dead ahead!!!
+Good-luck (good software to be found out-there too)
+
+Jurriaan
+
+JHWITTEN@CS.RUU.NL "
+237,train,1,misc.forsale,"PLEASE DO NOT RESPOND DIRECTLY TO THIS ACCOUNT
+
+FOR SALE:
+
+Blue 1984 Toyota pickup truck with white blazer topper, AM/FM/Casette,
+A/C, cruise control.  Great for camping trips.
+
+New: brakes, master brake cylinder, Michelin tires, shocks,
+maintenance free battery, clutch, windshield wipers.
+
+Well maintained with all Toyota parts (all repairs done at the
+dealers.)  Very little rust, body in good shape.  
+
+126K miles
+
+Asking $2800.  If interested, please contact:
+
+   Ursula Fritsch
+   umf@gene.com
+   (415)-347-6813
+
+	    PLEASE DO NOT RESPOND DIRECTLY TO THIS ACCOUNT
+"
+238,train,2,rec.autos,"As a matter of interest does anyone know why autos are so popular in the US while 
+here in Europe they are rare??? Just wondering....."
+239,train,4,sci.space,"
+Unless I'm imaging things, (always a possibility =) 1992 QB1, the Kuiper Belt
+object discovered last year, is known as Smiley.
+"
+240,train,0,comp.graphics,"Hello,
+
+    I am searching for rendering software which has been developed
+to specifically take advantage of multi-processor computer systems.
+Any pointers to such software would be greatly appreciated.
+    
+Thanks.
+"
+241,train,2,rec.autos,"
+I really must object to that last statement.  Having a lot of experience
+with a '92 Grand Am coupe, I can firmly state that they do have a lot of
+outstanding qualities.  Very reliable throughout.  Great layout of controls
+and components.  Very roomy considering the exterior size of the car.  They 
+look sharp inside and out.  The V6 that I drive has exceptional power and 
+drivability compared to other similar cars that I have driven.
+
+All in all, it's a fun-to-drive, dependable, and reasonably priced vehicle.
+Please don't knock it with a statement like that unless you back it up with
+specific reasons why you feel that way.
+
+Rob
+bell@plains.nodak.edu
+"
+242,train,1,misc.forsale,"Finally a fax service to all Internet users in the continental U.S. without
+prepayment of any kind. This service is provided by Information System
+International based in Fishers, Indiana at isifisher@aol.com. As an Internet
+user, your credit has been automatically approved. So you can start sending
+faxes RIGHT NOW.
+
+1. How to send a fax
+
+To use this service, e-mail to: isifisher@aol.com in the following format:
+
+-Your name
+-Your phone number
+-Your mailing address
+- the number you send fax to
+- the recipient's name and company 
+- the address and phone number of the recipient (optional)
+=====================================
+- fax content
+
+Your fax will be sent out within 24 hours. Every fax will include a standard
+cover sheet free of charge which contains: (1) your name; (2) your phone
+number; (3) your address; (4) the recipient's name and company.
+
+Upon sending out your fax, a receipt will be sent for your record.
+
+IMPORTANT: If this is your first time to use the fax service, you MUST
+include the following paragraph at the beginning of your e-mail:
+
+	I hereby authorize Information System International to open a fax account
+for me. I agree to pay all charges incurred upon receiving my monthly bill..
+
+2. What format is acceptable
+
+	Only plain ASCII format and Rich Text Format (RTF) are acceptable. 
+	(1) For plain ASCII format, Times New Roman fonts of 12-point size will be
+used. 
+	(2) For RTF format, your fax document will appear exactly the same as it
+would appear on your local laser printer. In almost all word processing
+software on PC, Mackintosh, Sun workstation, etc., you can save your document
+in RTF format. 
+
+
+3. How to pay
+
+	The first time you use our fax service, we will open an account for you
+under your name. You will be billed each month if you have a balance or when
+your balance has been over $50.00 - whichever comes first. 
+
+4. Cost
+
+	The cost for continental U.S (excluding Hawaii & Alaska) is only $1.50 for
+the first page, $0.75 for each additional page. Each fax will include a cover
+sheet which is free."
+244,train,3,sci.med,"
+
+You are absolutely daft.  No flame required.  You lack a brain.
+
+
+
+Well... at least you're educated, it seems.  But give credit
+where credit is due: to Richard Dawkin(s?) 
+(the meme is a meme he invented)"
+245,train,4,sci.space,"
+I was at an interesting seminar at work (UK's R.A.L. Space Science
+Dept.) on this subject, specifically on a small-scale Solar Sail
+proposed as a student space project. The guy giving the talk was keen to
+generate interest in the project. I'll typein the handout he gave out at
+the meeting. Here goes : 
+
+			The Microlight Solar Sail
+			-------------------------
+
+1. Introduction
+The solar sail is a well-established concept. Harnessing the pressure of
+sunlight, a spacecraft would have unlimited range. In principle, such a
+vehicle could explore the whole Solar System with zero fuel consumption.
+
+However it is more difficult to design a practical solar sail than most
+people realize. The pressure of sunlight is only about one kilogram per
+square kilometer. Deploying and controlling the large area of aluminized
+fabric which would be necessary to transport a 'conventional' type
+spacecraft is a daunting task. This is why, despite the potential of hte
+idea, no such craft has actually been launched to date.
+
+2.Design
+Recent advances in microelectronics make possible a different concept: a
+tiny sail just a few metres in diameter which could be controlled purely
+be electronics, with no mechanical parts. Several attitude control
+methods are feasible: for example the pressure sunlight exerts on a
+panel of solar cells varies according to whether power is being drawn.
+
+The key components of the craft will be a minute CCD camera developed at
+Edinburgh University which can act as both attitude sensor and data
+gathering device; solar cells providing ~1 watt power for control and
+communication; and a directional radio antenna etched onto the surface
+of the sail itself. Launched as a piggyback payload, the total cost of
+the mission can be limited to a few tens of thousands of dollars.
+
+3.Missions
+The craft would be capable of some ambitious missions. For example:
+a) It could rendezvous with a nearby asteroid from the Apollo or Amor
+groups. Closeup pictures could be transmitted back to Earth at a low bit
+rate.
+b) It could be steered into a lunar polar orbit. Previously unobserved
+areas around the lunar poles could be viewed. By angling the sail to
+reflect sunlight downwards, polar craters whose bases never receive
+sunlight could be imaged. Bright reflections would confirm that
+volatiles such as water ice have become trapped in these
+locations.[Immensely valuable information for setting up a manned lunar
+base, BTW]
+c) It could be sent to rendezvous with a small asteroid or comet
+nucleus. Impacting at low speed, a thin wire probe attached to the craft
+causes it to rebound while capturing a tiny sample is a sharp-edged
+tube, like performing a biopsy. Returning to Earth, the sail acts as an
+ideal re-entry parachute: load per unit area 20 gm/m2 ensures that heat
+is reradiated so efectively that the sail temperature cannot exceed ~300
+deg C. The material sample is recovered, enclosed in a small insulating
+container.
+
+Contact: Colin Jack                              Tel. 0865-200447
+Oxford Mathematical Designs, 131 High Street, Oxford OX1 4DH, England
+
+--------------------------------
+
+This guy would love to hear from anyone interested in this project or
+seeking details or anything, and would be most happy to send you more
+information.
+
+	Andy
+
+
+
+-- "
+246,train,3,sci.med,"
+
+I'm sure the Pittsburgh group has published the baboon work, but I
+don't know where.  In Chicago they were doing lobe transplants from
+living donors, and I'm sure they've published.  I don't read the
+transplant literature.  I just see the liver transplant patients
+when they get into neurologic trouble (pretty frequent), so that
+and the newspapers and scuttlebutt is the way I keep up with what
+they are doing.  Howard Doyle works with them, and can tell you more.
+
+
+
+-- 
+----------------------------------------------------------------------------
+Gordon Banks  N3JXP      | ""Skepticism is the chastity of the intellect, and
+geb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon."" "
+247,train,0,comp.graphics,"
+: Can anyone tell me where to find a MPEG viewer (either DOS or
+: Windows).
+
+: Thanks in advance.
+
+: -- 
+: Alan M. Jackson      Mail : ajackson@cch.cov.ac.uk
+
+:      Liverpool Football Club - Simply The Best
+:               ""You'll Never Walk Alone""
+
+You can find a Windows MPEG viewer at wuarchive.wustl.edu in the
+mirrors/msdos/windows3 directory.
+
+-- "

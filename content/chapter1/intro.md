@@ -43,7 +43,7 @@ Let's do a quick detour to dimensions.
 
 [Go to the notebook](notebooks/0-dimensions.ipynb) ⏰ Deadline: Wednesday, April 29, 20:00
 
-Class notes (will be available after deadline)
+[Class notes](notes)
 
 
 </details>
@@ -52,9 +52,9 @@ Class notes (will be available after deadline)
 <details>
 <summary><strong> Part 2 - Representation learning </strong></summary>
 
-![Image](images/representation-learning-lite.png)
+![Image](images/representation-learning.png)
 
-In this section, you will explore a practical example to understand Fig. 2 from the paper "Machine learning in rare disease" that is also covered in the seminar. 
+In this section, you will explore a practical example related to Fig. 2 and Fig 5. from the paper "Machine learning in rare disease" that is also covered in the seminar. 
 
 Notebook to be unlocked on April 30! ⏰ Deadline: Wednesday, May 6, 20:00
 

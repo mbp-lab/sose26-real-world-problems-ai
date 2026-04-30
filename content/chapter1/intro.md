@@ -36,7 +36,6 @@ In this chapter, we begin by an interactive classroom discussion where you will 
 [Validation data for the Notebook Part 2 - Representation learning](data/newsgroups_5class_validation.csv) 
 
 
-
 </details>
 
 
@@ -62,7 +61,7 @@ Let's do a quick detour to dimensions.
 
 In this section, you will explore a practical example related to Fig. 2 and Fig 5. from the paper "Machine learning in rare disease" that is also covered in the seminar. 
 
-Notebook to be unlocked on April 30! ⏰ Deadline: Wednesday, May 6, 20:00
+[Go to the notebook](notebooks/1-representation-learning) ⏰ Deadline: Wednesday, May 6, 20:00
 
 Class notes (will be available after deadline)
 

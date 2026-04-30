@@ -17,6 +17,9 @@ project:
       hidden: true
     - file: content/chapter1/notebooks/0-dimensions.ipynb 
       hidden: true
+    - file: content/chapter1/notebooks/1-representation-learning.ipynb
+      hidden: true
+
     - file: content/chapter2/intro.md
     - file: content/chapter3/intro.md
     - file: content/chapter4/intro.md

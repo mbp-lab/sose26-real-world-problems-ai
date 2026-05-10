@@ -21,6 +21,8 @@ project:
       hidden: true
 
     - file: content/chapter2/intro.md
+    - file: content/chapter2/notebooks/0-adversarial.ipynb 
+      hidden: true
     - file: content/chapter3/intro.md
     - file: content/chapter4/intro.md
     - file: content/chapter5/intro.md

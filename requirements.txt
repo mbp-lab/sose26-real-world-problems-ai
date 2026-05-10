@@ -9,6 +9,9 @@ spyder>=6
 torch
 torchvision
 scikit-learn
+xgboost
+tabpfn
+tabpfn-client
 umap-learn
 sentence-transformers
 Pillow

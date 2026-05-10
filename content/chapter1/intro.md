@@ -69,7 +69,7 @@ Class notes (will be available after deadline)
 </details>
 
 <details>
-<summary><strong> 🧶 What else is out there? </strong></summary>
+<summary><strong> 🧶 What else is out there? - Further resources</strong></summary>
 
 </details>
 

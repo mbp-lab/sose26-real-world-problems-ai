@@ -7,8 +7,6 @@ project:
   toc:
     - file: content/index.md
     - file: content/chapter1/intro.md
-    - file: content/chapter1/notes.md
-      hidden: true
     - file: content/chapter1/augment.md
       hidden: true
     - file: content/chapter1/tutor-guide.md
@@ -17,11 +15,20 @@ project:
       hidden: true
     - file: content/chapter1/notebooks/0-dimensions.ipynb 
       hidden: true
+    - file: content/chapter1/notes1.md
+      hidden: true
     - file: content/chapter1/notebooks/1-representation-learning.ipynb
       hidden: true
+    - file: content/chapter1/notes2.md
+      hidden: true
 
-    - file: content/chapter2/intro.md
+
+    - file: content/chapter2/intro2.md
     - file: content/chapter2/notebooks/0-adversarial.ipynb 
+      hidden: true
+    - file: content/chapter2/notes1
+      hidden: true
+    - file: content/chapter2/notebooks/1-validation.ipynb
       hidden: true
     - file: content/chapter3/intro.md
     - file: content/chapter4/intro.md

@@ -48,7 +48,7 @@ Let's do a quick detour to dimensions.
 
 [Go to the notebook](notebooks/0-dimensions.ipynb) ⏰ Deadline: Wednesday, April 29, 20:00
 
-[Class notes](notes)
+[Class notes](notes1)
 
 
 </details>
@@ -63,7 +63,7 @@ In this section, you will explore a practical example related to Fig. 2 and Fig 
 
 [Go to the notebook](notebooks/1-representation-learning) ⏰ Deadline: Wednesday, May 6, 20:00
 
-Class notes (will be available after deadline)
+[Class notes](notes2)
 
 
 </details>

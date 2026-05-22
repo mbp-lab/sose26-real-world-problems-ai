@@ -36,6 +36,7 @@ You will start by exploring adversarial attacks in tabular data, a type of data 
 
 [Autism classification accuracy (Part 2, Station 1)](data/autism-classification-accuracy.csv) 
 
+[Diabetes Prediction dataset (Part 2, Station 4)](data/diabetes_dataset.csv) 
 
 
 </details>
@@ -59,7 +60,7 @@ In the following notebook, you can perform an example adversarial attack on tabu
 </details>
 
 <details>
-<summary><strong> Part 2 - Coming soon </strong></summary>
+<summary><strong> Part 2 - Valid Validation </strong></summary>
 
 [Go to the notebook](notebooks/1-validation) ⏰ Deadline: Wednesday, May 27, 20:00
 

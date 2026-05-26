@@ -11,7 +11,6 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -19,14 +18,11 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install Jupyter Book via MyST
-        run: npm install -g jupyter-book
+      - run: npm install -g jupyter-book
 
-      - name: Build HTML
-        run: jupyter-book build --html
+      - run: jupyter-book build --html
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
+      - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_build/html

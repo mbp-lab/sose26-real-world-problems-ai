@@ -20,7 +20,7 @@ jobs:
 
       - run: npm install -g jupyter-book
 
-      - run: jupyter-book build --html
+      - run: jupyter-book build --site --html --execute
 
       - uses: peaceiris/actions-gh-pages@v4
         with:

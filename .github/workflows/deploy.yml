@@ -26,11 +26,16 @@ jobs:
       - name: Build the Jupyter Book
         run: jupyter-book build --site --html --execute
 
-      - name: Show build output
-        run: find _build -maxdepth 3 -type f | head -50
+      - name: Find site output
+        run: |
+          echo "Index files found:"
+          find _build -name index.html
+          SITE_DIR=$(dirname "$(find _build -name index.html | head -n 1)")
+          echo "SITE_DIR=$SITE_DIR" >> $GITHUB_ENV
+          echo "Using SITE_DIR=$SITE_DIR"
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build/site
+          publish_dir: ${{ env.SITE_DIR }}

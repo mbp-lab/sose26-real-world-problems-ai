@@ -2,7 +2,8 @@ name: Deploy Jupyter Book
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -11,6 +12,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -18,11 +20,17 @@ jobs:
         with:
           node-version: 18
 
-      - run: npm install -g jupyter-book
+      - name: Install Jupyter Book
+        run: npm install -g jupyter-book
 
-      - run: jupyter-book build --site --html --execute
+      - name: Build the Jupyter Book
+        run: jupyter-book build --site --html --execute
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - name: Show build output
+        run: find _build -maxdepth 3 -type f | head -50
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_build/html

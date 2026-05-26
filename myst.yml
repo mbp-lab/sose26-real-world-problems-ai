@@ -39,6 +39,7 @@ site:
   options:
     logo: assets/800px-HCAI_Logo.jpg
     style: assets/notebook-cells.css
+    base_url: /sose26-real-world-problems-ai/
 
 parse:
   myst_enable_extensions:

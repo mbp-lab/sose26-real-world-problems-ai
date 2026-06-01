@@ -19,8 +19,6 @@ Across the stations of the last notebook, you were to investigate and reflect on
 
 In the first station of the notebook, you were first introduced with a standard definition of k-fold validation, highlighting its economical nature when data is scarce. This was paired with the graph on the right, showing model accuracy higher for k-fold than for the holdout set. You were asked to reason why this discrepancy arose. Many of you argued along the following lines: *"with only 100 samples, the holdout test set is relatively small, so the performance estimate can become unstable and heavily dependent on the specific train-test split, "a single hold out split may give a weak or unlucky result" , "some test folds might be harder, while others might be easier. Thus mixing in easier folds raises the average validation accuracy compared to a hard-only test set"*. 
 
-Your arguments made complete sense. However, there was one little detail. Now that you are done with the exercise, let's let the cat out of the bag. This framing was intentionally designed to (mis)lead to a “better method, better accuracy” mindset. In this particular example, the holdout estimate was actually closer to the truth ... what you weren't told was that the model was trained on Gaussian noise. So, random chance is all one should get, yet k-fold shows higher performance, even though not dramatic. While a large discrepancy between the two methods would likely have raised immediate suspicion in a classroom of masters students, the difference here was subtle enough to be misleading. So why was this deceptive example introduced?
-
 ```{figure} images/k-fold.png
 ---
 width: 100%
@@ -28,6 +26,10 @@ align: center
 figclass: nonfloat
 ---
 ```
+
+
+Your arguments made complete sense. However, there was one little detail. Now that you are done with the exercise, let's let the cat out of the bag. This framing was intentionally designed to (mis)lead to a “better method, better accuracy” mindset. In this particular example, the holdout estimate was actually closer to the truth ... what you weren't told was that the model was trained on Gaussian noise. So, random chance is all one should get, yet k-fold shows higher performance, even though not dramatic. While a large discrepancy between the two methods would likely have raised immediate suspicion in a classroom of masters students, the difference here was subtle enough to be misleading. So why was this deceptive example introduced?
+
 
 
 **First, let's take a step back - k-fold is not necessarily bad.** Quite the opposite, it is a very helpful technique. You did give very good reasons why it would be better in a small data scenario. Hence, **the lesson is not that k-fold cross-validation is a bad method**, far from it. Rather, it shows how easy it is to place too much trust in a result without carefully considering how the method is being used. At the end of Station 2, you will learn why k-fold gave "higher accuracy" and what mistake I had (deliberately) introduced. We will reconcile with k-fold validation but first let's have a look at a finding from the literature!  

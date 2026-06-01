@@ -64,7 +64,7 @@ In the following notebook, you can perform an example adversarial attack on tabu
 
 [Go to the notebook](notebooks/1-validation) ⏰ Deadline: Wednesday, May 27, 20:00
 
-Class notes (will be available after deadline)
+[Class notes](notes2)
 
 </details>
 

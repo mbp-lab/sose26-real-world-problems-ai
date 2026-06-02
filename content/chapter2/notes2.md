@@ -3,7 +3,7 @@
 
 #### Hindsight is always 20/20  - setting the stage
 
-In Greek mythology, two titan brothers, Prometheus and Epimetheus, represented foresight and hindsight, respectively. When the gods tasked them with distributing abilities among living creatures, Epimetheus acted first, giving animals claws, fur, speed, wings et cetera. It took a moment for him to realize, nothing was left for humans. Prometheus then intervened, stealing fire from the gods and gifting it to humanity as a means to survive and progress. The story of Epimetheus, the Greek "god of afterthought", captures the very human experience of understanding problems once mistakes have been made, mistakes that seem obvious in hindsight. 
+In Greek mythology, two titan brothers, Prometheus and Epimetheus, represented foresight and hindsight, respectively. When the gods tasked them with distributing abilities among living creatures, Epimetheus acted first, giving animals claws, fur, speed, wings et cetera. It took a moment for him to realize nothing was left for humans. Prometheus then intervened, stealing fire from the gods and gifting it to humanity as a means to survive and progress. The story of Epimetheus, the Greek "god of afterthought", captures the very human experience of understanding problems once mistakes have been made, mistakes that seem obvious in hindsight. 
 
 Across the stations of the last notebook, you were to investigate and reflect on aspects of machine learning that may seem obvious today, but were not always as widely recognized or understood. Many of these ideas are now built directly into modern libraries, workflows and teaching materials, which can make them feel intuitive in hindsight (a nod to Epimetheus). The goal in the exercises was not to immediately get the right answer, but to think through the problems in the way some past researchers and practitioners may have when these methods were still being uncovered and understood. 
  
@@ -17,7 +17,7 @@ Across the stations of the last notebook, you were to investigate and reflect on
 </div>
 
 
-In the first station of the notebook, you were first introduced with a standard definition of k-fold validation, highlighting its economical nature when data is scarce. This was paired with the graph on the right, showing model accuracy higher for k-fold than for the holdout set. You were asked to reason why this discrepancy arose. Many of you argued along the following lines: *"with only 100 samples, the holdout test set is relatively small, so the performance estimate can become unstable and heavily dependent on the specific train-test split, "a single hold out split may give a weak or unlucky result" , "some test folds might be harder, while others might be easier. Thus mixing in easier folds raises the average validation accuracy compared to a hard-only test set"*. 
+In the first station of the notebook, you were first introduced to a standard definition of k-fold validation, highlighting its economical nature when data is scarce. This was paired with the graph on the right, showing model accuracy higher for k-fold than for the holdout set. You were asked to reason why this discrepancy arose. Many of you argued along the following lines: *"with only 100 samples, the holdout test set is relatively small, so the performance estimate can become unstable and heavily dependent on the specific train-test split, "a single hold out split may give a weak or unlucky result" , "some test folds might be harder, while others might be easier. Thus mixing in easier folds raises the average validation accuracy compared to a hard-only test set"*. 
 
 ```{figure} images/k-fold.png
 ---
@@ -32,7 +32,7 @@ Your arguments made complete sense. However, there was one little detail. Now th
 
 
 
-**First, let's take a step back - k-fold is not necessarily bad.** Quite the opposite, it is a very helpful technique. You did give very good reasons why it would be better in a small data scenario. Hence, **the lesson is not that k-fold cross-validation is a bad method**, far from it. Rather, it shows how easy it is to place too much trust in a result without carefully considering how the method is being used. At the end of Station 2, you will learn why k-fold gave "higher accuracy" and what mistake I had (deliberately) introduced. We will reconcile with k-fold validation but first let's have a look at a finding from the literature!  
+**First, let's take a step back - k-fold is not necessarily bad.** Quite the opposite, it is a very helpful technique. You did give very good reasons why it would be better in a small data scenario. Hence, **the lesson is not that k-fold cross-validation is a bad method**, far from it. Rather, it shows how easy it is to place too much trust in a result without carefully considering how the method is being used. By the end of Station 2, you will learn why k-fold gave "higher accuracy" and what mistake I had (deliberately) introduced. We will reconcile with k-fold validation but first let's have a look at a finding from the literature!  
 
 --- 
 
@@ -68,7 +68,7 @@ figclass: nonfloat
 
 ```{dropdown}
 
-A few cautionary words regarding liner fits
+A few cautionary words regarding linear fits
 
 Several of you had versions of the left plot in your submissions, where a line was fitted to an obviously non linear set of data!  This was often paired with Pearson's correlation coefficient, despite Pearson being designed to quantify linear association. A better choice here is Spearman's rank correlation coefficient, which captures monotonic relationships without assuming linearity. Alternatively, if you are particularly committed to Pearson's classical method, you can log-transform the data (as shown on the right) to make it more suitable to Pearson's analysis.
 
@@ -115,7 +115,7 @@ ask more general or even "easier/simpler" questions to get more people to fill a
 - "Smaller studies might be done with experts directly in the loop and are therefore more accurate in their datapoints. "
 
 - "Maybe special diagnostic tools such as brain scans or similar could be needed to reach a
-certain accuracy level, which cant be done on a big scale"
+certain accuracy level, which can't be done on a big scale"
 
 
 ```
@@ -125,7 +125,7 @@ The actual reason of higher accuracies may vary from study to study. [One study]
 *"First, a well-defined model is developed by normalizing data, selecting features, tuning parameters and/or performing other development steps. Then a portion of data is separated for validation leaving the rest to train a model and predict the classes on the left-out validation data. This process is repeated several times, by leaving out a different portion of the data for validation until all the data is used. The model’s performance is then calculated as a mean of classification performances, in each of the validation folds".* 
 
 
-Well, that's exactly what I did for Station 1 and it's wrong!!! I (deliberately) performed feature selection and parameter tuning *before* splitting the data into training and validation folds. And this is a form of data leakage! The authors *did* criticize this "standard" way of doing k-fold cross-validation. But the concerning thing is that the way they described it was not the correct way of doing k-fold cross-validation! Let's unpack what f-folds do and don't do by going back to the drawing board! 
+Well, that's exactly what I did for Station 1 and it's wrong!!! I (deliberately) performed feature selection and parameter tuning *before* splitting the data into training and validation folds. And this is a form of data leakage! The authors *did* criticize this "standard" way of doing k-fold cross-validation. But the concerning thing is that the way they described it was not the correct way of doing k-fold cross-validation when feature selection and hyperparameter tuning are involved! Let's unpack what k-folds do and don't do by going back to the drawing board! 
 
 
 --- 
@@ -159,7 +159,7 @@ Okay, let's use three examples to guide us through this scrambled mess!
 
 First things first - it should be clear by now that feature selection and parameter tuning should not be done on both training and validation sets. It should be done exclusively on the training set! Let's see how easy it may be to miss this even if you know about it! 
 
-In the figure below, the author is very careful. They explicitly mention that data normalization should only be performed on the training set, which cleanly separates the training data from the test data. However, if normalization is applied to the entire training set *before* entering the k-fold cross-validation loop, the normalization parameters will be computed using observations that later appear in the validation folds. This introduces information leakage from the validation folds into the training folds. To avoid this, normalization should be performed separately within each cross-validation iteration, using only the corresponding training fold and then applying the resulting parameters to the validation fold. 
+In the figure below, the author is very careful. They explicitly mention that data normalization should only be performed on the training set, which cleanly separates the training data from the test data. This is very good. However, if normalization is applied to the entire training set *before* entering the k-fold cross-validation loop, the normalization parameters will be computed using observations that later appear in the validation folds. This introduces information leakage from the validation folds into the training folds. To avoid this, normalization should be performed separately within each cross-validation iteration, using only the corresponding training fold and then applying the resulting parameters to the validation fold. 
 
 ```{figure} images/k-fold-leakage.png
 
@@ -172,7 +172,24 @@ figclass: nonfloat
 
 ```
 
-**k-fold is great and all but it is still overly optimistic**
+```{dropdown}
+
+Check out a visual example for normalization leakage here!
+
+One may think data leakage due to normalization may be minimal. This may be true in some cases but not always; so having a clean pipeline remains crucial! Check out the example below for a drastic example of the "average face". 
+
+```{figure} images/standardization-leakage
+---
+width: 80%
+align: center
+figclass: nonfloat
+---
+
+Image source: Don’t push the button! Exploring data leakage risks in machine learning and transfer learning, Apicella et al., 2025
+
+```
+
+**k-fold is great and all but it is still optimistic for evaluation**
 
 The next figure carefully mentions that the feature selection and parameter tuning should be done only on the training folds. So far so good! It also shows nicely that the average performance across folds helps with model selection as the model with the lowest average error may be the better one. Again, good. The author also rightly mentions that the model selection is overfitted to the validation set. That is correct as well. While each validation fold is treated independently of the training ones, it is still part of the bigger picture, providing error estimates to help model selection. So the average error here is more optimistic and biased than it would be on completely independent data. What would be an even better approach?
 
@@ -188,7 +205,7 @@ figclass: nonfloat
 
 Remember how the idea of a lucky split didn't quite sit right with us in Station 1, especially for small data? That's why we started with the whole k-fold thing! We have come far now and learned how to do k-fold cross-validation correctly. But there is still one issue remaining. What about the test data? It's well established that you should never touch the test data except for final evaluation. But aren't we again relying on a lucky split there? What if the train/test split is an unlucky one? With very large datasets, this doesn't really matter, and holdout validation is fine. But many applications we consider don't have that luxury.
 
-So, what we can do instead is have multiple test estimates using a method called nested cross-validation. It is computationally costly, so it is most commonly used when data is limited and reliable performance estimates are important. What you do is have two loops instead of one. In each iteration of the outer loop, one fold is held out as the test fold, while the remaining folds are used for model selection. Within the inner loop, you then proceed with the regular k-fold validation for model selection. Afterward, you use the fold that was set aside at the beginning of the outer iteration to obtain an independent estimate of performance. You do this as many times as you have outer folds. This helps you obtain a distribution of test errors rather than relying on a single estimate. And each time, the training and test data are kept at a safe distance from each other.
+So, what we can do instead is have multiple test estimates using a method called nested cross-validation. It is computationally costly, so it is most commonly used when data is limited and reliable performance estimates are important. What you can do is have two loops instead of one. In each iteration of the outer loop, one fold is held out as the test fold, while the remaining folds are used for model selection. Within the inner loop, you then proceed with the regular k-fold validation for model selection. Afterward, you use the fold that was set aside at the beginning of the outer iteration to obtain an independent estimate of performance. You do this as many times as you have outer folds. This helps you obtain a distribution of test errors rather than relying on a single estimate. And each time, the training and test data are kept at a safe distance from each other.
 
 
 ```{figure} images/nested-cv
@@ -205,7 +222,7 @@ figclass: nonfloat
 
 Here are a few rules from a scikit-learn [video](https://www.youtube.com/watch?v=DuDtXtKNpZs&t=1127s):
 
-- small data - always use nested cross-validation (e.g. medical data with less than 2000 patients)
+- small data - always* use nested cross-validation (e.g. medical data with less than 2000 patients) *always may be strong as computationally this may not always be feasible
 
 - medium data - nested cross-validation if you can afford it, otherwise k-fold (e.g. 100k rows and 1000 features)
 

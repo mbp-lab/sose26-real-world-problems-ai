@@ -19,7 +19,7 @@ Across the stations of the last notebook, you were to investigate and reflect on
 
 In the first station of the notebook, you were first introduced to a standard definition of k-fold validation, highlighting its economical nature when data is scarce. This was paired with the graph on the right, showing model accuracy higher for k-fold than for the holdout set. You were asked to reason why this discrepancy arose. Many of you argued along the following lines: *"with only 100 samples, the holdout test set is relatively small, so the performance estimate can become unstable and heavily dependent on the specific train-test split, "a single hold out split may give a weak or unlucky result" , "some test folds might be harder, while others might be easier. Thus mixing in easier folds raises the average validation accuracy compared to a hard-only test set"*. 
 
-```{figure} images/k-fold.png
+```{figure} images/caution-k-fold-vs-holdout1.png
 ---
 width: 100%
 align: center

@@ -32,7 +32,10 @@ project:
       hidden: true
     - file: content/chapter2/notes2
       hidden: true
-    - file: content/chapter3/intro.md
+    - file: content/chapter3/intro3.md
+    - file: content/chapter3/fairness.md
+      hidden: true
+
     - file: content/chapter4/intro.md
     - file: content/chapter5/intro.md
 

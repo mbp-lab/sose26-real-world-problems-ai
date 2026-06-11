@@ -256,7 +256,7 @@ Image source: Leakage and the reproducibility crisis in machine-learning-based s
 
 ### Final words
 
-After this brief excursion into revisiting, understanding, and even repeating the mistakes of the past, let's leave Epimetheus behind for this particular problem and move on with Prometheus, armed with the foresight needed to detect and prevent data leakage and validation issues before they arise.
+After this brief excursion into revisiting, understanding and even repeating the mistakes of the past, let's leave Epimetheus behind for this particular problem and move on with Prometheus, armed with the foresight needed to detect and prevent data leakage and validation issues before they arise.
 
 
 

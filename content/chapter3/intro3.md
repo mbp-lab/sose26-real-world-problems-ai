@@ -50,7 +50,7 @@ figclass: nonfloat
 <details>
 <summary><strong> Data for Chapter 3 </strong></summary>
 
-[Compass dataset (Part 1, Station 1)](data/compas_clean.csv) 
+[Compass dataset (Part 1)](data/compas_clean.csv) 
 
 
 

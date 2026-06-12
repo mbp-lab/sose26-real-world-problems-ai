@@ -50,18 +50,21 @@ figclass: nonfloat
 <details>
 <summary><strong> Data for Chapter 3 </strong></summary>
 
+[Compass dataset (Part 1, Station 1)](data/compas_clean.csv) 
 
 
 </details>
 
 
 <details>
-<summary><strong>  Part 1 - Coming soon </strong></summary>
+<summary><strong>  Part 1 - Diagnosing algorithmic bias </strong></summary>
 
-![Image](images/)
+In this notebook you will perform a fairness audit by identifying bias from the famous COMPAS algorithm that was used to predict whether people will reoffend after a crime. You can probably already guess that there is some sort of bias going on. The exercise will be a warm-up to better understand the more complex-sounding fairness metrics from the literature that will be presented in the tutorial session. 
+
+![Image](images/propublica)
 
 
-[Go to the notebook](notebooks/) ⏰ Deadline: Wednesday, June 17, 20:00
+[Go to the notebook](notebooks/0-compas.ipynb) ⏰ Deadline: Wednesday, June 17, 20:00
 
 [Class notes]()
 
@@ -70,10 +73,9 @@ figclass: nonfloat
 
 
 <details>
-<summary><strong> Part 2 - Coming soon </strong></summary>
+<summary><strong> Part 2 - Mitigating algorithmic bias </strong></summary>
 
-![Image](images/)
-
+Coming soon
 
 [Go to the notebook](notebooks/) ⏰ Deadline: Wednesday, June 24, 20:00
 

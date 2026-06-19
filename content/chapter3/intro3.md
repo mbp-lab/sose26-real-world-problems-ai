@@ -70,6 +70,7 @@ In this notebook you will perform a fairness audit by identifying bias from the 
 [Class notes]()
 
 
+
 </details>
 
 
@@ -78,7 +79,7 @@ In this notebook you will perform a fairness audit by identifying bias from the 
 
 Coming soon
 
-[Go to the notebook](notebooks/) ⏰ Deadline: Wednesday, June 24, 20:00
+[Go to the notebook](notebooks/1-mitigation.md) ⏰ Deadline: Wednesday, June 24, 20:00
 
 [Class notes]()
 

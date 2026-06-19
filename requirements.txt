@@ -9,6 +9,7 @@ spyder>=6
 torch
 torchvision
 scikit-learn
+fairlearn
 xgboost
 tabpfn
 tabpfn-client

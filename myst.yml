@@ -37,6 +37,10 @@ project:
       hidden: true
     - file: content/chapter3/notebooks/0-compas.ipynb
       hidden: true
+    - file: content/chapter3/notebooks/1-mitigation.md
+      hidden: true
+    - file: content/chapter3/notes1.md
+      hidden: true
 
 
     - file: content/chapter4/intro.md

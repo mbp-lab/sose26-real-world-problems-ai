@@ -77,9 +77,9 @@ In this notebook you will perform a fairness audit by identifying bias from the 
 <details>
 <summary><strong> Part 2 - Mitigating algorithmic bias </strong></summary>
 
-Coming soon
+In this assignment, you will learn methods for mitigating algorithmic bias. You will build upon the example from Part 1, namely the COMPAS algorithm for recidivism prediction. However, this time you will do the task in a different format - taking the role of a senior data analyst that has been handed over a bunch of results and has to make sense of them and provide improvement recommendations! This will help you practice making more concise visualizations and communicate in a more structured way!
 
-[Go to the notebook](notebooks/1-mitigation.md) ⏰ Deadline: Wednesday, June 24, 20:00
+[Go to the assignment](notebooks/1-mitigation.md) ⏰ Deadline: Wednesday, June 24, 20:00
 
 [Class notes]()
 

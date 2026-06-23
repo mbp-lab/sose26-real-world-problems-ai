@@ -67,7 +67,7 @@ In this notebook you will perform a fairness audit by identifying bias from the 
 
 [Go to the notebook](notebooks/0-compas.ipynb) ⏰ Deadline: Wednesday, June 17, 20:00
 
-[Class notes]()
+[Class notes](notes1)
 
 
 

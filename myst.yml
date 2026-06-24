@@ -43,7 +43,9 @@ project:
       hidden: true
 
 
-    - file: content/chapter4/intro.md
+    - file: content/chapter4/intro4.md
+    - file: content/chapter4/notebooks/0-calibration.ipynb
+      hidden: true
     - file: content/chapter5/intro.md
 
 site:

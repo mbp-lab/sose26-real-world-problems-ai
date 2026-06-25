@@ -4,7 +4,7 @@
 
 Sometimes the same term may mean different things even in the same field. Consider bias:
 
-- **(Inductive) bias**: the assumptions a learning algorithm makes about the data. A model with a stricter assumptions has higher inductive bias, while a model with less assumptions has a lower inductive bias. 
+- **(Inductive) bias**: the assumptions a learning algorithm makes about the underlying function it is trying to learn. A model with a stricter assumptions has higher inductive bias, while a model with less assumptions has a lower inductive bias. 
 **Example**: Linear regression assumes relationships are approximately linear. 
 
 - **(Statistical) bias**:  systematic error in a model's predictions (the "bias" in the bias–variance tradeoff).

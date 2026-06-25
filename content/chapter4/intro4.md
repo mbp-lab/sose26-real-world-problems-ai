@@ -6,7 +6,7 @@
 </div>
  
 
-Admitting what one doesn't know is sometimes difficult and not everyone is always as good at it as the famous Greek philosopher. You may have heard of the Dunning-Kruger effect, the phenomenon describing how people overestimate their abilities in domains for which they have less expertise. As expertise grows, confidence generally becomes better calibrated, but outside of one's own area of expertise, this may affect almost everyone, including Nobel laureates (google Nobel disease!). 
+Admitting what one doesn't know is sometimes difficult and not everyone is always as good at it as the famous Greek philosopher was. You may have heard of the Dunning-Kruger effect, the phenomenon describing how people overestimate their abilities in domains for which they have less expertise. As expertise grows, confidence generally becomes better calibrated, but outside of one's own area of expertise, this may affect almost everyone, including Nobel laureates (google Nobel disease!). 
 
 
 ```{figure} images/dunning-kruger.png

@@ -41,6 +41,8 @@ project:
       hidden: true
     - file: content/chapter3/notes1.md
       hidden: true
+    - file: content/chapter3/notes2.md
+      hidden: true
 
 
     - file: content/chapter4/intro4.md

@@ -50,6 +50,8 @@ project:
       hidden: true
     - file: content/chapter5/intro.md
 
+    - file: content/brain-teasers/teasers.md
+
 site:
   template: book-theme
   options:

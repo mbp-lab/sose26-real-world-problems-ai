@@ -13,10 +13,8 @@ EO Diff = max(TPR difference, FPR difference)
 
 Yes! In our scenario, equalized odds was introduced as a fairness metric that accounts for both types of classification error: false positives and false negatives. In many textbooks and research papers, however, equalized odds is instead defined in terms of the true positive rate (TPR) and the false positive rate (FPR).
 
-This is simply a difference in how the metric is expressed, since the **false negative rate (FNR)** is the complement of the true positive rate:
-[
-\text{FNR} = 1 - \text{TPR}.
-]
+This is simply a difference in how the metric is expressed, since the false negative rate (FNR) is the complement of the true positive rate: FNR = 1 - TPR.
+
 As a result, requiring equal false negative rates across groups is mathematically equivalent to requiring equal true positive rates across groups.
 
 :::
@@ -25,9 +23,9 @@ As a result, requiring equal false negative rates across groups is mathematicall
 
 # 2) Some technicalities of bias mitigation methods
 
-There are many methods for achieving fairness in the machine learning literature—so many, in fact, that they have been described as a ["zoo of fairness metrics"](https://arxiv.org/abs/2106.00467). This is hardly surprising, given what we saw with our "judges" from the last session: there is no single way to define fairness.
+There are many methods for achieving fairness in the machine learning literature: so many, in fact, that they have been described as a ["zoo of fairness metrics"](https://www.nature.com/articles/s41598-022-07939-1). This is hardly surprising, given what we saw with our "judges" from the last session: there is no single way to define fairness.
 
-Broadly, most traditional fairness methods fall into one of three categories: pre-processing, where you modify the data before training; in-processing, where you incorporate fairness directly into the learning algorithm; and post-processing, where you adjust the model's predictions after training. You had the chance to try one method from each category!
+Broadly, most traditional fairness methods fall into one of three categories: *pre-processing*, where you modify the data before training; *in-processing*, where you incorporate fairness directly into the learning algorithm; and *post-processing*, where you adjust the model's predictions after training. You had the chance to try one method from each category!
 
 :::{dropdown} Reminder of the mitigation methods used
 
@@ -51,13 +49,13 @@ Here are some points based on the section *4.4 Which Mechanism to Use?* in the [
 - *Post-processing methods* - again, can be used with any type of ML algorithm. The drawback is the late stage in the learning process that can lead to inferior results. Post-processing mechanisms may be particularly good at removing disparate impact but they may lead to higher individual unfairness in the sense that two similar *individuals* may be treated differently by the algorithm in pursuit of making the *groups* metrics more similar. 
 
 
-```{figure} images/group_vs_individual.png
-
+```{figure} images/group-vs-individual.png
 ---
-width: 50%
+width: 70%
 align: center
-figclass: nonfloat
+figclass: non-float
 ---
+Image Source: https://dl.acm.org/doi/fullHtml/10.1145/3543507.3583480
 
 ```
 

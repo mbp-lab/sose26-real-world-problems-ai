@@ -93,7 +93,7 @@ figclass: nonfloat
 
 **Accuracy vs bias tradeoff - nice but requires some cognitive effort**
 
-Some other suggestions wanted to visualize how bias mitigation methods may affect model fairness. These suggestions offered a direct comparison of the different approaches regarding model accuracy and bias. One conceptual wrinkle here is that for the x-axis, lower values are associated with higher fairness. Typically, that requires more mental steps to process. 
+Some other suggestions wanted to visualize how bias mitigation methods may affect model fairness. These suggestions offered a direct comparison of the different approaches regarding model accuracy and bias. One conceptual wrinkle here is that for the x-axis, *lower* values are associated with *higher* fairness. Typically, that requires more mental steps to process. 
 
 ```{figure} images/suggestion2.png
 ---

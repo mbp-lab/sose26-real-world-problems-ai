@@ -81,7 +81,7 @@ In this assignment, you will learn methods for mitigating algorithmic bias. You 
 
 [Go to the assignment](notebooks/1-mitigation.md) ⏰ Deadline: Wednesday, June 24, 20:00
 
-[Class notes]()
+[Class notes](notes2)
 
 
 </details>

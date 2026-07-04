@@ -1,4 +1,4 @@
-# Chapter 4 — I want to quantify the certainty of my model
+# Chapter 4 — I want to quantify the uncertainty of my model
 
 <div style="text-align: right; margin: 2rem 0 1.25rem; line-height: 1.5; font-style: italic;">
 <span>“I know that I know nothing”</span><br />
@@ -34,6 +34,10 @@ You will start by exploring an important concept in machine learning prediction:
 
 [Rural Cancer Screening (Part 1)](data/rural_screening.csv) 
 
+[MLP single predictions (Part 2)](data/MLP-single-predictions.csv)
+
+[MLP multiple predictions (Part 2)](data/MLP-multiple-predictions.csv)
+
 </details>
 
 
@@ -58,14 +62,27 @@ In this notebook you will learn what calibration is, why is it important and how
 
 [Go to the notebook](notebooks/0-calibration) ⏰ Deadline: Wednesday, July 1, 20:00
 
-[Class notes]()
+[Class notes](notes4-1)
 
 </details>
 
 <details>
-<summary><strong> Part 2 - Coming soon </strong></summary>
+<summary><strong> Part 2 - Model uncertainty </strong></summary>
 
-[Go to the notebook](notebooks/) ⏰ Deadline: Wednesday, July 8, 20:00
+Here, we will continue working on the scenario from the first notebook but move from calibration to model uncertainty. You will compare the decisions of different models, learn a method for uncertainty quantification and when to pass the decisions back to a human!
+
+```{figure} images/referral
+---
+width: 50%
+align: center
+figclass: nonfloat
+---
+
+Image Source: Trustworthy clinical AI solutions: A unified review of uncertainty quantification in Deep Learning models for medical image analysis
+```
+
+
+[Go to the notebook](notebooks/1-uncertainty) ⏰ Deadline: Wednesday, July 8, 20:00
 
 [Class notes]()
 

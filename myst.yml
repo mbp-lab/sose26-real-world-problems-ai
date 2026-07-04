@@ -48,6 +48,10 @@ project:
     - file: content/chapter4/intro4.md
     - file: content/chapter4/notebooks/0-calibration.ipynb
       hidden: true
+    - file: content/chapter4/notebooks/1-uncertainty.ipynb
+      hidden: true
+    - file: content/chapter4/notes4-1.md
+      hidden: true
     - file: content/chapter5/intro.md
 
     - file: content/brain-teasers/teasers.md

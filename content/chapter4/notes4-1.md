@@ -253,6 +253,8 @@ figclass: non-float
 
 The next plot added the ground truth with the help of markers. While the scatter plots are messier than the reliability plots or using Brier scores to summarize calibration, this can be a helpful visual example to get a quick idea. For example, note how the number of yellow dots, i.e., people getting the highest predicted risk, has decreased from left (original model) to the right (re-calibrated model). And all of the yellow dots are now patients who do actually have the disease. This helps us identify cases with the highest risk and compare to the ground truth. Consider a medical intervention with high stakes, such as amputation - we would like to have the highest probability only for people who actually are at highest risk, as a mistake would literally cost an arm and a leg. 
 
+This plot also helps us see that the two classes overlap quite a bit. The regions of the scatter plot where the classes meet are regions of high aleatoric uncertainty, i.e. uncertainty that stems from the structure of the data itself and cannot be simply solved by collecting more data (epistemic uncertainty). 
+
 While the scatterplots are not easy to summarize, they can be a great means for initial exploration, getting intuitions and sharing insights with less technical audiences. 
 
 ```{figure} images/heatmap1

@@ -84,7 +84,7 @@ Image Source: Trustworthy clinical AI solutions: A unified review of uncertainty
 
 [Go to the notebook](notebooks/1-uncertainty) ⏰ Deadline: Wednesday, July 8, 20:00
 
-[Class notes]()
+[Class notes](notes4-2)
 
 </details>
 

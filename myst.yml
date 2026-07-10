@@ -52,8 +52,12 @@ project:
       hidden: true
     - file: content/chapter4/notes4-1.md
       hidden: true
-    - file: content/chapter5/intro.md
+    - file: content/chapter4/notes4-2.md
+      hidden: true
 
+    - file: content/chapter5/intro.md
+    - file: content/chapter5/task
+      hidden: true
     - file: content/brain-teasers/teasers.md
 
 site:

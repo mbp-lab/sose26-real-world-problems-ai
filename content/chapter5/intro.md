@@ -10,7 +10,7 @@
 
 Fans of the *"Hitchhiker's Guide to the Galaxy"* know that this is the answer a supercomputer gave as the answer to the ultimate question of life, the universe and everything. Apart from becoming part of the popular culture, the answer is hardly satisfying. It is an answer without an explanation.
 
-Modern Ai can sometimes feel the same. It gives us predictions but the complexity of the algorithms may leave us wondering how was the prediction made. What information had the highest influence on the model? Would a small change in the input have changed the outcome? 
+Modern AI can sometimes feel the same. It gives us predictions but the complexity of the algorithms may leave us wondering how was the prediction made. What information had the highest influence on the model? Would a small change in the input have changed the outcome? 
 
 
 ```{figure} images/xAI

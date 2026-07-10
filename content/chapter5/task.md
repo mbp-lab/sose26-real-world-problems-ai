@@ -67,7 +67,7 @@ Please submit a pdf-document answering the following questions:
 - Watch *one* of the following videos and provide
 :::{dropdown} Videos to watch
 
-Feature-based explanations (SHAP) - https://www.youtube.com/watchv=9haIOplEIGM&list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU&index=4
+Feature-based explanations (SHAP) - https://www.youtube.com/watch?v=9haIOplEIGM&list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU&index=4
 
 Counterfactual-based explanations - https://youtu.be/UUZxRct8rIk?si=L2TTODKq-k1ut2eq
 

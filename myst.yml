@@ -58,7 +58,12 @@ project:
     - file: content/chapter5/intro.md
     - file: content/chapter5/task
       hidden: true
+    - file: content/chapter5/task-2
+      hidden: true
+
     - file: content/brain-teasers/teasers.md
+    - file: content/chapter5/5-more-info.md
+      hidden: true
 
 site:
   template: book-theme

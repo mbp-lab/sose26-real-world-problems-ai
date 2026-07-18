@@ -32,3 +32,15 @@ These are important questions that may help build trust around AI systems in the
 In the following assignment you will walk through three scenarios: medical decision making, loan  and job applications. In each scenario, you will receive an AI-generated explanation, evaluate how helpful you found it and dive into the technical details of one method. 
 
 [Go to the assignment](task) ⏰ Deadline: Wednesday, July 15, 20:00
+
+[Final assignment](task-2) ⏰ Deadline: Wednesday, July 22, 20:00
+
+
+
+:::{dropdown} 🧶 What else is out there? - Open questions and further resources
+
+Learning is discovering and knowing new things. But a big part of learning is also walking away with things that you now know that you don't know! So, this section summarizes open questions you had about the chapter. 
+
+[Go to the question](5-more-info) 
+
+:::

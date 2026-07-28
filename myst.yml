@@ -1,7 +1,7 @@
 version: 1
 
 project:
-  title: "Real-World Problems of AI"
+  title: "Real-World Problems of AI - SoSe26"
   author: "Prof. Dr. Hanna Drimalla, Dr. Olya Hakobyan"
 
   toc:
@@ -13,6 +13,9 @@ project:
       hidden: true
     - file: content/chapter1/0-dimensions.md
       hidden: true
+    - file: content/chapter1/1-more-info.md
+      hidden: true
+
     - file: content/chapter1/notebooks/0-dimensions.ipynb 
       hidden: true
     - file: content/chapter1/notes1.md
@@ -32,6 +35,10 @@ project:
       hidden: true
     - file: content/chapter2/notes2
       hidden: true
+
+    - file: content/chapter2/2-more-info.md
+      hidden: true
+
     - file: content/chapter3/intro3.md
     - file: content/chapter3/fairness.md
       hidden: true
@@ -43,7 +50,8 @@ project:
       hidden: true
     - file: content/chapter3/notes2.md
       hidden: true
-
+    - file: content/chapter3/3-more-info.md
+      hidden: true
 
     - file: content/chapter4/intro4.md
     - file: content/chapter4/notebooks/0-calibration.ipynb
@@ -54,6 +62,10 @@ project:
       hidden: true
     - file: content/chapter4/notes4-2.md
       hidden: true
+
+    - file: content/chapter4/4-more-info.md
+      hidden: true
+
 
     - file: content/chapter5/intro.md
     - file: content/chapter5/task

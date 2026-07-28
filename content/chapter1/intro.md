@@ -69,7 +69,11 @@ In this section, you will explore a practical example related to Fig. 2 and Fig 
 </details>
 
 <details>
-<summary><strong> 🧶 What else is out there? - Further resources</strong></summary>
+<summary><strong> 🧶 Summary and further resources - What else is out there? </strong></summary>
+
+Learning is discovering and knowing new things. But a big part of learning is also walking away with things that you now know that you don't know! So, this section summarizes the main takeaways from the chapter, open questions and occasionally further resources. 
+
+[Go to the takeaways](1-more-info) 
 
 </details>
 

@@ -86,11 +86,12 @@ In this assignment, you will learn methods for mitigating algorithmic bias. You 
 
 </details>
 
-<details>
-<summary><strong> 🧶 What else is out there? - Further resources</strong></summary>
+:::{dropdown} 🧶 Summary and further resources - What else is out there?
 
-</details>
+Learning is discovering and knowing new things. But a big part of learning is also walking away with things that you now know that you don't know! So, this section summarizes the main takeaways from the chapter, open questions and occasionally further resources. 
 
-<br> 
+[Go to the takeaways](3-more-info) 
+
+:::
 
 

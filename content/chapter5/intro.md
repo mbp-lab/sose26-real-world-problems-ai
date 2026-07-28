@@ -37,7 +37,7 @@ In the following assignment you will walk through three scenarios: medical decis
 
 
 
-:::{dropdown} 🧶 What else is out there? - Open questions and further resources
+:::{dropdown} 🧶 Summary and further resources - What else is out there?
 
 Learning is discovering and knowing new things. But a big part of learning is also walking away with things that you now know that you don't know! So, this section summarizes open questions you had about the chapter. 
 
